@@ -1,0 +1,290 @@
+*{
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	vertical-align: baseline;
+	font-style:normal;
+	font-family:"Helvetica Neue","Microsoft Yahei","Î¢ÈíÑÅºÚ","Tahoma";
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+html{font-size: 62.5%;}
+body {width:100%;overflow-x:hidden;}
+img{border:0;display: block;}
+select,input{vertical-align:middle;font-family:"Î¢ÈíÑÅºÚ";}
+input[type="text"],input[type="password"],input[type="button"],input[type="submit"] {
+  -webkit-appearance: none;
+}
+.clear { display:block !important; clear:both !important; float:none !important; margin:0 !important; padding:0 !important; height:0; line-height:0; font-size:0; overflow:hidden;}
+.clearfix { zoom:1; }
+.clearfix:after { content:""; display:block; clear:both; height:0; }
+body{
+	width: 100%;
+	background: #f5f4f4;
+}
+.iktit{
+	width:100%;
+	height: 4rem;
+	line-height: 4rem;
+	font-size:1.8rem;
+	text-align: center;
+	color: #333;
+	font-weight: normal;
+	background: #fff;
+}
+.banner{
+	width:100%;
+	margin-bottom: 1rem;
+}
+.banner img{width:100%;}
+.icard_trait{
+	padding:0 14px;
+	box-sizing:border-box;
+	width: 100%;
+	background: #fff;
+	padding-top: 1rem;
+	padding-bottom: 1rem;
+	margin-bottom: 1rem;
+}
+.icard_trait h3{
+	font-size: 1.6rem;
+	line-height: 1.4rem;
+	height: 1.4rem;
+	color: #955b1b;
+	border-left:3px solid #955b1b;
+	padding-left: 3px;
+	font-weight: normal;
+}
+.icard_trait_dl{
+	padding-top: 2rem;
+	border-bottom: 1px solid #f5f4f4;
+}
+.icard_trait_dl:last-child{
+	padding-top: 0;
+	border-bottom:none;
+}
+.icard_trait_dl dl{
+	width: 50%;
+	box-sizing:border-box;
+	float: left;
+	display:block;
+	padding-bottom: 10px;
+}
+.icard_trait_dl dl:first-child{
+	border-right: 1px solid #f5f4f4;
+}
+.icard_trait_dl:last-child dl{
+	padding-top: 1rem;
+}
+.icard_trait_dl dl dt{
+	float: left;
+    width: 35%;
+    box-sizing:border-box;
+	padding-left: 6px;
+	padding-right: 10px;
+}
+.icard_trait_dl dl dt img{
+	width: 100%;
+	vertical-align: middle;
+}
+.icard_trait_dl dl dd{
+	float: left;
+    width: 65%;
+    box-sizing:border-box;
+	padding-right: 10px;
+}
+.icard_trait_dl dl dd h4{
+	color:#955b1b;
+	font-size: 1.3rem;
+	line-height: 1.5rem;
+}
+.icard_trait_dl dl dd p{
+	color:#955b1b;
+	font-size: 1rem;
+	line-height: 1.3rem;
+}
+.icard_trait_gift{
+	padding:15px 10px;
+	box-sizing:border-box;
+	width: 100%;
+	border-bottom:1px solid #f5f4f4;
+}
+.icard_trait_gift:nth-child(6){
+	border-bottom:none;
+}
+.icard_trait_gift img{
+	width: 8rem;
+	height: 5rem;
+	float: left;
+}
+.icard_trait_gift p{
+	float: left;
+	padding-left: 15px;
+	color: #4a4a4a;
+	font-size: 1.2rem;
+	line-height: 5rem;
+}
+.icard_trait_gift a{
+	float: right;
+	width:7rem;
+	background: #ff5555;
+	text-align: center;
+	border-radius: 3px;
+	height: 3rem;
+	line-height: 3rem;
+	margin-bottom: 1rem;
+	margin-top: 1rem;
+	color: #fff;
+	text-decoration: none;
+}
+
+.icard_trait form{
+	padding:15px 10px;
+	box-sizing:border-box;
+	width: 100%;
+}
+.icard_trait p{
+	margin-bottom: 1rem;
+}
+.icard_trait p input{
+	font-size: 1.4rem;
+	color:#9b9b9b; 
+	height: 3.5rem;
+	line-height: 3.5rem;
+	border-radius:3px;
+}
+.icard_trait p input.user{
+	width: 100%;
+	box-sizing:border-box;
+	
+	border:1px solid #9b9b9b;
+	padding-left: 1rem;
+}
+.icard_trait p input.input2{
+	width: 55%;
+	box-sizing:border-box;
+	float: left;
+	border:1px solid #9b9b9b;
+	padding-left: 1rem;
+}
+.icard_trait p img{
+	width: 33%;
+	float: right;
+	height: 3.5rem;
+}
+.icard_trait p input.sent{
+	width: 33%;
+	box-sizing:border-box;
+	float: right;
+	background: none;
+	border:1px solid #ff5555;
+	color: #ff5555;
+}
+.icard_trait p input.exchange{
+	width: 33%;
+	box-sizing:border-box;
+	float: right;
+	border:none;
+	background: #ff5555;
+	color: #fff;
+}
+.icard_trait_rule p{
+	font-size: 1.3rem;
+	color: #4a4a4a;
+	line-height: 1.8rem;
+	margin:0;
+}
+.icard_trait_rule p:last-child{
+	text-align: center;
+	padding-top: 1rem;
+	padding-bottom: 1rem;
+	font-size: 1rem;
+}
+.error_prompt{
+	position: fixed;
+	left: 50%;
+	bottom:10rem;
+	width:18rem;
+	height: 3rem;
+	line-height: 3rem;
+	color: #fff;
+	text-align: center;
+	margin-left: -9rem;
+	background: rgba(0,0,0,0.5);
+	border-radius: 20px;
+	display:none;
+}
+.investment{
+	width: 100%;
+	position: fixed;
+	left: 0;
+	bottom:0;
+	height: 8rem;
+	background: #fff;
+}
+.investment a{
+	display: block;
+	width: 75%;
+	height: 4rem;
+	background: #ff5555;
+	text-align: center;
+	line-height: 4rem;
+	margin-left: 12.5%;
+	margin-top: 2rem;
+	font-size: 1.5rem;
+	color: #fff;
+	text-decoration: none;
+	border-radius: 5px;
+}
+.mb8{
+	margin-bottom: 8.1rem;
+}
+.bg30{
+	position: fixed;
+	width: 100%;
+	height: 100%;
+	background: rgba(0,0,0,0.3);
+	top:0;
+	left: 0;
+}
+.prize{
+	position: absolute;
+	top:20%;
+	left: 12.5%;
+	width: 75%;
+	background: #fff;
+	height: 10rem;
+	border-radius: 5px;
+}
+.prize h3{
+	text-align: center;
+	font-size: 1.4rem;
+	color: #4a4a4a;
+	line-height: 2rem;
+	padding-top: 1rem;
+}
+.prize p{
+	text-align: center;
+	font-size: 1.3rem;
+	color: #4a4a4a;
+	line-height: 2rem;
+}
+.prize a{
+	display: block;
+	width: 60%;
+	height: 3.4rem;
+	background: #ff5555;
+	color: #fff;
+	text-align: center;
+	line-height: 3.4rem;
+	text-decoration: none;
+	margin:0 auto;
+	margin-top: 0.5rem;
+	border-radius: 5px;
+	font-size: 1.5rem;
+}

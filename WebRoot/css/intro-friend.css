@@ -1,0 +1,30 @@
+#app_share{
+	position: relative;
+}
+.share_img img{width:100%;}
+.ew-code{
+    width:100%;
+    text-align:center;
+    background:url('../images/friends_05.png') 0 0 no-repeat;
+    margin: 0 auto;
+
+}
+.ew-code span{
+    display:block;
+    width:50%;
+    height:190px;
+    background:url('../images/eweima.png') 0 0 no-repeat;
+    background-size:100%;
+    margin:0 auto;
+}
+#img_ewcode{
+	width: 45%;
+}
+#share_btn{
+	position:absolute;
+	top:5rem;
+	left:50%;
+	background: #f00;
+	height: 3rem;
+	width: 10rem;
+}

@@ -1,0 +1,62 @@
+header{margin-bottom:1rem;}
+.activeMain{margin:0 1rem 0 1rem;}
+.custodyTitle h4{height:4rem;color:#05418B;}
+.custodyTitle h4 span{padding-left:3rem;font-size:1.8rem;background: url("../image/titleIcon1.png") left  no-repeat;background-size:2rem;}
+.custodyTitle h4 span.titleIcon2{padding-left:3rem;background: url("../image/titleIcon2.png") left  no-repeat;background-size:2rem;}
+.custodyTitle p,.aboutCustody p{font-size:1.4rem;line-height:3rem;color:#2C6388;}
+.activrBorder{margin:2rem 0 1rem 0;height:0.5rem;background:#F5F4F4;}
+.custodyList li{margin-bottom:1rem;line-height:4rem;font-size:1.4rem;color:#2C6388;border-bottom:1px solid #F5F4F4;}
+.custodyList li:first-child font{background: url("../image/acticeIcon.png") 0 1.3rem  no-repeat;background-size:2rem;}
+.custodyList li:first-child + li font{background: url("../image/acticeIcon.png") 0 -3rem  no-repeat;background-size:2rem;}
+.custodyList li:first-child + li+ li font{background: url("../image/acticeIcon.png") 0 -7.7rem  no-repeat;background-size:2rem;}
+.custodyList li:first-child + li+ li+ li font{background: url("../image/acticeIcon.png") 0 -12.2rem  no-repeat;background-size:2rem;}
+.custodyList li:last-child font{background: url("../image/acticeIcon.png") 0 -16.4rem  no-repeat;background-size:2rem;}
+.custodyList li:last-child{border-bottom:none;}
+.custodyList .fr{margin:1.2rem 1rem 0 0;width:1.6rem;height:1.6rem;display:inline-block;background: url("../image/frIcon.png") right  no-repeat;background-size:0.8rem;}
+.custodyList font{padding-left:3.2rem;margin-left:1rem;display: inline-block;}
+.aboutCustody h4{margin-bottom:1rem;font-size:1.5rem;color:#2C6388;font-weight: bold;}
+.aboutCustody{margin-bottom:1rem;}
+.custodyBtn{text-align:center;}
+.fixedStyle{position:fixed;margin:3rem 0 0 0;bottom:0;width:100%;z-index:999; background: rgba(255,255,255,1);}
+.custodyBtn a{width:21.7rem;height:6rem;line-height:6rem;font-size:1.6rem;color:#fff;display:inline-block;background: url("../image/activeBtn.png") center center  no-repeat;background-size:22rem;}
+.hotline{margin-bottom:5rem;height:40px;line-height:27px;background:#03162B;text-align:center;color:#fff;}
+.hotline a{color:#fff;}
+.custodyProcess{padding-bottom:12rem;background: #167BEB url("../image/titleTopBackground.png") top  no-repeat;}
+.custodyProcessStep{position:fixed;bottom:0;width:100%;z-index:999;}
+.custodyProcessStep ul{display:-webkit-box;display:box;}
+.custodyProcessStep li{flex:1;
+width:19.5%;height:6rem;
+background:#308FF7;text-align:center;font-size:1.3rem;color:#FEFEFE;
+border-top:1px solid #3CD5F9;border-left:1px solid #3CD5F9;border-right:1px solid #3CD5F9;
+}
+.custodyProcessStep  li font{margin-top:0.6rem;height:3rem;display:block;}
+.custodyProcessStep  li:first-child font{background: url("../image/icon1.png") center  center no-repeat;background-size:2rem;}
+.custodyProcessStep  li:first-child+li font{background: url("../image/icon2.png") center  center  no-repeat;background-size:2rem;}
+.custodyProcessStep  li:first-child+li+li font{background: url("../image/icon3.png") center  center  no-repeat;background-size:2rem;}
+.custodyProcessStep  li:first-child+li+li+li font{background: url("../image/icon4.png") center  center  no-repeat;background-size:2rem;}
+.custodyProcessStep  li:first-child+li+li+li+li font{background: url("../image/icon5.png") center  center  no-repeat;background-size:2rem;}
+.custodyProcessStep  li:first-child+li+li+li+li+li font{background: url("../image/icon6.png") center  center  no-repeat;background-size:2rem;}
+.custodyProcess .swiper-button-prev{width:50px;height:50px;background: url("../image/button-prev.png") left  center  no-repeat;background-size:3.4rem;}
+.custodyProcess  .swiper-button-next{right:0;width:50px;height:50px;background: url("../image/button-next.png") left  center no-repeat;background-size:3.4rem;}
+.swiper-slide{width:100% !important;}
+.swiper-container {
+	width: 100%;
+	height: 100%;
+}
+.swiper-slide {
+	padding: 10px 20px;
+	background: url("../image/processBg.png") center top no-repeat;
+	background-size:100% 100%;
+	box-sizing: border-box;
+	text-align:center;
+	color:#fff;
+}
+
+.title{font-size:1.8rem;font-weight:bold;}
+.subtitle,.step{font-size:1.4rem;}
+.swiper-slide div{line-height:3rem;}
+.swiperImg{    width: 60%;
+    margin: 0 auto;
+    padding-top: 1rem;}
+.step{margin:0 0 1rem 0;line-height:2rem;}
+.swiper-container-horizontal>.swiper-pagination-bullets, .swiper-pagination-custom, .swiper-pagination-fraction{bottom:0 !important;}

@@ -1,0 +1,92 @@
+/*四月踏青 powered by GUO CUN JUAN 20170410*/
+.aprilOutingBody{background:#EAFEEC;color:#549A65;}
+.prizeBox{    width: 100%;height:auto;background:url(images/prizeBg.png) center center  no-repeat; cursor: pointer;background-size:100% 100%;}
+.actviyTitle1{line-height:170px;color:#FEF1A0;text-align:center;font-size:36px;}
+.looteryTitle{height:8rem;background:url(images/looteryTitle.jpg) center center  no-repeat;background-size:contain;}
+.actviyTitle2{padding-top:4rem;}
+.actviyTitle2 span{float:left;margin:0 4px 0 26%;width:10rem;height:2rem;display:inline-block;background:url(images/invest.png) left  no-repeat;background-size:contain;}
+.actviyTitle2 font{font-size:1.4rem;color:#FF9901;}
+.actviyTitleFont{margin-left:0.8%;height:0.8rem;background:url(images/titlebg.png) center center  no-repeat;background-size:contain;clear:both;}
+.lotteryFristImg{float:left;height:4rem;}
+.lotteryFristDiv{float:left;width:180px;}
+.lotteryFristDiv p{line-height:30px;font-size:20px;color:#539763;}
+.lotteryFristDiv p:frist-child{font-size:26px;}
+.lotteryFristDiv p:last-child{color:#FF9901;}
+#receiveClick,.isLogin{display: none;}
+
+.prizeM{width:29%;margin:0 auto;}
+
+.prizeM .therm{position:relative;
+    height:20rem;
+    background: url(images/thermBg.png) top no-repeat;
+    background-size: contain;}
+.prizeM .therm div b{/* font-size:26px;color:#CA0B1B;  */position:absolute;font-size:1rem;color:#333;    left: 58%;}
+.prizeM .therm div p{position:absolute;right:49%;width:0.5rem;background:#D6363D;display: none;}
+.prizeM .therm50 b{bottom:6rem;}
+.prizeM .therm110 b{bottom:8rem;}
+.prizeM .therm2w b{bottom:10.2rem;}
+.prizeM .therm6w b{bottom:12.2rem;}
+.prizeM .therm13w b{bottom:14.2rem;}
+.prizeM .therm40w b{bottom: 16.2rem;}
+.therm50p{height:1rem;bottom:4.6rem;}/*  */
+.therm110p{height:2.3rem;bottom:5.5rem;}
+.therm2wp{height:2.9rem;bottom:7rem;}
+.therm6wp{height:5.7rem;bottom:6.3rem;}  
+.therm13wp{height:7rem;bottom:7rem;}
+.therm40wp{height:9.2rem;bottom:7rem;}
+
+.prize_colTit,.prize_tip,.equipTit{text-align:center;}
+.prize_tip{margin-top:3rem;padding:0 1rem 0 1rem;}
+.prize_colTit{margin-top:2rem;}
+.prize_colTit span{width:20rem;height:4rem;line-height:4rem;font-size:2rem;background:#337D41;border:1px solid #337D41;border-radius:60px;color:#fff;display: inline-block;}
+.equipTit{margin-top:1.8rem;}
+.actviyTitle3{margin-top:1.6rem;text-align:center;}
+.actviyTitle3 img{padding:0 2rem 0 2rem;}
+#receiveLootery{cursor: pointer;}
+#receiveLootery:hover{color:#eee;}
+.myEquip_list .equipImg{height:16rem;background:url(images/equipBg.png) center center  no-repeat;background-size:contain;}
+.myEquip_list .equipImg img{margin-top:4rem;padding:2rem 3rem 3rem 3rem;}
+.myEquip_list li{margin-top:1.6rem;clear:both;}
+.equipImgDiv{margin-top:5rem;line-height:3rem;}
+.equipImgDiv p{font-size:1.4rem;}
+.actviyRule{margin:4rem 1rem 0 1rem;}
+.actviyRule p{line-height:3.5rem;font-size:1.4rem;}
+.copyRight{margin-top:3rem;font-size:1.4rem;text-align:center;}
+
+/*弹出框*/
+
+.bg{
+  position:fixed;
+  width:100%;
+  height:100%;
+  top: 0;
+  z-index:99;
+  width:100%;
+  height:100%;
+  position: fixed;
+  background:rgba(0,0,0,0.5);
+  filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#7Fffffff,endColorstr=#7Fffffff); 
+  display:none;
+}
+
+.dialog{
+    position: fixed;
+    width:100%;
+    height:40rem;
+    background: #fff;
+    top: 6rem;
+    z-index:999;
+    background:url(images/layerBg.png) center center  no-repeat;
+    background-size:contain;
+    display:none;
+}
+.dialog .lotteryHeight{padding:6rem 0 0 0;}
+.dialog .lotteryHeight p{color:#EF5A75;font-size:1.2rem;text-align:center;}
+.dialog .lotteryHeight p img{margin-top:1rem;}
+.lotteryDiv p{line-height:2rem;}
+.font1{font-size:1.6rem;}
+.font1 font{font-size:1.6rem;}
+#dialogImg1{width:8rem;}
+.boatBox .boat1{float:left;margin:2rem 1rem 0 5rem;width:10rem;height:6.4rem;line-height:7rem;background:url(images/boat1.png) center center  no-repeat;background-size:contain;}
+.boatBox .boat2{float:left;width:22rem;height:6rem;line-height:6.5rem;background:url(images/boat2.png) center center  no-repeat;background-size:contain;}
+.boatBox p{font-size:1.2rem !important;color:#5D2C01 !important;}

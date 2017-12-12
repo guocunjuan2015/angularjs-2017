@@ -1,0 +1,299 @@
+
+#footpanel {
+	position: fixed;
+	bottom: 0; left: 0;
+	z-index: 97; /*--Keeps the panel on top of all other elements--*/
+	background: #fefcfc;
+	border-top: 1px solid #c3c3c3;
+	border-bottom: none;
+	width: 100%;
+	height: auto;
+	-moz-border-radius: 5px; 
+    -webkit-border-radius: 5px; 
+    border-radius:5px;  
+    left:0px;right:0px;
+    max-width: 750px;
+    margin: 0 auto;
+}
+
+
+*html #footpanel { /*--IE6 Hack - Fixed Positioning to the Bottom--*/
+	margin-top: -1px; /*--prevents IE6 from having an infinity scroll bar - due to 1px border on #footpanel--*/
+	position: absolute;
+	top:expression(eval(document.compatMode &&document.compatMode=='CSS1Compat') ?documentElement.scrollTop+(documentElement.clientHeight-this.clientHeight) : document.body.scrollTop +(document.body.clientHeight-this.clientHeight));
+}
+
+#footpanel ul {
+	padding: 0; margin: 0;
+	float: left;
+	width: 100%;
+	list-style: none;
+	border-top: 1px solid #fff; /*--Gives the bevel feel on the panel--*/
+	font-size: 1.1em;
+}
+#footpanel ul li{
+	padding: 0; margin: 0;
+	float: left;
+	position: relative;
+}
+#footpanel ul li a{
+	padding: 5px;
+	float: left;
+	text-indent: -9999px;
+	height: 16px; width: 16px;
+	text-decoration: none;
+	color: #333;
+	position: relative;
+}
+html #footpanel ul li a:hover{	background-color: #fff; }
+html #footpanel ul li a.active { /*--Active state when subpanel is open--*/
+	background-color: #fff;
+	height: 17px;
+	margin-top: -2px; /*--Push it up 2px to attach the active button to subpanel--*/
+	border: 1px solid #555;
+	border-top: none;
+	z-index: 200; /*--Keeps the active area on top of the subpanel--*/
+	position: relative;
+}
+
+
+ 
+#footpanel table{
+	width: 100%;
+	color: #333;
+}
+#footpanel table tr{
+	text-align: center;
+	height: 48px;
+	padding-top: 15px;
+}
+#footpanel table tr td{
+	width:50%;
+	border-right: 1px solid #e3e2e2;
+	font-size: 12px;
+}
+.space_div{
+	height: 45px;
+}
+.space_div_ticket{
+	height: 55px;
+    background: #ebebeb;
+}
+.normor-font{
+	color: #333;
+}
+.red-font{
+	color: #f64840;
+}
+#foot-div{
+	position: absolute;
+	top: -10px;
+	width:100%;
+	background: #fff;
+	background:#fff url('../images/leftarrow.png') no-repeat 96.5% 50%;
+	background-size:2.5%;
+    color:#333;
+}
+.download_app_outer{
+	position: absolute;
+    top: -93px;
+    left:0px;
+    width:100%;
+}
+.download_app{
+	position: relative;
+}
+.download_app img{
+	width: 100%;
+}
+#cancel_download{
+    position: absolute;
+    right:0px;
+    top: 15px;
+    padding:13px 6px 11px 11px;
+    width: 40px;
+    height: 46px;
+    text-align:center;
+}
+.bg_img_center{
+	color:#333;
+	background: url(../images/logo/footer_me.png) no-repeat 50% 25%;
+	background-size:10%;
+	padding-top: 25px;
+}
+.bg_img_center_focus{
+	color:#f64840;
+    background: url(../images/logo/footer_me_active.png) no-repeat 50% 25%;
+    background-size:10%;
+    padding-top: 25px;
+}
+.bg_img_list{
+	color:#333;
+    background: url(../images/logo/footer_finances.png) no-repeat 50% 25%;
+    background-size:10%;
+    padding-top: 25px;
+}
+.bg_img_list_focus{
+	color:#f64840;
+    background: url(../images/logo/footer_finances_active.png) no-repeat 50% 25%;
+    background-size:10%;
+    padding-top: 25px;
+}
+ 
+/* 下载appbanner添加适配 */
+@media (device-width:414px) and (-webkit-min-device-pixel-ratio:2){/* ����iphone 6p */
+    .download_app_outer{
+    position: absolute;
+    top: -102px;
+    left:0px;
+    width:100%;
+    }
+    #cancel_download{
+    position: absolute;
+    right:0px;
+    top: 15px;
+    padding:13px 6px 11px 11px;
+    width: 40px;
+    height: 46px;
+    text-align:center;
+    }
+}
+
+@media (max-width:360px) and (-webkit-min-device-pixel-ratio:2){/* 兼容android */
+    .download_app_outer{
+    position: absolute;
+    top: -89px;
+    left:0px;
+    width:100%;
+    }
+     #cancel_download{
+    position: absolute;
+    right:0px;
+    top: 15px;
+    padding:13px 6px 11px 11px;
+    width: 36px;
+    height: 42px;
+    text-align:center;
+    }
+}
+@media (device-width:412px) and (-webkit-min-device-pixel-ratio:2){/*   */
+    .download_app_outer{
+    position: absolute;
+    top: -101px;
+    left:0px;
+    width:100%;
+    }
+    #cancel_download{
+    position: absolute;
+    right:0px;
+    top: 15px;
+    padding:13px 6px 11px 11px;
+    width: 40px;
+    height: 46px;
+    text-align:center;
+    }
+}
+@media (device-width:600px) and (-webkit-min-device-pixel-ratio:2){/*  */
+    .download_app_outer{
+    position: absolute;
+    top: -149px;
+    left:0px;
+    width:100%;
+    }
+    #cancel_download{
+    position: absolute;
+    right:0px;
+    top: 30px;
+    padding:13px 6px 11px 11px;
+    width: 50px;
+    height: 56px;
+    text-align:center;
+    }
+    
+    .bg_img_center{
+    color:#333;
+    background: url(../images/logo/footer_me.png) no-repeat 50% 10%;
+    background-size:8%;
+    padding-top: 20px;
+}
+.bg_img_center_focus{
+    color:#f64840;
+    background: url(../images/logo/footer_me_active.png) no-repeat 50% 10%;
+    background-size:8%;
+    padding-top: 20px;
+}
+.bg_img_list{
+    color:#333;
+    background: url(../images/logo/footer_finances.png) no-repeat 50% 10%;
+    background-size:8%;
+    padding-top: 20px;
+}
+.bg_img_list_focus{
+    color:#f64840;
+    background: url(../images/logo/footer_finances_active.png) no-repeat 50% 10%;
+    background-size:8%;
+    padding-top: 20px;
+}
+}
+@media (device-width:768px) and (-webkit-min-device-pixel-ratio:2){/*ipad */
+    .download_app_outer{
+    position: absolute;
+    top: -190px;
+    left:0px;
+    width:100%;
+    }
+    #cancel_download{
+    position: absolute;
+    right:0px;
+    top: 40px;
+    padding:13px 6px 11px 11px;
+    width: 55px;
+    height: 60px;
+    text-align:center;
+    }
+}
+@media (device-width:320px) and (-webkit-min-device-pixel-ratio:2){/* ����iphone 5 */
+    .download_app_outer{
+    position: absolute;
+    top: -79px;
+    left:0px;
+    width:100%;
+    }
+    #cancel_download{
+    position: absolute;
+    right:0px;
+    top: 10px;
+    padding:13px 6px 11px 11px;
+    width: 35px;
+    height: 40px;
+    text-align:center;
+    }
+}
+@media screen and (min-width: 1024px){
+	.bg_img_center{
+    color:#333;
+    background: url(../images/logo/footer_me.png) no-repeat 50% 25%;
+    background-size:5%;
+    padding-top: 25px;
+}
+.bg_img_center_focus{
+    color:#f64840;
+    background: url(../images/logo/footer_me_active.png) no-repeat 50% 25%;
+    background-size:5%;
+    padding-top: 25px;
+}
+.bg_img_list{
+    color:#333;
+    background: url(../images/logo/footer_finances.png) no-repeat 50% 25%;
+    background-size:5%;
+    padding-top: 25px;
+}
+.bg_img_list_focus{
+    color:#f64840;
+    background: url(../images/logo/footer_finances_active.png) no-repeat 50% 25%;
+    background-size:5%;
+    padding-top: 25px;}
+
+  }
+/* --- */
+

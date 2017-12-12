@@ -1,0 +1,153 @@
+@charset "utf-8";
+/*中秋活动  powered by GUO CUN JUAN 201701205*/
+.hamsterBody{background:#BA263E}
+.hamsterBg{padding-top:1rem;width:7.5rem;height:23.36rem;background: url("../image/hamsterBg.png") center  center  no-repeat;background-size:cover;}
+.hamster_box{position:relative;margin-top:.4rem;/* bottom:0.1rem; */}
+.hamster1{margin:auto;width:4rem;height:4rem;background: url("../image/hamster1.gif") center  center  no-repeat;background-size:cover;}
+.hamsterGiftBtn{margin-top:2.8rem;text-align:center;}
+.hamsterGiftBtn button{width:2.43rem;height:0.61rem;background: url("../image/myGiftBtn.png") center  center  no-repeat;background-size:cover;border:none;}
+.hamsterNum1,.hamsterNum2,.hamsterNum3,.hamsterNum4,.hamsterNum5,.hamsterNum6{position:absolute;margin:auto;width:3.5rem;height:3.5rem;background: url("../image/hamsterbg3.png") 0 0.9rem  no-repeat;background-size:100%;}
+.hamsterNum1{position:absolute;margin:auto;width:3.5rem;height:3.5rem;background: url("../image/hamsterbg3.png") center bottom   no-repeat;background-size:100%;}
+.hamsterNum1{top:0.2rem;left:2rem;}
+.hamsterNum2{top:3.4rem;left:.32rem;}
+.hamsterNum3{top:3.4rem;left:3.9rem;}
+.hamsterNum4{top:6.8rem;left:.32rem;}
+.hamsterNum5{top:6.8rem;left:3.9rem;}
+.hamsterNum6{left:2rem;top:10.5rem;}
+.hamsterNum1.replaceImg div,.hamsterNum2.replaceImg div,.hamsterNum4.replaceImg div{background: url("../image/hamster3.png")  -0.1rem 0.8rem   no-repeat !important;background-size:100% !important;}
+.hamsterNum3.replaceImg div,.hamsterNum5.replaceImg div,.hamsterNum6.replaceImg div{background: url("../image/hamster5.png") 0.12rem 0.98rem no-repeat !important;background-size:100% !important;}
+
+.hamsterNum1 div,.hamsterNum2 div,.hamsterNum4 div{padding-right:0.2rem;width:3.5rem;height:3.5rem;background: url("../image/hamster2.gif") center bottom   no-repeat;background-size:100%;}
+.hamsterNum3 div,.hamsterNum5 div,.hamsterNum6 div{padding-right:0.2rem;width:3.5rem;height:3.5rem;background: url("../image/hamster4.gif") center bottom  no-repeat;background-size:100%;}
+.hamster_box h4{padding-top:1rem;font-size:0.3rem;text-align:center;font-weight:bold;color:#df1212;}
+.hamster_box h4 span{font-size:.16rem;}
+.hamster_box p{margin-left:0.1rem;line-height:.3rem;font-size:0.16rem;text-align:center;color:#333;}
+.hamsterNum3 h4,.hamsterNum3 p,.hamsterNum5 h4,.hamsterNum5 p,.hamsterNum6 h4,.hamsterNum6 p{margin-left:0.4rem;}
+.dialog{top:5rem;left:1.35rem !important;width:5rem;height:4.5rem;}
+.pop1{background: url("../image/pop20_360.png") center  center  no-repeat;background-size:cover;}
+.pop2{background: url("../image/pop100.png") center  center  no-repeat;background-size:cover;}
+.pop3{background: url("../image/pop20_90.png") center  center  no-repeat;background-size:cover;}
+.pop4{background: url("../image/pop20_30.png") center  center  no-repeat;background-size:cover;}
+.pop5{background: url("../image/pop35.png") center  center  no-repeat;background-size:cover;}
+.pop6{background: url("../image/pop400.png") center  center  no-repeat;background-size:cover;}
+.noGift{display: none;}
+.noGift h4,.noGift p{text-align:center;}
+.noGift h4{font-size:0.29rem;color:#FFF373;}
+.noGift p{padding-top:0.2rem !important;font-size:0.24rem;color:#DBBD5D;}
+.lotteryList li{width:4.76rem;height:0.84rem;}
+.coupon20{background: url("../image/coupon20.png") center  center  no-repeat !important;background-size:cover !important;}
+.coupon20_90{background: url("../image/coupon20_90.png") center  center  no-repeat !important;background-size:cover !important;}
+.coupon20_360{background: url("../image/coupon20_360.png") center  center  no-repeat !important;background-size:cover !important;}
+.coupon35{background: url("../image/coupon35.png") center  center  no-repeat !important;background-size:cover !important;}
+.coupon100{background: url("../image/coupon100.png") center  center  no-repeat !important;background-size:cover !important;}
+.coupon400{background: url("../image/coupon400.png") center  center  no-repeat !important;background-size:cover !important;}
+.dialog p button{width:1.6rem;height:0.41rem;background: url("../image/investBtn.png") center  center  no-repeat;background-size:cover;border:none;text-align:center;}
+.dialog p{padding-top:3.66rem;text-align:center;}
+.activeRule{margin-top:1rem;padding:0.6rem;margin:auto;width:6.97rem;height:6rem;font-size:.28rem;line-height:.60rem;color:#FFBABA;background: url("../image/ruleBg.png") center  center  no-repeat;background-size:cover;}
+.activeRule h4{margin:0.2rem 0 0.4rem 0;font-size:0.3rem;font-weight:bold;}
+.activeRule span{margin-right:0.3rem;width:22px;height:22px;line-height:22px;font-size:0.18rem;display: inline-block;background:#AA1E2E;color:#fff;border-radius:50%;text-align:center;}
+.copyRight{margin:0.4rem 0 0.2rem;text-align:center;color:#760C0C;}
+
+/*锤子移动效果*/
+.hamsteract{
+  position:relative;
+}
+.hammer{
+    position:absolute;
+    top: -0.2rem;
+    left: 3.9rem;
+    width:1.12rem;
+    height:0.75rem;
+    background:url(../image/hammer.png) no-repeat;
+    background-size:cover;
+    z-index:999;
+	  -moz-transform-origin: bottom right;
+	  -webkit-transform-origin: bottom right;
+	  transform-origin: bottom 100%;
+	  -moz-transform: rotate(15deg);
+	  -ms-transform: rotate(15deg);
+	  -webkit-transform: rotate(15deg);
+	  transform: rotate(15deg);
+	  -moz-animation: droping 1.5s ease 9999;
+	  -webkit-animation: droping 1.5s ease 9999;
+	  animation: droping 1.5s ease 9999;
+	  display: none;
+} 
+
+@keyframes droping {
+  0% {
+    -moz-transform: rotate(15deg);
+    -ms-transform: rotate(15deg);
+    -webkit-transform: rotate(15deg);
+    transform: rotate(15deg);
+  }
+  30% {
+    -moz-transform: rotate(-24deg);
+    -ms-transform: rotate(-24deg);
+    -webkit-transform: rotate(-24deg);
+    transform: rotate(-24deg);
+  }
+  100% {
+    -moz-transform: rotate(15deg);
+    -ms-transform: rotate(15deg);
+    -webkit-transform: rotate(15deg);
+    transform: rotate(15deg);
+  }
+}
+@-webkit-keyframes chuizi {
+  0% {
+    -moz-transform: rotate(15deg);
+    -ms-transform: rotate(15deg);
+    -webkit-transform: rotate(15deg);
+    transform: rotate(15deg);
+  }
+  30% {
+    -moz-transform: rotate(-24deg);
+    -ms-transform: rotate(-24deg);
+    -webkit-transform: rotate(-24deg);
+    transform: rotate(-24deg);
+  }
+  100% {
+    -moz-transform: rotate(15deg);
+    -ms-transform: rotate(15deg);
+    -webkit-transform: rotate(15deg);
+    transform: rotate(15deg);
+  }
+}
+@-moz-keyframes droping {
+  0% {
+    -moz-transform: rotate(15deg);
+    -ms-transform: rotate(15deg);
+    -webkit-transform: rotate(15deg);
+    transform: rotate(15deg);
+  }
+  30% {
+    -moz-transform: rotate(-24deg);
+    -ms-transform: rotate(-24deg);
+    -webkit-transform: rotate(-24deg);
+    transform: rotate(-24deg);
+  }
+  100% {
+    -moz-transform: rotate(15deg);
+    -ms-transform: rotate(15deg);
+    -webkit-transform: rotate(15deg);
+    transform: rotate(15deg);
+  }
+}
+.lotteryList{margin-top:0.4rem;height:2rem;overflow-y:auto;overflow-x:hidden;}
+.myGift{padding:0.5rem;width:5.94rem;height:3.03rem;background: url("../image/myGiftBg.png") center  center  no-repeat;background-size:cover;}
+.myGift li{margin:0 .3rem .2rem 0;}
+.close_btn{
+    position:absolute;
+    right: 2px;
+    top:.4rem;
+    width: 0.5rem;
+    height: 0.5rem;
+    line-height: 0.46rem;
+    border-radius:50%;
+    font-size:0.4rem;
+    text-align: center;
+    color:#fff;
+    cursor:pointer;
+    border:1px solid #fff;
+    }

@@ -1,0 +1,49 @@
+/*³é½±»î¶¯*/
+.lottery{position:relative;margin:auto;padding:12px;width:96%;min-height:360px;border-radius:3px;-webkit-border-radius:3px;box-sizing:border-box;-webkit-box-sizing:border-box;background:#fe3426;}
+#lotterys{position:relative;margin:0 auto;width:98%;padding-top:10%;}
+#lotterys>h3{top:0;width:100%;height:38px;background:url('../images/lottery/header_01.png') no-repeat;background-size:100%;}
+.lottery1{margin:auto;padding:10px;width:100%;border-radius:3px;-webkit-border-radius:3px;background:#d80015;}
+.lottery1 table{margin-top:-13px;border-collapse:separate;border-spacing:2px 12px;}
+.lottery1 td{margin-right:2px;padding:0;text-align:center;border-radius:3px;-webkit-border-radius:3px;box-shadow:5px 0 0 #ffbfbf;-webkit-box-shadow:0 10px 0 #ffbfbf;box-sizing:border-box;-webkit-box-sizing:border-box; background:#ffeeee;}
+#lotterys table td.active{background-color:#fda7a7;}
+.lottery1 td strong{font-size:1.2rem;color:#d80015;}
+.lottery1 td img{margin:auto;width:60%;}
+.lottery1 .topbotomtr td{width:69px;height:50px;}
+.lottery1 .topbotomtr td:last-child{width:62px;}
+.lottery1 .centerlefttd{width:69px;height:50px;}
+.lottery1 .centerrighttd{width:62px;height:50px;}
+.lottery1 .lottery_change{margin-bottom:10px;color:#fff;font-size:1.4rem;}
+.lottery_img{display:block;margin:0 auto;width:100px;height:50px;line-height:48px;font-size:1.4rem;color:#d80015;background:url('../images/lottery/btn_bg.png') no-repeat; background-size:100%;}
+.lottery_img:hover,.lottery_img:visited{color:#d80015;}
+.lottery_img:active{color:#fff;background:url('../images/lottery/btn_bg1.png') no-repeat;background-size:100%;}
+
+.lotteryinfos{position:relative;margin:14% auto 0;padding:3% 0;width:98%;max-height:300px;border-radius:3px;-webkit-border-radius:3px;background:#ffab4b;}
+.lotteryinfos h3{position:absolute;left:5px;top:-13%;width:98%;height:66px;background:url('../images/lottery/header.png') no-repeat;background-size:100%;}
+.lotterylists{margin:15px auto 0;width:96%;height:100%;border-radius:3px;-webkit-border-radius:3px;background:#ffb45e;}
+.lotterylists ul{margin:auto;padding-top:12%;width:94%;}
+.lotterylists li{overflow:hidden;padding:3% 0;font-size:1.2rem;color:#c9200b;border-bottom:1px solid #dd5104;}
+.lotterylists li span:first-child{float:left;}
+.lotterylists li span:last-child{float:right;}
+.lotteryrules{width:96%;margin:auto;padding-bottom:10%;}
+.lotteryrules h3{margin:10% auto 5%;height:38px;width:100%;background:url('../images/lottery/header_02.png') no-repeat;background-size:100%;}
+.lotteryrules p{font-size:1.4rem;color:#666;line-height:20px;}
+.lottery .box{display:none;overflow: hidden;position: absolute;width:100%;height:100%;top: 0;left: 0;background: rgba(0,0,0,0.9);}
+.lottery .box .closes a{top:5%;right:5%;width:24px;height:24px;}
+.lottery .box h2 a{position:absolute;background:url(../images/lottery/virtual_close.png) no-repeat;background-size:100%;}
+.lottery .box h2 a{right:0;top:147px;width:73px;height:50px;}
+.lotteryconfirms{float:left;margin-left:2.5%;margin-top:20%;padding:8% 0;width:30%;height:60%;border:1px solid #ffda3f;}
+.lotteryconfirms p{margin:0 auto;width:90%;text-align:center;color:#fff;font-size:1.2rem;}
+.invest{display:none;}
+.rewards{margin:20% auto 0;width:75%;height:75%;text-align:center;background:#fff2c5;}
+.rewards img{margin:20% auto 10%;width:30%;padding-top: 30%;}
+.rewards h3{position:absolute;top:14%;left:5%;width:90%;height:66px;background:url('../images/lottery/header_03.png') no-repeat;background-size:100%;}
+.rewards p{text-align:center;font-size:1.4rem;color:#e44025;}
+.rewardss{display:block;}
+.rewards_vistual{display:none;padding-top:12%;}
+.rewards_vistual p{font-size:1.2rem;}
+.rewards_vistual strong{font-size:2rem;}
+.btninvites,.btninvest{display:inline-block;margin:0 auto;width:90%;height:30px;line-height:30px;text-align:center;font-size:1.4rem;border-radius:5px;-webkit-border-radius:5px;}
+.btninvites{background:#ffda3f;color:#761420 !important;}
+.btninvest{background:#eb0010;color:#fff !important;}
+.lotteryconfirms .lottery_btn{text-align:center;}
+

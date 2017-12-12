@@ -1,0 +1,10 @@
+/*2017年3月24日*/
+.activeRules{margin-top:2rem;padding-bottom:4rem;line-height:2.6rem;color:#812500;}
+.activeRules h1{margin-left:1rem;font-size:1.6rem;}
+.activeRules li{margin:0 1rem 0 2rem;font-size:1.2rem;list-style-type:disc;}
+/*分享*/
+.shareBox{
+  width:100%;height:6rem;line-height:6.2rem;background-color:rgba(0,0,0,0.6);
+}
+.upRegister{text-align:center;}
+.upRegister a{width:12rem;height:3rem;line-height:3rem;font-size:1.4rem;color:#fff;background:#FF422C;border-radius:28px;display: inline-block;}

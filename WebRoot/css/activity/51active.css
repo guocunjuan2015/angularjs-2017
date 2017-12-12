@@ -1,0 +1,101 @@
+/*51»î¶¯*/
+.modal-content{background: #fecc45;}
+.modal-header{border:0;}
+.modal-body table{margin:0 auto;width:90%;}
+.modal-body td{padding:20px 10px;color:#fff;text-align:center;border:1px solid #9c5303;}
+.modal-body p{ width: 90%;margin: 0 auto;font-size:1.4rem;color:#987016;}
+.gains{background:#EEB022;color:#fff;}
+.gains a{color:#F9D37E;}
+.receives{margin-top:2%;text-align:center;}
+.receives a{padding:1% 4% 1% 4%;background:#FF3D55;font-size:1.6rem;color:#F9D37E;}
+.special_tip{background:#F44157;}
+.activeDuring{padding-bottom:3%;margin-top:3%;text-indent:30px;font-weight:600;color:#fff;font-size:1.8rem;}
+.activeDuring font{color:#FBC247;}
+.mothers{padding:3% 0 3% 0;background:#FA5468;}
+.mothers li{float:left;width:30%;margin-right:5%;text-align:center;background:#fff;}
+.mothers li img{margin:0 auto;}
+.mothers li:last-child{margin-right:0;}
+.mothers li h5{padding:4% 0 4% 0;margin-top:0;font-size:1.6rem;color:#80660d;background:#fdd35e;}
+.mothers li h6{margin:2% auto 3%;line-height:22px;font-size:1.4rem;color:#e60012}
+.mothers li .discounts{line-height:30px;font-size:1.4rem;color:#fff;background:#f22942;}
+.mothers li .price{font-size:1.5rem;color:#E70010;}
+.invest_header{padding:4% 0 4% 0;background:#F44157;}
+.invest_header p{text-align:center;}
+.investTip{width:100%;background:#F44157;}
+.investTip th{font-size:1.8rem;padding:2% 0 2% 2%;}
+.investTip td{font-size:1.6rem;}
+.investTip tr,td{padding:2% 0 2% 2%;}
+.investTip tr:nth-child(odd){background:#f95468}
+.investTip th,.investTip td{text-align:center;color:#fff;}
+.packages{background:#FDB201;}
+.prompt{padding-left:2%;color:#fff;font-size:1.4rem;}
+.prompt strong{color:#ff3e55;font-weight:normal}
+.packages table{margin:3% auto;width:100%;background:#db9e13;}
+.packages table td{padding:3% 2%;color:#fff;text-align:center;border:1px solid #9c5303;}
+.foods{overflow:hidden;margin:5% auto 10%;}
+.foods li{float:left;width:30%;margin-right:3%;text-align:center;}
+.foods li:last-child{width:30%;margin-right:0%;}
+.last_nums{padding: 10% 0;margin:0 auto;width:90%;background:#ffd46c;}
+.foods li>p{margin-top:10%;color:#FFF;}
+.foodtitle font{font-size:1.6rem;}
+.foodtitle{height:68px;line-height:60px;text-align:center;color:#EC8D19;background:url('../../images/activity/51active/foodTitle.png') no-repeat;background-size:100%;}
+#lotterys{background:#FFD742;}
+.changes{padding:3% 0 3% 4%;color:#309BBF;font-size:2rem;}
+.changes p{text-align:center;clear:both}
+.changes p:nth-child(2){padding-top:2%}
+.lottery1{margin:auto;padding:10px;border-radius:3px;-webkit-border-radius:3px;}
+.lottery1 table{margin-top:-5%;width:100%;border-collapse:separate;border-spacing:15px 25px;}
+.lottery1 td{padding:0;text-align:center;border-radius:6px;-webkit-border-radius:6px;box-shadow:6px 6px 0 0 #faca00;-webkit-box-shadow:6px 6px 0 0 #faca00;box-sizing:border-box;-webkit-box-sizing:border-box; background:#ffee66;}
+.lottery1 td p{font-size:20px;color:#eb1313}
+.lottery1 td strong{font-size:30px;color:#eb1313;}
+.lottery1 td strong span{display:block;font-size:20px;}
+.lottery1 td img{margin:auto;}
+.lottery1 td{width:30%;}
+.lottery_img{display:block;width:123px;height:126px;line-height:80px;padding-top:5%;font-weight:700;font-size:2rem;color:#e60e0e;background:url('../../images/activity/51active/btn_lottery1.png') no-repeat;}
+.lottery_img:hover{color:#d80015;}
+.lottery_img:active{color:#fff;background:url('../../images/activity/51active/btn_lottery2.png') no-repeat;}
+.lottery_img:visited{color:#d80015;}
+.reward-item {
+    height: 60px;
+    line-height:56px;
+    width:100%;
+    margin:1% auto 0;
+   /* overflow: hidden; */
+    color: #ffd33c;
+    position: relative;
+    font-size: 14px;
+    background:#fcf6d6;
+    border-radius:6px;
+    -webkit-border-radius:6px;
+    border:1px solid #fe4c44;
+}
+#marquee_box img{float:left;}
+.foods_sucess{display:none;position: absolute;top: 15%;left: 25%;margin:0 auto;width:604px;height:452px;background:url(../../images/activity/51active/foods_sucess.png) no-repeat;}
+.foods_close{position:absolute;top: 22%;left: 82%;display:block;width:63px;height:63px;background:url(../../images/activity/51active/btn_close.png) no-repeat;}
+.lotteryconfirms{float:left;margin-left:1%;margin-top:10%;margin-bottom:5%;padding:2% 0;width:30%;border:1px solid #ffda3f;}
+.active4{position:relative;}
+.active4 .box{display:block;position: absolute;width: 515px;top:-390px;left:0;background: transparent;}
+.active4 .bg{width:604px;background:rgba(0,0,0,0.9)}
+.lotteryconfirms p{margin:0 auto;width:80%;color:#fff;font-size:1.4rem;line-height:25px;}
+.active4 .box .closes a{top:20px;right:12px;width:45px;height:45px;background-size:100%;}
+.active4 .box h2 a{position:absolute; background:url(../../images/activity/51active/virtual_close.png) no-repeat; }
+.active4 .box h2 a{right:0;top:147px;width:73px;height:50px;}
+.btninvites,.btninvest{display:inline-block;font-size:1.6rem;}
+.btninvites{background:#ffda3f;margin-right:20px;color:#761420 !important;border:1px solid #ffda3f}
+#looteryss td.active{background: #F3D89C;}
+.rewards{margin:auto;width:90%;height:500px;}
+.rewards img{margin:3% auto 0;}
+.rewards h3{position:absolute;top:14%;left:5%;width:90%;height:66px;background:url('../../images/activity/51active/header_03.png') no-repeat;background-size:100%;}
+.rewards p{text-align:center;font-size:1.4rem;color:#4b0806;}
+.rewardss{display:none;}
+.rewards_vistual{padding-top:21%;}
+.rewards_vistual p{font-size:2rem;}
+.rewards_vistual strong{font-size:2rem;}
+.btn_invest_grey{box-shadow:0 6px 0 0 #666;-webkit-box-shadow:0 6px 0 0 #666;background:#a6a6a6;}
+.foods_sucess{display:none;position: absolute;top:8%;left: 12%;margin:0 auto;width:80%;height:452px;background:url(../../images/activity/51active/foods_sucess.png) no-repeat;background-size:100%;}
+.foods_close{position:absolute;top: 12%;left: 82%;display:block;width:41px;height:41px;background:url(../../images/activity/51active/btn_close.png) no-repeat;background-size:100%;}
+.btn_invest{width:30%;height:45px;line-height:45px;color:#fff !important;font-size:1.6rem;border-radius:6px;-webkit-border-radius:3px;box-shadow:0 6px 0 0 #cf192e;-webkit-box-shadow:0 6px 0 0 #cf192e;box-sizing:border-box;-webkit-box-sizing:border-box;background:#ff3e55;}
+.active3{position:relative;background:#fcb200;}
+#sumPlus{margin-right:10px;}
+.foods_sucess .btn_invest{margin: 55% 0 0 20%;width: 65%;border-radius: 50px;text-align:center;-webkit-border-radius: 50px;display: inline-block;}
+#scroll_begin em{font-size:1.4rem;color:#fe4c44;}

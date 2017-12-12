@@ -1,0 +1,29 @@
+/*投资人见面会*/
+.banner p{position:absolute;left:0;bottom:80px;width:100%;text-align:center;}
+
+.face_flow,.face_addr{overflow:hidden;margin:10% auto;}
+.face_flow h4,.face_flow h6,.face_addr h4,.face_addr h6{margin:0 auto;width:94%;text-align:center;font-weight:normal;}
+.face_flow h4,.face_addr h4{font-size:3rem;color:#333;}
+.face_flow h6,.face_addr h6{line-height:25px;font-size:1rem;color:#666;}
+.face_addr ul{margin:5% auto;width:90%;}
+.face_addr li{float:left;width:48%;margin-right:4%;margin-bottom:6%;}
+.face_addr li:nth-child(even){margin-right:0;}
+.face_flow li{width:94%;margin:5% auto;}
+.face_flow p{text-align:center;font-size:1.6rem;color:#333;}
+.face_flow video{width:100%;}
+.face_addr li p{margin-top:10px;}
+.face_addr li img{width:100%;}
+.face_addr li span:first-child{float:left;font-size:1.4rem;color:#333;}
+.face_addr li span:nth-child(3){float:right;font-size:1.2rem;color:#999;}
+.face_addr li i{float:right;margin-left:10px;width:21px;height:18px;background:url(../../images/activity/meeting/heart_01.png) center no-repeat;}
+.modal-content{border:0;background-color:transparent;}
+.modal-header{padding:0;min-height:0;border:0;}
+.modal-header .close {z-index:9999;margin-top: -6%;margin-right: -2%;width: 30px;height: 30px;background: #fff;border-radius: 50%;opacity:1;}
+.modal-body{background:#fff;padding:50px 15px;border-radius:6px;-webkit-border-radius:6px;}
+.modal-body p{margin:0 auto;width:90%;font-size:12px;color:#f64840}
+.modal-body .btn_save{margin:10px auto 0;width:100%;color:#fff;font-size:24px;background:#cdcbcb;}
+.signs{position:fixed;bottom:1%;width:100%;max-width:750px;/* padding:20px 0;background:#fff; */}
+.signs a{display:block;margin:0 auto;width:80%;height:50px;line-height:50px;font-size:2rem;text-align:center;color:#fff;background:#f64840;border-radius:6px;-webkit-border-radius: 6px;}
+#myModal .modal-body .form-control{margin:0 auto 15px;padding-left:10px;width:90%;height:50px;font-size:16px;}
+
+

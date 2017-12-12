@@ -1,0 +1,53 @@
+/*518»î¶¯ 170503  powered by GUO CUN JUAN*/
+.activityBg1{height:34rem;background:url(images/activityBg1.jpg) top center  no-repeat;background-size:cover;}
+.activityBg2{margin-top:2rem;height:33rem;background:url(images/activityBg2.jpg) top center  no-repeat;background-size:cover;}
+.activityRule{padding:8rem 1rem 1rem 1rem;}
+.activityRule p{line-height:2.4rem;font-size:1.2rem;color:#fff;}
+.activeForm{padding-top:7rem;}
+#showMess{width:80%;text-align:center;color:#FED77B;display: none}
+.activeForm li{position:relative;height:5rem;width:80%;margin:auto;text-align:center;}
+.activeForm li input{position:absolute;padding-left:20px;height:4rem;border-radius:30px;border: 1px solid #CCC!important;}
+.activeForm li span{float:right;margin:0 0 0 10px;color:#F8C890;display: inline-block;}
+.verCode input {position:absolute;}
+.input-clear{
+	 position:absolute;
+	 right:0;
+   margin:0.5rem 1rem 0.5rem 0;
+   width:7%;
+   display:none;
+  
+}
+.verCode .get_code{position:absolute;right:14px;top:12px;}
+#getValidateSMS {margin-left:46px;display:inline-block;width:100px;height:60px !important;line-height:60px !important;font-weight:bold;background:#fff;color:#F51F35;text-align:center;border:none !important;}
+.activityBtn1{margin:50px 0 50px 0;text-align:center;}
+.fixed_slide{position:fixed;right:190px; top:380px;}
+.fixed_slide a{margin-bottom:30px;width:111px;height:38px;line-height:38px;font-weight:bold;text-align:center;color:#fff;background:url(images/btnBg.png) center center  no-repeat;display: inline-block;}
+.fixed_slide a:hover{color:#ccc;}
+.bg {
+    position: fixed;
+    top: 0;
+    z-index: 99;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,0.5);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#7Fffffff,endColorstr=#7Fffffff);
+    display:none;
+} 
+.active518_dialog{
+    position: fixed;
+    width:30.4rem;
+    height:30rem;
+    /* padding:4rem 4rem; */
+    left: 5rem;
+    top:10rem;
+    z-index: 999;
+    background:url(images/boxBg.png) center center  no-repeat;
+    background-size:cover;
+    display:none;
+  
+}
+.active518_dialog h4{margin:3rem 5rem 0 0;font-size:2.4rem;color:#FED77B;text-align:center;}
+.active518_dialog p{padding:4.4rem 5rem 4rem 3rem;line-height:3rem;font-size:1.4rem;color:#fff;}
+.active518_dialog img{max-width:none !important;}
+.activityBtn2{padding:0 !important;margin:0 0 0 4.5rem;}
+.active518_dialog font{position:absolute;right:-10px;top:10px;width:80px;height:60px;}

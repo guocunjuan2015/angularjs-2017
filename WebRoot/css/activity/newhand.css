@@ -1,0 +1,47 @@
+/*20160923新手红包*/
+.newhandBox {background:#A5034D;}
+.newhandTitle {margin:0 2rem 0 2rem;text-align: center;}
+.handProcess{margin:2rem 2rem 2rem 1.8rem;width:90%;}
+.packages{margin:30px 0 1.6rem 0;}
+.packages ul{clear:both !important;}
+.packages li{margin:0 0 3rem 0;color:#fff;cursor: pointer;}
+.packages li p{font-size:1.2rem;line-height:24px;text-align:center;color:#020202;}
+.packages li span{display: block;}
+.packages li img{margin-bottom:1rem;}
+.packages li div .redPage3{position:absolute;top:36px;left:170px;}
+.specialSubject li:last-child{float:right;width:150px;padding-left:0 !important;}
+.eventDescri{margin:2rem 0 2rem 0;}
+.eventDescri p,.copyRights p{margin:0 2rem 0 2rem;line-height:26px;font-size:1.4rem;color:#020202;}
+.copyRights{padding:2rem 0 2rem 0;font-size:1.4rem;text-align:center;color:#FF83BB;border-top:4px solid #FFF66E;background:#7A0037;}
+.copyRights p{color:#FF83BB !important;}
+.copyRights p a{color:color:#FF83BB !important;;}
+.handProcess1{padding:1rem 1rem 1rem 1rem;margin:2rem 1rem 2rem 1rem;width:95%;background:#C10359;border:4px solid #8A052B;border-radius:10px;}
+
+.round{margin:0 auto;padding-bottom:5%;width:94%;border:1px solid #f64840;border-radius:6px;-webkit-border-radius:6px;background:#fcfbf6;}
+.round h2{margin-top:0;padding:5% 0 3%;text-align:center;color:#333;font-size:1.6rem;border-bottom:1px solid #fde2e2;}
+.endlist li{color:#fff;}
+.yq-bigfont{font-size:3.4rem;color:#fff;}
+.yq-smallfont{display:block;margin:0 auto;font-size:1.4rem;text-align:left;color:#fff;}
+.endlist{float:left;width:25%; line-height:14px;text-align:left;}
+.endlist:nth-child(1) li{color:#666;padding-left:15px;background:url('../../images/activity/newhand/circle.png') left center no-repeat;}
+.endlist li span{font-size:1.4rem;}
+.endlist li span:first-child{font-size:1.4rem;line-height:28px;}
+.look-details{margin:2% auto 0;display:block;width:40%;height:25px;line-height:26px;text-align:center;font-size:1.4rem;color:#8f3110 !important;background:#fedc00;border-radius:6px;-webkit-border-radius:6px;box-shadow:0 4px 0 #ddc003;-webkit-box-shadow:0 4px 0 #ddc003;}
+.btn-bind{/* padding:1rem 3rem 1rem 3rem; */margin-top:5%;background:#FFDC3D !important;color:#E00065 !important;font-size:1.6rem;
+ -webkit-box-shadow: 0 1px 3px rgba(112, 6, 24, 0.8);
+ -moz-box-shadow: 0 1px 3px rgba(112, 6, 24, 0.8);
+ /**按钮阴影**/
+ box-shadow:0 12px 12px rgba(112, 6, 24, 0.8);
+ text-align:center;
+}
+
+.redRule{margin:2rem 0 3rem 0;text-align:center;font-size:1.8rem; }
+.redRule a{color:#fff; text-decoration: underline !important;}
+.redRule a:hover{color:#FFADCF !important;}
+.ruleTitle{margin-top:-2rem;}
+.ruleContent p{line-height:28px; font-size:1.6rem;font-weight: normal;}
+.ruleContent{margin-top:1rem;}
+.ruleContent span{font-size:1.4rem;color:#A5034D}
+.modal-body .btn-danger{margin-top:20px;width:14rem;height:5rem;line-height:4rem;font-size:1.6rem;background:#FBC06A !important;border:1px solid #FBC06A;border-radius:30px;color:#fff;}
+.modal-body .btn-danger:hover{border:1px solid #FBC06A;color:#FF9600;}
+#myModal{background: url('../../images/activity/newhand/fadeBg.png') center center no-repeat;}

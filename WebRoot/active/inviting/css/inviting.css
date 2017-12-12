@@ -1,0 +1,70 @@
+
+
+/* 榛樿寮规 */
+.alert-dialog{
+	 position:fixed;
+	 display:none;
+    top:10%;
+    left:10%;
+    width:80%;
+    text-align: center;
+    background: #fbfbfb;
+    z-index: 9999;
+    -moz-border-radius: 15px;      /* Gecko browsers */
+    -webkit-border-radius: 15px;   /* Webkit browsers */
+    border-radius:15px;            /* W3C syntax */
+    /* 閫忔槑搴�*/
+    filter:alpha(opacity=95);  
+      -moz-opacity:0.95;  
+      -khtml-opacity: 0.95;  
+      opacity: 0.95;
+}
+.alert-dialog-title{
+	color: #000;
+	font-weight: bold;
+	padding: 5% 0;
+	font-size: 1.8rem;
+}
+.alert-dialog-content{
+	font-size: 1.4rem;
+	text-align: center;
+	padding: 0 5% 6% 5%;
+	color: #333;
+}
+.alert-dialog-button{
+	background: #ff0;
+	border-top: 1px solid #473b3b;
+}
+.alert-dialog-button li{
+	list-style:none;
+	width:50%;
+	float:left;
+	text-align: center;
+	color: #007aff;
+	padding: 4%;
+	font-size: 1.7rem;
+	    box-sizing: border-box;
+}
+.alert-dialog-button li button{
+	background: none;
+	border: none;
+	width: 100%
+}
+.alert-dialog-button li:FIRST-CHILD{
+	border-right: 1px solid #473b3b;  
+}
+.alert-dialog-button button{
+	background: none;
+	border: none;
+}
+
+/* 榛樿alert dialog 缁撴潫 */
+
+/*邀请好友改版  powered by GUO CUN JUAN 20170904*/
+.invitingBody{background:#ff572a}
+#inviteBtn{text-align:center;}
+#inviteBtn button{margin-top:2rem;width:24rem;height:4rem;line-height:4rem;font-size:1.6rem;color:#741108;border:1px solid #F5B54E;background:#F8BE3C;box-shadow: inset 0px 2px 0px #F5B54E;}
+#getReceive{margin-top:-1px;padding-left:2px;}
+.activeBg{padding:1.5rem;color:#fff;line-height:3rem;font-size:1.4rem;}
+.activeBg h4{margin:2.5rem 0 2rem 0;text-align:center;color:#fff;}
+.activeBg img{max-width:auto;width:23rem;}

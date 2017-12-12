@@ -1,0 +1,10 @@
+.picc{width: 100%; }
+.picc>img{margin:0 auto;padding:0;}
+.picc1{overflow:hidden;background:url('../../images/new_hand/picc_03.png') repeat;}
+.picc2{overflow:hidden;background:url('../../images/new_hand/picc_06.png') repeat;}
+.picc3{overflow:hidden;background:url('../../images/new_hand/picc_09.png') repeat;}
+.picc4{overflow:hidden;background:url('../../images/new_hand/picc_10_02.png') repeat;}
+.picc1,.picc2,.picc3,.picc4{padding:3% 0;}
+.picc1 ul,.picc2 ul,.picc3 ul,.picc4 ul{clear:both;margin:0 auto;width:80%;}
+.picc1 li,.picc2 li,.picc3 li,.picc4 li{width:20%;float:left;font-size:1.4rem;color:#fff;line-height:25px;}
+.picc1 li:nth-child(2),.picc2 li:nth-child(2),.picc3 li:nth-child(2),.picc4 li:nth-child(2){margin-left:20px;width:70%;}

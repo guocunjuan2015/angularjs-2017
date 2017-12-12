@@ -1,0 +1,65 @@
+body{
+	font-size:62.5%;
+}
+.may{
+	width:100%;
+	margin:0 auto;
+	background:url(images/may7.jpg) no-repeat center 544px;
+}
+.maybg{
+	background:url(images/may7.png) no-repeat center top;
+	background-size: 100% 100%;
+}
+.maybanner{
+	width:100%;
+    display: block;
+}
+.mayTitle{
+	margin:0 auto;
+	width:30%;
+}
+.mayTitle img{
+	display: block;
+	padding:2.5rem 0;
+}
+.mayProject{
+	width:80%;
+	margin:0 auto;
+	margin-bottom:4rem;
+}
+.mayProject a{
+	display:block;
+	width:100%;
+}
+.mayProject img{
+	display:block;
+	width:100%;
+}
+.mayExample{
+    display: block;
+	width:100%;
+	padding:0 1.5rem;
+	box-sizing:border-box;
+}
+.maytxt{
+	width: 95%;
+    margin: 0 auto;
+	box-sizing:border-box;
+	background:url(images/may6.png) no-repeat;
+	background-size:100% 100%;
+}
+.maytxt ul{
+    padding: 1rem;
+}
+.maytxt ul li{
+	line-height:2rem;
+	font-size:0.8rem;
+	color:#28120d;
+}
+.mayPrompt{
+	line-height:3rem;
+	padding-bottom:3.5rem;
+	text-align:center;
+font-size:0.8rem;
+color:#f1d18c;
+}

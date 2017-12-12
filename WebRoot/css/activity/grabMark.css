@@ -1,0 +1,14 @@
+.billBoard{margin-top:5%;border:2px solid #FFC852;background:#FFFDE6;clear:both;}
+#grabMark{height:424px;background:#F15036;}
+.billBoard_title{margin-top:2.5%;text-align:center;}
+.u-list-wrap li{padding-left:3%;line-height:45px;color:#333333;font-size:1.4rem;}
+.u-list-wrap li span{float:left;width:20%;}
+.u-list-wrap ul{margin-top:10px}
+.u-list-wrap li .u-giftText{float:left;padding-left:2%;width:25%;}
+.u-list-wrap li .u-giftText1{float:right;width:53%;text-align:center;}
+.billBoardBottom{margin-top:8%;background:#F14F35;color:#fff;}
+.billBoardBottom p{text-align:left;width:60%;margin:auto;line-height:25px;font-size:1.2rem;}
+.billBoardBottom p:nth-child(1){padding:3% 0 3% 0;text-align:center;font-size:2rem;font-weight: bold;}
+.coupons1,.investment{text-align:center;}
+.billBoardAll{padding-top:5%;}
+.investment a{margin-top:2%;width:30%;height:50%;display:inline-block;color:#FE492A;font-size:2rem;clear:both;border:1px solid #FE492A;border-radius:4px;}

@@ -1,0 +1,155 @@
+html{
+	font-size:62.5%;
+}
+.alpha {
+     height: 100%;
+     overflow: hidden;
+     position: relative;
+}
+.alpha body {
+     height: 100%;
+     overflow: hidden;
+}
+input{
+	border:none;
+	-webkit-appearance:none; 
+}
+input[type="text"],input[type="reset"],input[type="button"],input{-webkit-appearance:none;}
+input::-webkit-input-placeholder {
+銆��color: #fff !important; /* WebKit browsers */
+銆��}
+input:-moz-placeholder {
+銆��color: #fff !important; /* Mozilla Firefox 4 to 18 */
+}
+input::-moz-placeholder {
+銆��color: #fff !important; /* Mozilla Firefox 19+ */
+}
+input:-ms-input-placeholder {
+銆��color: #fff !important; /* Internet Explorer 10+ */
+}
+header{
+	width:100%;
+}
+header img{
+	display:block;
+	width:100%;
+}
+.newHandReward_main form{
+	  margin-top:2rem;
+    padding-left: 10%;
+    padding-right: 10%;
+    width: 100%;
+    box-sizing: border-box;
+}
+.newHandReward_main form p{
+	margin-bottom:1.5rem;
+	width:100%;
+	height:4rem;
+	
+}
+.newHandReward_main form p#prompt_txt{
+	  height: 2rem;
+    margin:0.5rem 0 0.5rem 0;
+    font-size: 1.2rem;
+    color: #ef1612;
+}
+.newHandReward_main form p:first-child input{
+	  height: 2rem;
+    line-height: 2rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    width: 92%;
+    border: 1px solid #FF5555;
+    color: #494949;
+    font-size: 1.5rem;
+    padding-left: 2rem;
+    box-sizing: content-box;
+}
+.newHandReward_main form p:nth-child(2) input:first-child{
+    height: 2rem;
+    line-height: 2rem;
+    padding:1rem 0  1rem 2rem;
+    box-sizing: content-box;
+    width: 50%;
+    border: 1px solid #FF5555;
+    color: #494949;
+    font-size: 1.5rem;
+    background-size: 1.2rem 1.6rem;
+}
+.newHandReward_main form p:nth-child(2) input:last-child{
+	width:8rem;
+	height:3rem;
+	border:1px solid #52C4FF;
+	background:#52C4FF;
+	color:#fff;
+	float:right;
+	font-size:1.5rem;
+	text-align:center;
+	margin-top: 0.8rem;
+}
+.newHandReward_main form p:last-child{
+    margin-bottom: 1.5rem;
+}
+.newHandReward_main form p input.checkbtn,newHandReward_main form p input.disbtn{
+	width:100%;
+	height:3.5rem;
+	border:1px solid #FF5556;
+	background:#FF5556;
+	color:#fff;
+	font-size:1.5rem;
+	text-align:center;
+}
+.newHandReward_main form p input.disbtn{
+	background:#bebebe;
+	border:1px solid #bebebe;
+	display:none;
+}
+.barbecueMeal_txt{
+	padding-bottom: 28%;
+	background:url(images/barbecueMeal8.png) no-repeat center top,url(images/barbecueMeal3.png) no-repeat center bottom;
+    background-size:100%;
+}
+.barbecueMeal_txt h3{
+text-align: center;
+    margin-bottom: 1rem;
+    padding-top: 1rem;
+    font-size: 1.8rem;
+    color: #fff;
+    height: 3rem;
+    line-height: 3rem;
+}
+.newHandReward_txt p{
+	padding-left:15px;
+	padding-right:15px;
+	color:#666;
+	font-size:1.4rem;
+	line-height:3rem;
+}
+.newHandReward_txt p b{
+	color:#666;
+	width:2rem;
+	float:left;
+	text-align: center;
+}
+.downLoad {
+	  width: 100%;
+    height:5rem;
+    line-height:5rem;
+    background:#C5C5C5;
+    text-align: center;
+    color: #fff;
+    font-size: 1.6rem;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+}
+.downLoad a {
+    color: #fff;
+}
+
+.nextRgister{display: none}
+.nextRgister .awardDiv{margin:1rem 2rem 2rem 2rem;height:6rem;line-height:6rem; background:url(images/netxImage.png) no-repeat center center;}
+.nextRgister .awardDiv p{text-align:center;color:#fff;}
+.nextRgister .awardDiv font{font-size:1.6rem;color:#FCF304;}
+.ngClicks{text-align:center;color:#A8A8A8;}
+.ngClicks a{color:#54CAFF;font-size:1.6rem;text-decoration: underline;}

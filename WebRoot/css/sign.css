@@ -1,0 +1,51 @@
+/*.sign1{position:relative;width:100%;height:487px;background:url('images/app/sign_01.png') no-repeat;background-size:100%;}*/
+.sign1{padding:5% 0;background:#f64840;text-align:center;}
+.sign1 p{vertical-align:middle;text-align:center;color:#fbf802;font-size:1.6rem;}
+.sign-content{position:absolute;left:24%;top:18%;font-size:1.8rem;}
+.sign-img1{position:absolute;width:50%;left:24%;bottom:25%;z-index:1;}
+.sign-img2{position:absolute;width:78%;left:12%;bottom:0;z-index:2;}
+.move-next img{display:block;margin:1.6% auto;width:4%;}
+.move-next span{display:inline-block;width:22%;height:11px;border-bottom:1px solid #fff;}
+.move-next{text-align:center;font-size:1.4rem !important;color:#fff !important;}
+.sign2{position:relative;background:#f64840;}
+.sign2 h3{padding:3% 0 6%;color:#fff;font-size:1.6rem;text-align:center;}
+.sign2 p{position:relative;z-index:2;margin:0 auto;width:94%;color:#fff;font-size:1.5rem;
+text-align: left}
+ .circle{position:absolute;z-index:1;}
+.sign2 .circle1{width:35%;left:0;top:1%;}
+.sign2 .circle2{width:15%;top:10%;right:0;}
+.sign3 .circle3{width:35%;bottom:0;left:0;}
+.sign3 .circle4{width:20%;bottom:10%;right:0;}
+.sign3{position:relative;padding:80% 0 5%;background:#f64840;text-align:center;font-size:1.2rem;color:#fff;}
+.sign3 p{position:relative;z-index:2;}
+.day_add_points{
+	position: absolute;
+	top: 28%;
+	right: 8%;
+	color: #ed4538;
+	font-size: 3rem;
+	font-weight: bold;
+	transform: rotate(12deg);
+	-ms-transform: rotate(12deg); /* IE 9 */
+	-moz-transform: rotate(12deg); /* Firefox */
+	-webkit-transform: rotate(12deg); /* Safari 和 Chrome */
+	-o-transform: rotate(12deg);
+}
+.sign_size1{
+	height: 100%;
+	width: 100%;
+}
+.sign_size2{
+	padding-top:20px;
+    height: 100%;
+    width: 100%;
+}
+
+@media screen and (max-width: 320px)  {
+    .sign-content{font-size:1.2rem;}
+    .sign1 p{font-size:1.4rem;}
+    .sign_size2{
+    height: 100%;
+    width: 100%;
+}
+}

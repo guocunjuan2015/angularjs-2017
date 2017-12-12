@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<!--
+	作者：jinyu-163@126.com
+	时间：2016-08-24
+	描述：移动端风险控制TAB页改为H5展示
+-->
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0;" name="viewport" />
+		<title>风险控制</title>
+		<link rel="stylesheet" type="text/css" href="./css/bootstrap.min.css"/>
+		<script src="./js/jquery-1.10.1.min.js"></script>
+		<script src="./js/bootstrap.min.js"></script>
+		<style>
+			*{font-size: 1.4rem;}
+			#risk{margin-left: 1rem;margin-right: 1rem;margin-top: 1rem;color: #9b9b9b;line-height: 2rem;}
+			.prjTitle{font-weight: bold;color: #4a4a4a;line-height: 3rem;}
+		</style>
+	</head>
+	<body>
+		<div id="risk"></div>
+	</body>
+	<script>
+		$(function() {
+			var loanid = getURLParam('loanid');
+			var _url = window.location.origin + '/invest/getRisk?loanid=' + loanid;
+			$.ajax({
+	        	url: _url,
+		        type: "POST",
+		        dataType: "json",
+		        success: function(data) {
+		        	// \r\n
+		        	var re = /(\r\n)/g;
+					var _risk=data.risk.replace(re, "<br>");
+					re = /(保障措施一：<br>)/g;
+					_risk=_risk.replace(re, '<div class="prjTitle">保障措施一：</div>');
+					re = /(保障措施二：<br>)/g;
+					_risk=_risk.replace(re, '<div class="prjTitle">保障措施二：</div>');
+					re = /(保障措施三：<br>)/g;
+					_risk=_risk.replace(re, '<div class="prjTitle">保障措施三：</div>');
+					re = /(保障措施四：<br>)/g;
+					_risk=_risk.replace(re, '<div class="prjTitle">保障措施四：</div>');
+					re = /(担保机构简介：<br>)/g;
+					_risk=_risk.replace(re, '<div class="prjTitle">担保机构简介：</div>');
+					
+//		        	re = /(<br>保障)/g;
+//					_risk=_risk.replace(re, "<br><br>保障");
+//		        	re = /(<br>担保机构)/g;
+//					_risk=_risk.replace(re, "<br><br>担保机构");
+		        	$('#risk').html(_risk);
+	        	}, error: function(XMLHttpRequest, textStatus, errorThrown) {
+	            	console.log(XMLHttpRequest.responseText);
+	          	}
+	        });
+		})
+		/**
+		 * 从URL中获取参数
+		 * @param {Object} name
+		 */
+		function getURLParam(name) {
+			var reg = new RegExp("(^|&)" + name + "=([^&]*)(&|$)", "i");
+			var r = window.location.search.substr(1).match(reg);
+			if(r != null) return unescape(r[2]);
+			return null;
+		}
+	</script>
+</html>

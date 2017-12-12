@@ -1,0 +1,46 @@
+/*��Ա�ȼ�*/
+.member-level{font-size:1.6rem;margin:3% auto;padding:5% 2%;background:#fff;}
+.member-level p{margin-left:5%;font-size:1.2rem;margin-top:3%;}
+.member-coupons{clear:both;color: #333;}
+.member-coupons strong{color:#f64840;}
+.btn-member-strategy{float:right;font-size:1.4rem;color:#999;border:0;background:transparent;}
+ .progress-percent{}
+ .progress-perc{width:1%;background: #ff0000;}/*���ǵ����Ա�ȼ�Ϊ2�Ŀ�ȣ�ÿ����һ���ȼ������ڿ�Ȼ����ϼ�14%*/
+.my-special{width:100%;overflow:hidden;background:#fff;}
+.my-special h3,.my-ward h3{width:96%;margin:5% auto 2%;font-size:1.6rem;color:#333;}
+.my-special ul{width:94%;margin:0 auto;}
+.my-special li{float:left;margin-bottom:5%;width:25%;height:80px;font-size:1.3rem;text-align:center;}
+.my-special li img{width:50%;}
+.my-ward{position:relative;overflow:hidden;margin:3% auto;font-size:1.6rem;background:#fff;}
+.my-ward p{width:94%;margin:0 auto 5%;color:#666;line-height:25px;}
+.ward-add{
+	display: none;
+	font-size: 0.9rem;
+	font-weight: normal;
+}
+.limit_mess{
+	font-size: 0.9rem;
+}
+.my-ward p strong{color:#f64840;}
+.btn-lottery{position:absolute;top:30px;right:15px;background:#f64840;color:#fff !important;font-size:1.6rem;}
+.tq li{
+	display:none;
+	font-size: 0.9rem;
+	font-weight:normal;
+}
+.h-title{
+	font-size: 1rem;
+}
+/*��Ա����*/
+.member1{overflow:hidden;margin:3% auto 0;background:#fff;}
+.member1 dl{margin:4% auto;width:94%;}
+.member1 dt{font-weight:normal;color:#333;font-size:1.6rem;}
+.member1 dt span:first-child{float:left;}
+.member1 dt span:last-child{float:right;padding-top:1%;color:#f64840;font-size:1.2rem;}
+.member1 dd{clear:both;padding-top:1%;font-size:1.3rem;color:#666;}
+.member2 table{margin-bottom:3%;width:94%;color:#333;}
+.member2 th,td{text-align:center;}
+.member2 table tr{line-height:20px;}
+.member2 td img{width:50%;}
+.member2 p{margin:0 auto;width:94%;font-size:1.3rem;color:#666;}
+

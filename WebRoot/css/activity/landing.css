@@ -1,0 +1,35 @@
+/*两会专题start*/
+.landingAll{background:#fff;}
+.landingHead div:nth-child(1){float:left;width:40%;}
+.landingHead div:nth-child(2){float:right;margin-top:0.6em;width:38%;}
+.landingBanner{padding-top:3em;}
+.grandTotal{font-size:1.4em;background:#F1F1F1;padding:0.5em 0.5em 0.5em 1.2em;color:#999999;}
+.grandTotal font{color:#F9766E;}
+.grandTotal span{padding-left:1.6em;background:url('../../images/activity/landing/totalBg.png') left  no-repeat;}
+.numberRun{font-size:1.2em;}
+.newsList li{float:left;width:50%;padding:2em 1em 1em 1em;text-align:center;}
+.newsList li p:nth-child(3){color:#656565;font-size:1.2em;line-height:1.6em;}
+.newsList span{padding-top:1em;padding-bottom:1em;display:inline-block;color:#f64840;font-weight:600;font-size:1.1em;}
+.landing_title{padding:1em 1em 1.5em 1em;}
+.landingRound{padding:1em;margin:1em 0 1.5em 0;border:1px solid #f64840;border-radius:6px;-webkit-border-radius:6px;background:#FBF3F0;}
+.landingRound h2{margin-top:0;padding-bottom:1em;text-align:center;color:#333;font-size:1.4em;border-bottom:1px solid #fde2e2;}
+.percentList span:nth-child(1) a{font-size:1.4em;display:block;color: #f64840;}
+.xmggdiv{padding-top:1em;}
+.percentList span:nth-child(2){font-size:1.5px;color:#999;}
+.percentList{float:left;width:50%;padding-left:1em;}
+.endlist{float:left;width:50%;}
+.endlist{font-weight:bold;}
+.endlist li{list-style:disc;color:#F64A3E;}
+.endlist li span{color:#666666;}
+.registerMe li{float:left;width:45%;padding:0.6em 1em 1.5em 1.8em;text-align:center}
+#landContent p{line-height:1.8em;}
+.coupons img{margin:1em;}
+.mediaBg,.register02{margin:1.2em}
+.mediaSaying img,.mediaSaying p,.friendBg img,.landingFooter img{margin-bottom:1em;}
+.mediaSaying p{line-height:2em;}
+.mediaSaying b{font-weight:bold;font-size:1.2em;}
+.mediaLists li{float:left;width:20%;margin-bottom:0.5em;padding-right:0.1em;}
+.marquee li{float:left;width:20%;padding:1em 0 1em 0;}
+.landingFooter{padding:3em;background:#333333;}
+.landingFooter p{text-align:center;line-height:1.5em;color:#CBCBCB;font-size:1.2em;}
+/*两会专题end*/

@@ -1,0 +1,255 @@
+
+.content {
+    margin-top: 3%;
+    position: relative
+}
+
+.head h1 {
+    background:#F64840 url('../image/lingd.png') no-repeat 97% 50%;
+    background-size: 7%;
+    padding: 2.5%;
+    text-align: center;
+    font-size: 1.625rem !important;
+    font-family: Hiragino Sans GB;
+    color: #fff;
+    vertical-align: middle;
+}
+
+.tenclock {
+    background: url('../image/tenclock.png') no-repeat 99% 0;
+    background-size: 20%;
+    overflow: hidden;
+    font-size: 1.2rem;
+    color: #fff;
+    height: 100px;
+    z-index: 3;
+    position: absolute;
+    width: 100%;
+    margin-top: -7px;
+}
+
+.tenclock span {
+    position: absolute;
+    left: 83%;
+    text-align: center;
+    height: 50px;
+    line-height: 50px;
+    display: inline-block;
+}
+
+.tenclock .clocks {
+    left: 81%;
+}
+
+.contenthead {
+    background: url('../image/newb.jpg') no-repeat;
+    background-size: 15%;
+    overflow: hidden;
+    position: absolute;
+    z-index: 3;
+    width: 100%;
+}
+
+.contenthead h3 {
+    width: 100%;
+    height: 100px;
+    font-size: 0.8125em;
+    padding: 3% 0 0 18%;
+    color: #333333;
+}
+
+
+.contentbottom {
+    background: url('../image/content.png') no-repeat 0 0;
+    background-size: 100%;
+    overflow: hidden;
+    height: 432px;
+    width: 100%;
+    position: relative;
+}
+
+.contentbottom .divqx {
+    position: absolute;
+    left: 16%;
+    top: 18%;
+    font-size: 10px;
+    color: #666666;
+}
+
+
+
+.contentbottom .divqx span {
+    color: #5abffd !important;
+}
+
+.contentbottom .divqt {
+    position: absolute;
+    right: 14%;
+    top: 22.5%;
+    font-size: 10px;
+    color: #666666;
+}
+
+.contentbottom .divqt span {
+    color: #5abffd !important;
+}
+
+.contentbottom .nianlil {
+    background: url('../image/nianlvcircle.png') no-repeat 54% 0;
+    background-size: 38%;
+    height: 258px;
+    text-align: center;
+    width: 100%;
+    overflow: hidden;
+    margin-top: 12%;
+}
+
+.contentbottom .nianlil strong {
+    font-size: 30px;
+    color: #fff;
+    margin-top: 7%;
+    font-weight: normal;
+    display: inline-block;
+}
+
+.contentbottom .nianlil span {
+    font-size: 10px;
+    color: #fff;
+}
+
+.btnbuy {
+    border: 1px solid #FF6644;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    background-color: #FF6644;
+    width: 25%;
+    margin-top: 13%;
+    padding: 1% 1%;
+    text-align: center;
+    font-size: 12px;
+    color: #fff;
+    margin-left: 36%;
+}
+
+.menulist {
+    margin-top: -56%;
+    overflow: hidden;
+}
+
+.menulist .menus {
+    margin-left: 14%;
+}
+
+.menulist .menusright {
+    float: right;
+    background: url('../image/leftarrow.png') no-repeat 0 0;
+    background-size: 50%;
+    font-size: 30px;
+    margin-top: -8%;
+    width: 5%;
+    color: #666666;
+}
+
+.menulist ul li {
+    margin-top: 5px;
+    padding: 3% 0 3% 2%;
+}
+
+.yczmenu {
+    background: #fff url('../image/ycz.jpg') no-repeat 3% 50%;
+    background-size: 8%;
+}
+
+.fllcmenu {
+    background: #fff url('../image/xm.png') no-repeat 3% 47%;
+    background-size: 8%;
+}
+
+.zqzrmenu {
+    background: #fff url('../image/zqzr.png') no-repeat 3% 50%;
+    background-size: 8%;
+    margin-bottom: 162px;
+}
+
+.menulist ul li h2 {
+    font-size: 20px;
+    color: #333333;
+    font-weight: normal;
+}
+
+.menulist ul li p {
+    font-size: 12px;
+    color: #666666;
+}
+
+.menus strong {
+    font-weight: normal;
+    color: #ff6644;
+}
+
+.navlist {
+    padding-top: 1%;
+    background-color: #fff;
+    font-size: 18px;
+    overflow: hidden;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.navlist a {
+    float: left;
+}
+
+.navlist a, .navlist p {
+    margin-left: 10%;
+}
+
+.navlist p {
+    /*padding-left: 10%;*/
+}
+
+/*以下为 5s 4s兼容样式-----------------------------------------*/
+@media screen and (max-width: 320px) { /*5s 4s的尺寸时，应用下面的CSS样式*/
+    .contentbottom .divqx {
+        left: 15%;
+    }
+
+    .contentbottom .divqt {
+        right: 14%;
+    }
+
+    .contentbottom .nianlil strong {
+        font-size: 22px;
+    }
+
+    .tenclock {
+        font-size: 0.9rem;
+    }
+
+    .tenclock span {
+        height: 35px;
+        line-height: 35px;
+    }
+
+    .contenthead h3 {
+        padding: 5% 0 0 13%;
+    }
+
+    .contentbottom {
+        height: 370px;
+    }
+
+    .navlist a, .navlist p {
+        margin-left: 8%;
+    }
+
+    .navlist a img{
+        max-width:80%;
+    }
+
+    .navlist {
+        font-size: 14px;
+    }
+}
+

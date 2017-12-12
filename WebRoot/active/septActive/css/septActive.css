@@ -1,0 +1,53 @@
+
+/*九月活动 powered by GUO CUN JUAN 20170929*/
+@charset "utf-8";
+.septActiveBody{background:#DA004E;}  
+.activybanner{margin-bottom:2rem;}
+.activeTitle{margin-top:3rem;height:4rem;text-align:center;color:#FFFFFF;opacity:.6;cursor: pointer;}
+.activeTitle img{max-width:none;width:9.2rem;}
+.activeRule{
+margin:1rem 1.6rem 2rem 1.6rem;padding:2rem;
+line-height:3rem;font-size:1.6rem;color:#61014D;
+background:#FFBAD4;display: none;border-radius:10px;
+box-shadow: inset 0px 8px 0px #DE6F99;
+}
+.lotteryTurn{text-align:center;}
+		
+/*摇一摇主页*/
+.banner-shake{position:relative;}
+.shake-box{position:absolute;top:14%;left:20.5%;width:59%;}
+.shake-box .circle{position:relative;}
+.hand-panda,#animationSandbox{position:absolute;bottom:3%;left:0;padding:1.8rem;z-index:110;}
+.oper-shake{position:relative;}
+.oper{position:absolute;width:100%;top:0;left:0; text-align:center;}
+.oper img{width:52%;margin:0 auto 1.3rem auto;}
+.oper a{color:#fff;font-size:0.92rem;}
+.result-hd{margin-top:2rem;line-height:5rem;text-align:center;font-size:1.6rem;color:#FA1F34;}
+.result-hd h4{font-size:2rem;font-weight: bold;}
+/* .result-hd p span{margin-right:4px;} */
+/* .circle-b{position:absolute;z-index:99;} */
+.lottery-msg{position:relative;}
+.lotteryImg{position:absolute;left:36%;bottom:25%;width:8rem;height:8rem;line-height:10rem;transform:rotate(-15deg);font-size:2rem;text-align:center;color:#fff;background: url("../images/redBg.png") center  center  no-repeat;background-size:5.5rem;} 
+.lotteryCoupons span{display: inline-block;margin-right:1rem;}
+.lotteryCoupons{left:40%;bottom:18%;line-height:9rem;font-size:1.6rem;transform:rotate(0);background: url("../images/couponBg.png") center  center  no-repeat;background-size:7rem;}
+.txtMsg{margin:1rem 0 1rem 0;text-align:center;color:#FA3B7D;}
+.lotteryProject{margin:1.6rem;}
+.dialog .btns{
+margin:1rem 0 1rem 0;	
+width:18rem;height:4rem;line-height:4rem;display:inline-block;text-align:center;border-radius:6px;font-size:1.6rem;color:#fff;
+background: linear-gradient(to right,#FF9BB8 1rem, #FD356E);
+font-weight:bold;
+}
+.lotteryBtn{text-align:center;}
+.lotteryProject .borderStyle{margin-bottom:1rem;border-top:1px dashed #E86BA2;height:1px;}
+
+/*透明层*/
+.bg{position:fixed;top:0;left:0;z-index:150;background:rgba(0,0,0,0.56);width:100%;height:100%;}
+
+/*弹出层*/
+.dialog{
+width:88%;position:fixed;top:7rem;left:6%;z-index:155;
+background:#fff;
+border-radius:0.8rem;
+}
+.login{width:88%;position:fixed;top:7rem;left:6%;z-index:155;display: none}

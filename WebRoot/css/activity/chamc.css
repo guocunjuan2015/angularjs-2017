@@ -1,0 +1,33 @@
+/*����*/
+.chamcs{padding:20px 0;background:#d74049;}
+.chamc{margin:0 auto;width:80%;height:125px;background:#d74049 url('../../images/activity/chamc/chamc2.png') no-repeat;background-size:100%;}
+.chamc_arrow{margin:0 auto;width:100%;height:175px;background:#d74049 url('../../images/activity/chamc/chamc_bottom_arrow.png') no-repeat;background-size:100%;}
+.chamc1{margin-top:30px;line-height:25px;text-align:center;font-size:1.2rem;color:#d74049;}
+.chamc2{overflow:hidden;padding:5% 0;line-height:25px;font-size:1.2rem;color:#fff;background:#d74049;}
+.centerdiv{margin:0 auto;width:94%;}
+.centerdiv>span{font-size:1.2rem;}
+.chamc2>ul{overflow:hidden;}
+.chamc2>ul>li{float:left;}
+.chamc2>ul>li:nth-child(1){width:35%;font-size:1.4rem;font-weight:700;}
+.chamc2>ul>li:nth-child(2){width:65%;}
+.chamc2 strong{font-size:1.4rem;}
+.huar1,.huar2{display:inline-block;width:100px;height:34px;border:1px solid #fff;}
+.huar1{background:url('../../images/activity/chamc/hr_01.png') center no-repeat;background-size:80%;}
+.huar2{background:url('../../images/activity/chamc/hr_02.png') center no-repeat;background-size:80%;}
+.hr_images{text-align:center;padding-top:10px;}
+.hr_images img{margin-bottom:3%;}
+.carousels{margin-top:50px;}
+.carousels h3{text-align:center;color:#d74049;font-size:30px;}
+.carousel-caption{font-size:1.4rem;color:#fff;text-align:center;}
+#myCarousels img{margin:0 auto;}
+/*���Сͼ���ִ�ͼcss*/
+#fancybox-outer{background:transparent !important;}
+/*���Сͼ���ִ�ͼcss END*/
+@media screen and (max-width: 550px){
+    .huar1,.huar2{width:90px;height:34px;}
+}
+@media screen and (min-width: 550px) {
+    .chamc{height:240px;}
+    .huar1,.huar2{width:180px;height:44px;}
+}
+

@@ -1,0 +1,118 @@
+
+/*九月活动 powered by GUO CUN JUAN 20170929*/
+@charset "utf-8";
+.highPurchaseBody{background:#F6CF24;}  
+.couponContainer{ margin-top:-18px;max-height:28rem;min-height:27rem;background: url("../images/card_bg.png") top no-repeat;background-size:100% 100%;}
+.couponList li{float:left;margin:0 0 0 1rem;width:45%;}
+.couponList div{margin-bottom:1rem;/* height:9rem; */min-height: 14.8rem;max-height: 15rem;background: url("../images/listBg.png") center  center no-repeat;background-size:100%;}
+.couponList div p{line-height:2rem;font-size:2.3rem;text-align:center;color:#29c0f7;}
+.couponNum{padding-top:7rem;}
+.couponList span{font-size:1.4rem;}
+.couponInfo{font-size:1.4rem !important;}
+.couponList button,.addCouponZone button
+ {
+    text-align: center;
+    width: 10rem;
+    height: 2.8rem;
+    color: #fff;
+    font-size: 1.3rem;
+    line-height: 2rem;
+    background: url(../images/btnBg.png) center center no-repeat;
+    background-size: 100% 100%;
+    border: none;
+}
+.couponList li{text-align:center;}
+.receiveBorder{
+	  width: 95%;
+    min-height: 21rem;
+    max-height: 22rem;
+    margin: 0 auto;
+    background: url(../images/borderBgs.png) center top no-repeat;
+    background-size: 100% 100%;
+}
+.unReceive{
+    width: 95%;
+    min-height: 21rem;
+    max-height: 22rem;
+    margin: 0 auto;
+    background: url(../images/defaultStyle.png) center top no-repeat;
+    background-size: contain;
+}
+.receiveBorder .swiper-container{padding-top:3.5rem;height:10rem;} 
+.receiveBorder .swiper-container img{max-width:none; width:13rem;}
+.receiveBorder .swiper-slide {text-align:center;}
+.swiper-button-next, .swiper-container-rtl .swiper-button-prev{top:8.5rem; right: 50% !important;margin-right: -11rem;width:3.4rem;height:3.4rem;background: url("../images/button-prev.png") left  center  no-repeat;background-size:2.4rem; }
+.swiper-button-prev, .swiper-container-rtl .swiper-button-next{top:8.5rem;left:50% !important;margin-left: -11rem;width:3.4rem;height:3.4rem;background: url("../images/button-next.png") left  center no-repeat;background-size:2.4rem;}
+.receiveBtn{text-align:right;margin-right:2rem;line-height:3rem;}
+.receiveBtn a{text-decoration: underline;color:#44089E;}
+.activeRule{
+margin:1rem;padding:1rem;
+line-height:2.6rem;font-size:1.2rem;color:#fff;
+background:#44089E;border-radius:4px;
+
+}
+.activeRule a{color:#fff}
+.dialog table{margin:1rem 0 2rem 3%;width:94%;}
+.dialog td{padding:0.4rem;font-size:1rem;}
+.dialog tr{text-align:center;}
+.dialog h4{padding-top:1rem;line-height:2rem;text-align:center;font-size:1rem;color:#F1431B;}
+.raiders-frist{background:#fff !important;}
+.raiders tr:nth-child(odd){background:#F3FDE5;}
+.raiders tr:nth-child(even){background:#FDF0E5;}
+.couponContainer li{float:left;width: 50%;}
+/* .couponContainer li:nth-child(2){margin-left:15%;} */
+.couponContainer li p{line-height:3.6rem;font-size:1.6rem;color:#333;}
+.couponContainer li input {padding-left:1rem;width:10rem;height:2.4rem;font-size:1rem;border:1px solid #959595}
+.couponContainer ul{padding:9rem 0 0 15%;height:6.5rem;clear:both;}
+.addCouponZone{margin-top:0.3rem;text-align:center;}
+.couponContainer select{width: 9.5rem;height:2.5rem;border:1px solid #959595}
+.addCouponZone span{margin-left:1rem;width:26px;height:26px;line-height:26px;color:#fff;border-radius:50%;background:#44089E;text-align:center;display: inline-block; cursor: pointer}
+.swiper-button-next.swiper-button-white, .swiper-container-rtl .swiper-button-prev.swiper-button-white
+{
+
+	
+}
+.swiper-button-prev.swiper-button-white, .swiper-container-rtl .swiper-button-next.swiper-button-white
+{
+	right:0;width:2.4rem;height:2.4rem;background: url("../images/button-next.png") left  center no-repeat;background-size:2.4rem;
+}
+.errInfo{/* margin:1.6rem 0 1.5rem 0; */height:3.2rem;line-height:3.2rem;font-size:1.2rem;clear:both;color:#F3441B;text-align:center;}
+.resetGray,.clickReceive{
+	
+	 -webkit-filter: grayscale(100%);
+    -moz-filter: grayscale(100%);
+    -ms-filter: grayscale(100%);
+    -o-filter: grayscale(100%);
+    
+    filter: grayscale(100%);
+  
+    filter: gray;
+}
+.goGift{text-align:center;font-size:1.2rem;line-height:2rem;}
+.goGift a{color:#3aa8fc;}
+/*透明层*/
+.bg{position:fixed;top:0;left:0;z-index:150;background:rgba(0,0,0,0.56);width:100%;height:100%;}
+.
+/*弹出层*/
+.dialog{
+width:88%;position:fixed;top:7rem;left:6%;z-index:155;
+background:#fff;
+border-radius:10px;
+padding-bottom:1.5rem;
+
+}
+.close_btn,.close_share {
+    position: absolute;
+    right: 6px;
+    top: -4rem;
+    font-size: 40px;
+    color:#fff;
+    cursor:pointer;
+    width:2.5rem;
+    height:2.5rem;
+    line-height:2.5rem;
+    text-align:center;
+    border-radius:50%;
+    font-size:2rem;
+    border:2px solid #fff;
+}

@@ -1,0 +1,230 @@
+html{
+	font-size:10px;
+}
+.alpha {
+     height: 100%;
+     overflow: hidden;
+     position: relative;
+}
+.alpha body {
+     height: 100%;
+     overflow: hidden;
+}
+input{
+	border:none;
+	-webkit-appearance:none; 
+}
+input[type="text"],input[type="reset"],input[type="button"],input{-webkit-appearance:none;}
+input::-webkit-input-placeholder {
+　　color: #fff !important; /* WebKit browsers */
+　　}
+input:-moz-placeholder {
+　　color: #fff !important; /* Mozilla Firefox 4 to 18 */
+}
+input::-moz-placeholder {
+　　color: #fff !important; /* Mozilla Firefox 19+ */
+}
+input:-ms-input-placeholder {
+　　color: #fff !important; /* Internet Explorer 10+ */
+}
+header{
+	width:100%;
+}
+header img{
+	display:block;
+	width:100%;
+}
+.mar_main{
+	width:100%;
+}
+.mar{
+    width: 100%;
+    background: url(images/mar2.png) no-repeat;
+    background-size: 100% 100%;
+    top: -8.7rem;
+    z-index: 9;
+    position: relative;
+    padding-bottom:25rem;
+}
+.mar_choice{
+    width: 84.5%;
+    margin: 0 auto;
+    background: url(images/mar4.png) no-repeat center 10.5rem;
+	padding-top: 13.5rem;
+    background-size: 100% 67.5%;
+}
+.mar_img1{
+	display: block;
+	width:13.3rem;
+	margin:0 auto;
+}
+.mar_form{
+	padding: 1.5rem;
+}
+.mar_form p{
+	height:3.5rem;
+}
+.mar_form p img{
+	width:7.2rem;
+	height:1.5rem;
+	margin-top:0.9rem;
+}
+.mar_form p:nth-child(2) img{
+	width:9rem;
+}
+.mar_form p input#money,.mar_form p select{
+	width:55%;
+	height:3rem;
+	border:2px solid #68aa00;
+	border-radius:1rem;
+	font-size:1.2rem;
+	padding-left:0.3rem;
+	margin-left:0.3rem;
+    box-sizing: content-box;
+}
+.mar_form p.msg{
+	height:1.9rem;
+	line-height:1.9rem;
+	color:orangered;
+	font-size:1.2rem;
+}
+.mar_form p input#submit_btn{
+	width: 11rem;
+	height:2.6rem;
+	display:block;
+    margin: 0 auto;
+    background: url(images/mar5.png) no-repeat center;
+    background-size: 100%;
+}
+.mb1{
+	margin-bottom:1rem;
+}
+@media(max-width:320px){
+	.mar{
+		padding-bottom: 22rem;
+	}
+	.mar_choice{
+	    background-size: 100% 69%;
+	    padding-bottom: 1rem;
+	}
+	.mar_form p{
+		height:auto;
+	}
+	.mar_form p img{
+	    float: none;
+	    display: block;
+   		margin: 0.5rem auto;
+	}
+	.mar_form p input#money,.mar_form p select{
+		margin: 0 auto;
+    	display: block;
+		width: 80%;
+	}
+}
+.mar_txt{
+	background:#3d8107;
+	margin-top: -9rem;
+}
+.mar_txt h3{
+text-align: center;
+    padding-top: 1rem;
+}
+.mar_txt h3 img{
+	width:9.4rem;
+	margin:0 auto;
+}
+.mar_txt p{
+    padding-right: 2rem;
+    color: #fff;
+    font-size: 1.2rem;
+    line-height: 1.8rem;
+    background: url(images/mar9.png) no-repeat 2rem 0.8rem;
+    background-size: 0.5rem 0.4rem;
+    padding-left: 2.8rem;
+}
+.mar_txt p:last-child{
+	background:none;
+	padding: 1rem 0;
+	text-align:center;
+}
+.loading{
+	position:fixed;
+	left:0;
+	top:0;
+	width:100%;
+	height:100%;
+	z-index:999;
+	background:rgba(0,0,0,0.2);
+	display:none;
+}
+.loading img{
+	position:absolute;
+	left:50%;
+	top:30%;
+	width:1.6rem;
+	margin-left:-0.8rem;
+	
+}
+/*弹出框*/
+.loanDirlog{
+	position: fixed;
+    width: 100%;
+    min-width: 1100px;
+    height: 100%;
+    background: rgba(0,0,0,0.6);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#99000000,endColorstr=#99000000);
+    z-index: 999;
+    top: 0;
+    display:none;
+}
+.msgTxt,.msgTxt2{
+	position:fixed;
+	left:50%;
+	z-index: 1111;
+    top: 10%;
+	margin-left:-36%;
+	width:72%;
+	background: rgba(255,255,255,0.8);
+	border-radius:1.2rem;
+	display:none;
+}
+.msgTxt p:first-child,.msgTxt2 p:first-child{
+    min-height: 3rem;
+    line-height: 2rem;
+    color: #000;
+    font-size: 1.5rem;
+    padding: 1rem;
+    text-align: center;
+    border-bottom: 1px solid rgba(77,77,77,0.78);
+}
+.msgTxt p:last-child,.msgTxt2 p:last-child{
+	height:4.3rem;
+	line-height:4.3rem;
+	color:rgb(0,118,255);
+	font-size:1.7rem;
+	text-align:center;
+	
+}
+.msgTxt p a{
+	float:left;
+	width:50%;
+	text-align: center;
+	font-size: 1.4rem;
+	color: rgb(0,118,255);
+	box-sizing:border-box;
+	    
+}
+.msgTxt2 p a{
+	width:100%;
+	text-align: center;
+	font-size: 1.4rem;
+	color: rgb(0,118,255);
+	box-sizing:border-box;
+	    
+}
+.msgTxt p a:first-child{
+	border-right: 1px solid rgba(77,77,77,0.78);
+}
+svg{
+	display: none;
+}

@@ -1,0 +1,261 @@
+.coupons {
+	width: 94%;
+	overflow: hidden;
+	margin: 2% auto;
+	border-top: 2px solid #F64840;
+	border-radius: 2px;
+	-webkit-border-radius: 2px;
+	-moz-border-radius: 2px;
+	box-shadow: 3px 3px 8px #999;
+	-moz-box-shadow: 3px 3px 8px #999;
+	-webkit-box-shadow: 3px 3px 8px #999;
+	background-color: #FCFBFB;
+}
+
+.coupons-left {
+	float: left;
+	line-height: 17px;
+	width: 37%;
+}
+
+.coupons-right {
+	float: right;
+	line-height: 25px;
+	color: #333;
+	width: 62.8%;
+}
+
+.coupons-top {
+	overflow: hidden;
+	border-bottom: 2px dotted #F64840;
+	border-radius: 3px;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+}
+
+.coupons-left, .coupons-right {
+	border-top: 2px dotted #F64840;
+	padding: 9% 3% 5%;
+	margin-top: -1px;
+}
+
+.cop-strong{
+	color: #f64840;
+	font-size: 3rem;
+	font-weight: normal;
+	display: inline-block;
+	margin-top: 5%;
+}
+
+.coupons-left .span1 {
+	font-size: 1.2rem;
+	display: block;
+}
+
+.coupons-right .span4 {
+	color: #666;
+	font-size: 1.4rem;
+}
+
+.coupons-right .span2 {
+	color: #333;
+	display: block;
+	font-size: 1.6rem;
+}
+
+.coupons-bottom {
+	clear: both;
+	overflow: hidden;
+	background-color: #F64840;
+	padding: 1.6% 2%;
+	font-size: 1.3rem;
+	border-radius: 3px;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	color: #fff;
+	margin-top: -1px;
+}
+
+.coupons-bottom .span3 {
+	float: right;
+}
+
+@media screen and (max-width: 320px) {
+	.coupons-left strong {
+		font-size: 2.56rem;
+	}
+	.coupons-left .span1 {
+		font-size: 1rem;
+	}
+	.coupons-right .span2 {
+		font-size: 1.4rem;
+	}
+	.coupons-right .span4 {
+		font-size: 1.2rem;
+	}
+}
+
+.coupon_tab table {
+	width: 100%;
+	background: #fff;
+}
+
+.coupon_tab table tr {
+	text-align: center;
+	height: 45px;
+	line-height: 45px;
+}
+
+.coupon_tab table  td {
+	border-right: 1px solid #f1f1f1;
+}
+
+.tab_choosed {
+	border-bottom: 3px solid #f64841;
+}
+
+.font-grey {
+	color: #a0a0a0;
+}
+.bg-grey{
+	background-color: #a8a8a8;
+}
+.border-bottom-grey{
+	border-bottom: 2px dotted #ccc;
+}
+.border-top-grey{
+	border-top: 2px dotted #ccc;
+}
+.border-grey{
+	border-top: 2px solid #ccc;
+}
+.cop_div{
+	padding: 15px 10px;
+	background: #fff;
+}
+.cop_table{
+	width: 100%;
+	font-size: 16px;
+	color: #333;
+}
+.cop_table tr{
+	text-align: center
+}
+.cop_table tr td{
+    text-align: center;
+    width: 50%;
+}
+.td-border-right{
+	border-right: 1px solid #f1f1f1;
+}
+.coupon-more{
+    background:#fff url('../images/leftarrow.png') no-repeat 96.5% 50%;
+    background-size:2.5%;
+    color:#333;
+    font-size:1.6rem;
+    overflow:hidden;
+    margin:3% auto 0.5%;
+    padding:4%;
+}
+#bg {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    margin: 0 auto;
+    background-color: #282727;
+    z-index: 98;
+    left: 0;
+    top: 50px;
+    display: none;
+    opacity: 0.9;
+    filter: alpha(opacity = 90);
+    -moz-opacity: 0.9;
+}
+.illus{
+	position: absolute;
+    width: 100%;
+    padding-left: 20px;
+    padding-right: 20px;
+    display: none;
+    padding-top:25px;
+    padding-bottom:25px;
+    background-color: #fff;
+    z-index: 99;
+    left: 0;
+    top: 50px;
+    color: #666;
+}
+.illus p {
+	margin-bottom: 5px;
+}
+.coupon_table{
+	width: 100%;
+	background: #fff;
+	margin-bottom: 10px;
+	color: #333;
+}
+.coupon_table tr{
+	text-align: center;
+	height: 48px;
+}
+.coupon_table tr td{
+	text-align: center;
+	width: 33.3%;
+	border-right: 1.5px solid #f1f1f1;
+}
+.red_border_btm{
+	border-bottom: 2.5px solid #f00;
+}
+.none_border_btm{
+	border-bottom: none;
+}
+.use_coupon{
+	height: 60px;
+	line-height: 60px;
+	background: #fff;
+	border-top: 1px solid #f1f1f1;
+	color: #333;
+	font-size: 15px;
+}
+.ml10{
+	margin-left: 10px;
+}
+.last_sp{
+	float: right;
+	margin-right: 10px;
+}
+.rq_box{
+	float: right;
+	margin-top: 4.9%;
+	margin-right: 10px;
+}
+.rqb_val{
+	color: #f00;
+}
+.r{
+	position: relative;
+}
+.tz_box{
+	float: right;
+	position: absolute;
+	top: 32%;
+	right: 2%;
+}
+
+
+/*20170113微信新版本改版start*/
+.gifBox{background:#F5F4F4;}
+.myGiftBox{padding:1.5rem 1rem 0  1rem ;background:#F5F4F4;}
+.myGift{padding:1.5rem;background:#fff;}
+.rightIcon1{position:absolute;right:-1rem;top:2rem;width:2rem;height:2rem;background:url('../images/pic1.jpg') right no-repeat;background-size:cover;}
+.myGiftL{float:left;width:30%;}
+.myGift p,.myGift li{color:#4a4a4a;}
+.myGift li{line-height:2.2rem;list-style:disc;}
+.myGiftL p b{font-size:3.2rem;}
+.myGiftL p:first-child{color:#ff5555;}
+.myGiftR{float:left;position:relative;margin-left:1rem;width:65%;}
+.noCoupon{padding:16rem 0 16rem 0;display:none;}
+.noCoupon p{line-height:3rem;text-align:center;color:#9B9B9B;}
+.noCoupon  img{width:10rem;}
+/*20170113微信新版本改版end*/

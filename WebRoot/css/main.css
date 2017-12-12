@@ -1,0 +1,431 @@
+@charset "utf-8";
+
+/*title*/
+.home_title{ background:#333; color: #fff; position:relative;text-align:center;}
+.red_bg{
+	background: #f64840;
+}
+.sp_titile_right{
+	display:block;
+	position:absolute; top:0px;right:0px;
+	padding:0 15px 0 15px;
+}
+.sp_titile_left{
+    display:block;
+    font-size:14px;
+    position:absolute; top:0px;right:0px;
+    padding:0 15px 0 110px;
+}
+.titile_left{
+    display:block;
+    font-size:14px;
+    position:absolute; top:0px;left:0px;
+    padding:0 0 0 10px;
+}
+
+.home_title_red{
+	background: #f64840 none repeat scroll 0 0;
+    color: #fff;
+    font-size: 1.8rem !important;
+    padding: 2.5%;
+    position: relative;
+    text-align: center;
+    vertical-align: middle;
+}
+li{list-style-type:none;}
+.smaller-font{
+	font-size: 16px;
+}
+.home_title a.icon-back{ position:absolute; left:0; top:0; font-size:5rem;  color:#FFF; line-height:83px; }
+.home_title a.icon-ying{ position:absolute; left:0; top:0; font-size:5rem;  color:#FFF; line-height:83px; }
+.home_title a.icon-zhong{ position:absolute; left:0; top:0; font-size:5rem;  color:#FFF; line-height:83px; }
+.home_title a.icon-sysset{ position:absolute; right:10px; top:0; font-size:4rem;  color:#FFF; line-height:83px; }
+.btips{line-height: 300%;border-top: 1px solid #4c4b4b;}
+.downloading{background-color: #333;color: #fff;padding:0 15px;text-align: center;}
+.close{color: #fff;margin-top: 7px;}
+
+.mp0{margin: 0;padding: 0;}
+.mt10{margin-top: 10px;}
+.mt20{margin-top: 20px;}
+.ml20{margin-left: 20px;}
+.mb20{margin-bottom: 20px;}
+.pl10{padding-left: 10px;}
+.w25{width: 25%}
+.w30{width: 30%}
+.w70{width: 70%}
+.lh200{line-height: 200%}
+.lh300{line-height: 300%}
+.lh500{line-height: 500%}
+.pr{position: relative;}
+.pa{position: absolute;}
+.t-ajus{text-align:justify; text-justify:inter-ideograph; }
+.advbox{padding: 15px; margin-top: 30px; border-radius: 8px;background-color: #fff;border: 1px solid #a4a4a4}
+.readall{border-top: 1px solid #eff1f3;padding-top: 15px;}
+.readall .d-img,.table-card>tbody>tr>td>.d-img,.d-img{background: url(../images/detaile.png) 50% 50% no-repeat;background-size:70%;display: inline-block;width: 12px;height: 20px;}
+.pc-direction .d-img{margin:20px 8px 0 0;}
+.text-muted2{color: #ddd}
+.text-muted9{color: #666}
+.idCardBtn{
+display: block;
+    width: 64%;
+    height: 4rem;
+    margin: 0 auto;
+    margin-top: 2rem;
+    line-height: 4rem;
+    font-size: 1.7rem;
+    text-align: center;
+    color: #fff;
+    background: rgb(233,71,71);
+    -webkit-box-shadow: 0 3px 10px rgba(246,110,110,0.8);
+    -moz-box-shadow: 0 3px 10px rgba(246,110,110,0.8);
+    box-shadow: 0 3px 10px rgba(246,110,110,0.8);
+    border-radius: 2.4rem;
+    border: none;}
+.tab{border: 1px solid #f64840; background-color: #fff;line-height: 300%; margin: 10px 0 0 0}
+.tab .tab1{text-align: center; color: #f64840;padding: 0;}
+.tab .tabactive{background-color: #f64840;color: #fff}
+.tab .tab-bod{ border-right: 1px solid #f64840 }
+.licai-box tr{
+	    width: 100%;
+    height: 4.6rem;
+    line-height: 4.6rem;
+    background: #fff;
+    margin-bottom: 1px;
+    border-bottom:1px solid #f5f4f4;
+}
+.licai-box tr td.w25{
+	padding:0;
+    padding-left: 1.4rem;
+	line-height: 4.6rem;
+    font-size: 1.4rem;
+    color: rgb(102,102,102);
+    font-weight: normal;
+	border: none;
+}
+.licai-box tr td.text-left{
+    width: 60%;
+    padding: 0;
+    background: none;
+    border: none;
+    font-size: 1.4rem;
+    color: rgb(102,102,102);
+    text-align: left;
+    border: none;
+}
+.licai-box tr td.text-left input{
+	width:100%;
+	height:100%;
+	border:none;
+}
+.licai-box h4{color: #333;padding:2% 0;}
+.licai-box .text-primary{color: #73CAFF}
+.lc-list, .lc-list .lc01{margin: 0; padding: 0;}
+.lc-list .lc01 .st01{font-size: 2rem;}
+.pc-list .pc01{border-right: 1px solid #eff1f3}
+.progress-b{position: relative; margin:10px 0 20px; width:90%;}
+.progress-b,.green-scoll{background-color: #e8e9ec;height: 4px; border-radius: 4px;}
+.green-scoll{border-radius: 4px 0 0 4px; width: 50%; background-color: #81c96f;}
+.green-point{ width: 24px;height: 24px; line-height: 24px; text-align:center; border-radius: 24px; display: block;background-color: #81c96f;color: #fff;position: absolute;left: 50%; top:-9px; font-size: 1rem;}
+
+.progress-b,.grey-scoll{background-color: #e8e9ec;height: 4px; border-radius: 4px;}
+.grey-scoll{border-radius: 4px 0 0 4px; width: 50%; background-color: #aaa;}
+.grey-point{ width: 24px; height: 24px; line-height: 24px; text-align:center; border-radius: 24px; display: block;background-color: #aaa;color: #fff;position: absolute;left: 50%; top:-9px; font-size: 1rem;}
+
+.table{margin-bottom: 0;border: none;
+}
+.btn-primary{background: #5fbcff;border: 1px solid #5fbcff;}
+.btn-warning{background: #aaa;border: 1px solid #aaa;}
+
+.table-card>tbody>tr>td{vertical-align: middle;}
+.add-card{font-size: 2rem; padding-right: 6px;}
+.pc-img-show{padding: 10px 0; }
+.pc-img-show .img-responsive{border-radius: 6px;}
+.pc-p-info{padding: 10px 0 0; line-height: 200%;}
+.logo-login{background-color: #fff;padding:6px 15px 4px;}
+.coupon-list{ margin-top: -26%;}
+.coupon-list{padding-left: 6%;}
+.coupon-list h1 {margin-top: 12px}
+.coupon-list h1 span.rmb{font-size: 2rem;}
+
+.error_info{width:100%;color:red;text-align:center;margin-top:10px}
+
+div.div-hidden{display:none}
+div.div-show{dipslay:block}
+
+/*=========================320*480=========================================*/
+@media screen and (min-width: 320px) and (max-width: 600px){
+.home_title{height: 45px;line-height: 45px;font-size: 1.8rem}
+
+}
+
+@media screen and (min-width: 600px) and (max-width: 1024px){
+.home_title{height: 70px;line-height: 70px;font-size: 2rem}
+}
+
+@media screen and (min-width: 1024px){
+.home_title{height:70px; line-height:70px; font-size:2.2rem; }}
+
+#span_toggle{
+	display: block;
+}
+#get_radio_code_in_project{
+	width:100%;
+	font-weight: bold;
+}
+.td-bottom-line{
+	border-bottom: 1px solid #ccc;
+}
+#no_data_div{
+	padding-top: 10px;
+	padding-bottom: 10px;
+	text-align: center;
+	background: #fff;
+	color:#333;
+	font-size:1.4rem;
+	margin-top: 1px;
+	
+	-moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+}
+#space_div{
+	height: 40px;
+}
+.guarantee-font{
+	font-size: 16px;
+}
+.lb_disabled{
+	display:none;
+}
+.lb_active{
+	display: block;
+	margin-top: 2px;
+}
+.danger_info{
+	color:#f64840;
+	border-bottom:1px solid #f5f4f4;
+}
+.safe_info{
+	background: #f2f0f1;
+	color: #666;
+	padding-left: 3rem;
+	font-size: 1.5rem;
+	padding: 15px 10px;
+}
+.bottom_text{
+	margin-top: 15px;
+}
+.bottom_text p {
+	margin:0;
+	padding: 1px 10px;
+	color: #676767;
+	font-size: 1.6rem;
+}
+.bank_select{
+    width: 65%;
+    height: 3rem;
+    border: none;
+}
+.bank-details li{
+    width: 100%;
+    height: 4.6rem;
+    line-height: 4.6rem;
+    background: #fff;
+    margin-bottom: 1px;
+}
+.bankinfo-tips{
+	padding: 2rem 1rem;
+    font-size: 1.5rem;
+    color: #333;
+}
+.bankcard-tips p{
+	text-align:center;
+	padding-top:5rem;
+	font-size: 1.5rem;
+    color: #333;
+}
+.menus{
+	float:left;
+	width:6rem;
+	text-align:right;
+	margin-right:1rem;
+
+}
+.get_code{
+	color: #f6483d;
+	border: none;
+	background: none;
+}
+#no_accept_code{
+	background: none;
+}
+#no_accept_code div{
+	color: #73c7fc;
+	text-align:right;
+	margin-right: 15px;
+}
+
+.text-right{width:45%;}
+.align_right{
+	margin-right: 15px;
+	float: right;
+}
+.align_left{
+    float: left;
+    margin-left: 15px;
+}
+.record_body{
+	
+}
+.record_body tr{
+	margin: 1px 2%;
+	background: #fff;
+	-moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+     height: 55px;
+}
+
+/*angular改版*/
+.accountInfo li{
+	background:#fff;
+	width:100%;
+	box-sizing:border-box;
+	height:4.6rem;
+	line-height:4.6rem;
+	margin-bottom:1px;
+	font-size:1.4rem;
+	color:rgb(74,74,74);
+	padding-left:1.4rem;
+	
+}
+.accountInfo li a{
+	display:block;
+	background:#fff;
+	width:100%;
+	height:4.6rem;
+	line-height:4.6rem;
+	margin-bottom:1px;
+	font-size:1.4rem;
+	color:rgb(74,74,74);
+}
+.accountInfo li.mb1{
+	margin-bottom:0.6rem;
+	height:5.4rem;
+	line-height:5.4rem;
+}
+.accountInfo li span{
+	color:rgb(155,155,155);
+	margin-right:0.4rem;
+}
+.accountInfo li span.mr14{
+	margin-right:1.4rem;
+}
+.accountInfo li span.clickImg{
+background: url(../images/detaile.png) right center no-repeat;
+    background-size: 1rem 1.6rem;
+    display: inline-block;
+    width: 1.2rem;
+    height: 4.6rem;
+    margin-right:1.4rem;
+}
+/*绑卡*/
+.banks-info{
+	    width: 100%;
+    height: 100%;
+    position: absolute;
+    background: #fff;
+}
+.banks{
+    width: 77%;
+    margin: 0 auto;
+    margin-top: 3.2rem;
+    background: url(../images/addBank.png) center center no-repeat;
+    background-size: 100%;
+    border-radius: 0.9rem;
+}
+.banks span.bank-name{
+	padding: 1.5rem 0;
+}
+.banks span.alopen {
+    color: rgb(155,155,155);
+    font-size: 1.1rem;
+    padding-top: 1.5rem;
+    padding-right: 1.4rem;
+}
+.banks span.bank-card {
+	display:block;
+    padding-top: 7.5rem;
+    color: rgb(74,74,74);
+    font-size: 1.6rem;
+    padding-left: 1.8rem;
+    padding-bottom: 1.8rem;
+}
+.banks .openFastBtn{
+	    margin: 1rem;
+    background: none;
+    border: none;
+    color: #f64840;
+    font-size: 1.2rem;
+    line-height: 2rem;
+}
+/*绑卡*/
+.addBankSec {
+    width: 200%;
+}
+.bank-details, .bankAccount {
+    width: 50%;
+    float: left;
+}
+.bank-details li input#bank_select{
+    width: 60%;
+    padding: 0;
+    background: none;
+    border: none;
+    font-size: 1.4rem;
+    color: rgb(155,155,155);
+    text-align: left;
+}
+.bank {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background: #fff;
+}
+.bankList{
+	width:100%;
+}
+.bankList dl{
+	background:#fff;
+	margin-bottom:1px;
+}
+.bankList dl:nth-child(2n){
+	background:#f5f5f5;
+}
+.bankList dl.dlAct{
+	background:#fff url(../images/act.jpg) 96% center no-repeat;
+    background-size: 2.6rem 2.6rem;
+}
+.bankList dl dt{
+	width:3.2rem;
+	height:3.2rem;
+	padding:2.1rem 1.4rem;
+	box-sizing: content-box;
+}
+.bankList dl dt img{
+	width:3.2rem;
+	height:3.2rem;
+}
+.bankList dl dd h3{
+	padding-top:1.6rem;
+	font-size:1.8rem;
+	line-height:2rem;
+	color:#656565;
+	font-family:"PingFang SC Light Light";
+}
+.bankList dl dd p{
+	padding-top:0.4rem;
+	font-size:1.2rem;
+	line-height:1.7rem;
+	color:#999;
+}

@@ -1,0 +1,61 @@
+/*京资产20160801 powered by GUO CUN JUAN*/
+#huarongTopicBox,html{font-size: 62.5%;background:#fff;}
+.corTopic{margin:2rem 0 1rem 0;height:42px;line-height:40px;font-size:1.4rem;color:#000;}
+.corTopic b{float:left;margin:-2rem 0 0 6%;padding:0 0 16px 3.3rem;width:30%;height:6rem;line-height:6rem;text-align:center;display:inline-block;}
+.companyIntro b{background:url(images/infor1.png) left center  no-repeat; background-size:20% }
+.assetsFeatures b{background:url(images/infor2.png)  left center  no-repeat; background-size:20%}
+.displayQuali b{background:url(images/infor3.png)  left center  no-repeat; background-size:20%}
+.businessModelt b{background:url(images/infor4.png)  left center  no-repeat; background-size:20%}
+.businessModelt{padding:30px 0 30px 0;}
+.controlSystem b{background:url(images/infor5.png)  left center  no-repeat; background-size:20%}
+.developPath b{background:url(images/infor6.png)  left center  no-repeat; background-size:20%}
+.corTopic .enterInfor_l{float:left;width:30%;}
+.businessModels{margin:1rem 1rem 0 1rem;line-height:3rem;font-size:1.4rem;}
+.enterInfor_r{float:right;width:30%;}
+.enterInfor_r hr,.enterInfor_l hr{margin-top:6px;margin-bottom:6px;border-top:1px solid #000}
+.enterInfor_r hr:nth-child(2),.enterInfor_l hr:nth-child(2){border-top:1px solid #6FADE9}
+.corTopic_li{margin:1rem 1rem 0 1rem;}
+.corTopic_li p font{color:#965B0E;}
+.corTopic_li p{font-size:1.2rem;text-indent:20px;line-height:3rem;color:#5B5B5B}
+.boldTitle1{font-size:1.6rem;text-align:center;}
+.boldTitle1 .span01{margin-right:16px;width:10px;height:10px;background:#6FADE9;display:inline-block;}
+.boldTitle1 .span02{margin-left:12px;width:10px;height:10px;background:#6FADE9;display:inline-block;}
+.develoInfor{margin:2rem 1rem 1rem 1rem ;line-height:3rem;font-size:1.2rem;text-indent:20px;color:#5B5B5B;}
+/* .developDiv{border-top:1px solid #000;} */
+.tradingChart{padding-top:60px;}
+.riskProtection{margin:1rem;}
+/* #businessLicense li:nth-child(2n-1){margin:0 2% 0 0;} */
+#businessLicense li{margin:0 2% 1rem 0;width:31% !important;text-align:center;
+background: -webkit-linear-gradient(#E8E8E8, #CACACA); /* Safari 5.1 - 6.0 */
+background: -o-linear-gradient(#E8E8E8, #CACACA); /* Opera 11.1 - 12.0 */
+background: -moz-linear-gradient(#E8E8E8, #CACACA); /* Firefox 3.6 - 15 */
+background: linear-gradient(#E8E8E8, #CACACA); /* 标准的语法 */
+border:1px solid #EBEBEB;border-radius:20px;
+}
+.featuresList{position:relative;margin-top:4px;border:1px solid #000;}
+.featuresR{border-left:2px dashed #555;}
+.featuresList p{font-size:1.2rem;line-height:3rem;color:#5B5B5B;}
+.featuresList div{padding:0 1rem 0 1rem;}
+.featuresList p:first-child{margin-top:2rem;text-indent:20px;}
+.featuresList p:last-child{margin-bottom:1rem;}
+.features_m{position:absolute;padding:0 !important;top:-1.5rem;left:5%;width:15rem;background:#fff;font-size:1.6rem;}
+.featuresList .span01{margin-left:2rem;}
+.features_w{position:absolute;padding:0 !important;top:-1.5rem;right:6%;width:15rem;background:#fff;font-size:1.6rem;}
+.span01{margin-right:16px;width:12px;height:12px;background:#6FADE9;display:inline-block;}
+.span02{margin-left:12px;width:12px;height:12px;background:#6FADE9;display:inline-block;}
+/* #businessLicense li img{margin:2rem;} */
+#businessLicense img[src$="license7.png"],#businessLicense img[src$="license8.png"],#businessLicense img[src$="license9.png"],#businessLicense img[src$="license10.png"]{margin:2rem 2rem 2rem 0.5rem !important;}
+#lightbox-secNav-btnClose{display: none !important;}
+.joinBtn{margin-top:2rem;width:25rem;height:4rem;line-height:3rem;font-size:2rem;color:#fff;background:#736CFF;border:1px solid #736CFF !important; border-radius:5px;}
+.joinBtn:hover{background:#736CFF;border:1px solid #736CFF !important;}
+.joinBox {
+    width: 100%;
+    position: fixed;
+    padding-top:1rem;
+    padding-bottom:1rem;
+    bottom: 0;
+    z-index: 11;
+    background: rgba(255,255,255,0.9);
+    text-align:center;
+} 
+

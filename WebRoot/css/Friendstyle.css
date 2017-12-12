@@ -1,0 +1,87 @@
+
+.rulehead h1 {
+    position:relative;
+    background:#F64840;background-size:3%;
+    padding: 2.5%;
+    text-align: center;
+    font-size: 1.8rem !important;
+    color: #fff;
+    vertical-align: middle;
+}
+.rulehead h1 span{
+    position:absolute;
+    display: inline-block;
+    right:3%;
+    top:40%;
+    font-size:1.2rem;
+}
+/*�����Ƽ�����ҳ�������ʽ*/
+.rule{font-size:1.4rem;padding:4% 0;background-color:#fff;}
+.rule p{width:94%;margin:6% auto 0;}
+.rule span{margin-left:2%;}
+.friend-rule .hgroup{padding: 4% 0;}
+.friend-rule h2{text-align:center;font-size:1.4rem;color:#333;margin-bottom:1%;}
+.friend-rule h6{text-align:center;font-size:1.2rem;color:#f64840;}
+.friend-rule .lasttd{width:68%;text-align:left;word-break: break-all;border-right:0;border-left:1px solid #FBC6A4;color:#333333 !important;}
+.friend-rule .lastth{width:68%;text-align:center;word-break: break-all;border-right:0;border-left:1px solid #FBC6A4;color:#333333 !important;}
+.friend-rule .contenttable{clear:both;background-color:#FEF3EC;overflow:hidden;width:94%;margin:0 auto;}
+.friend-rule table{width:96%;margin:2% auto;}
+.friend-rule table th,.friend-rule table td{
+    width:27%;
+    font-size:1.4rem;
+    font-weight:normal;
+    padding:2%;
+    color:#666666;
+    vertical-align:top;
+    border-right:1px solid #FBC6A4;
+    text-align:center;
+}
+
+.friend-rule tr{text-align:left; border-bottom:1px solid #FBC6A4;
+}
+.friend-rule .contenttable .lasttr{border-bottom:0;}
+
+/*�����Ƽ�ҳ�������ʽ*/
+.friend-title{color:#333;font-size:1.6rem;width:100%;background-color:#fff;overflow:hidden;margin:0 auto 0.3%;padding:4% 3%;}
+.friend-title-two{float:right;}
+.recommand{
+    background:#fff url('../images/leftarrow.png') no-repeat 96.5% 50%;
+    background-size:2.5%;
+    color:#333;
+    font-size:1.6rem;
+    overflow:hidden;
+    margin:3% auto 0.5%;
+    padding:4%;
+}
+.no-bg-url{
+	background:#fff;
+}
+.join-type{overflow:hidden;position:absolute;bottom:2%;}
+.join-type>p{text-align:center;width:80%;margin:3% auto 0;font-size:1.4rem;color:#999;}
+.plandiv{margin:0 auto;overflow:hidden;width:96%;}
+.plandiv ul li{margin:4.5% 0 0;float:left;width:25%;padding:0 2%;text-align:center;}
+.plandiv li p{font-size:14px;color:#333;margin-top:5px;}
+
+@media screen and (max-width: 320px)  {
+
+}
+
+.refer_table{
+	width: 100%;
+	margin-top: 10px;
+}
+.refer_table tr th{
+	text-align: center;
+}
+.refer_table tr td{
+	text-align: center;
+}
+.refer_table tr{
+	background: #fff;
+	height: 60px;
+	border-top: 1px solid #f1f1f1;
+}
+#refer_table_th_tr{
+	background: #f2f2f2;
+	height: 40px;
+}

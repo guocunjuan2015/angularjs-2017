@@ -1,0 +1,42 @@
+.user-level,.new-task{background:#fff;overflow:hidden;margin-top:2%;}
+.user-level i{position:relative;float:left;display:inline-block;width:59px;height:59px; }
+.user-level i img{position:absolute;right:0px;top:30%;display:inline-block;width:50%;}
+.user-level dt,.user-level dd{float:left;width:50%;margin-left:4.5%;margin-top:2%;}
+.user-level dt{font-size:1.6rem;font-weight:normal;color:#333;}
+.user-level dd{font-size:1.6rem;color:#666;}
+.new-task-details dt span,.user-level dt span,.new-task-details dd span,.user-level dd span{color:#f64840;}
+.new-task>dl>dt{border-bottom:1px solid #f2f1f1;padding:3%;font-size:1.6rem;color:#333;font-weight:normal;}
+.new-task>dl>dd{overflow:hidden;padding-bottom:2%;border-bottom:1px solid #f2f1f1;}
+.new-task-details dt,.new-task-details dd{float:left;width:52%;}
+.new-task-details dt{font-size:1.6rem;font-weight:normal;color:#333;margin-top:2.5%;}
+.new-task-details dd{font-size:1.3rem;font-weight:normal;color:#666;margin-top:1%;}
+.icon-qian,.icon-ump,.icon-charge,.icon-reflect,.icon-tou,.icon-add{float:left;display:inline-block;width:80px;height:61px;}
+.icon-ump{ background:url('../images/ump.png') 40% 50% no-repeat;background-size:58%;}
+.icon-charge{ background:url('../images/charge.png') 40% 50% no-repeat;background-size:50%;}
+.icon-reflect{ background:url('../images/ti.png') 40% 50% no-repeat;background-size:66%;}
+.icon-qian{ background:url('../images/qian.png') 40% 90% no-repeat;background-size:50%;}
+.icon-tou{ background:url('../images/tou.png') 40% 50% no-repeat;background-size:50%;}
+.icon-add{background:url('../images/jia1.png') 40% 90% no-repeat;background-size:50%;}
+.btn-circle-grey,.btn-circle-red,.btn-border-red,.btn-border-grey{
+    float:right;
+   margin: -2.5% 3% 0 0;
+  width:18%;
+   padding:1% 0;
+    font-size:1.6rem;
+    border:0;
+    border-radius:5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+}
+.btn-circle-grey{color:#fff;background:#999;}/*�û���ͨ�󱳾�ɫΪ��ɫ*/
+.btn-circle-red{background:#f64840;color:#fff;}/*�û���ͨ�󱳾�ɫΪ��ɫ*/
+.btn-border-red{border:1px solid #f64840;background:#fff;color:#f64840;}/*�û�δ���״̬*/
+.btn-border-grey{border:1px solid #999;color:#999;background:#fff;}/*�û����ɵ��*/
+.user-tips{padding:4% 0;}
+.user-tips p{text-align:center;font-size:1.2rem;color:#666;line-height:20px;}
+.user-tips p span{color:#7ecdfe;}
+@media screen and (max-width: 320px)  {
+    .btn-circle-red,.btn-border-red{font-size:1.4rem;}
+
+
+}

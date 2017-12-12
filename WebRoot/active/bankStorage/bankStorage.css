@@ -1,0 +1,8 @@
+.copyRight p{text-align:center;color:#fff;}
+.copyRight .pWord2 a{width:21.7rem;height:4rem;line-height:4rem;font-size:1.5rem;color:#fff;display:inline-block;background: url("images/openBg.png") center center  no-repeat;background-size:14rem;}
+.copyRight{background:url(images/copyRightBg.png) no-repeat center;}
+.pWord1{padding-top:2rem;}
+.pWord2{margin:1rem 0 1rem 0;}
+.pWord3{padding:1rem 0 1rem 0;line-height:3rem;border-top:1px solid #fff;}
+.pWord3 span{padding-left:2.8rem;display:inline-block;background:url(images/telBg.png) no-repeat left;}
+.pWord3 a{color:#fff;}

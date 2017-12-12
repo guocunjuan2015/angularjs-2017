@@ -1,0 +1,42 @@
+body,html{font-size: 62.5%;color: #4A4A4A;background: #f4f4f4;}
+.clear{clear: both;}
+.clearfix:after {content: "."; display: block; height:0; clear:both; visibility: hidden;}
+.clearfix { *zoom:1; }
+
+/*导航*/
+.sec_nav{height: 3.8rem;background:#ffffff !important;clear: both;}
+.nav_myGift{padding: 0 14px;width:100%;clear:both; box-sizing: border-box;}
+.nav_myGift li{float: left;height: 3.8rem;width:33%;box-sizing: border-box;font-size: 1.9rem;text-align: center;line-height: 3.8rem;}
+.active_li{border-bottom: 2px solid #FF5555;color: #FF5555;}
+/*奖品*/
+.myView{display:none;width:100%;height: auto; box-sizing: border-box;padding: 0.6rem 14px 0;}
+.myView ul{background: #fff;margin-bottom:1rem;}
+.myView img{width: 100%;}
+.myView ul li:nth-child(1){overflow:hidden;width: 100%;height: 10.5rem;background:#fff url(../images/gift.png) no-repeat;background-size: 100% 100%;}
+.myView ul li .divLeft{width:50%;float: left;}
+.myView ul li .pImg{margin:1rem 0 0 2rem;width: 5.1rem;height: 5.1rem;border-radius: 100px;background: #fff;}
+.myView ul li .pImg img{width: 100%;height : auto;}
+.myView ul li .validity{margin: 3px 0 0 2.1rem;color: #93c1fb;font-size: 1.3rem;;}
+.myView ul li .divRight{float: right;margin-top:2rem;width:50%;color: #fff;}
+.myView ul li .couponNum{position:relative;}
+.myView .coupons li #btnInput{position: absolute;top: 10px;left: 85px; width: 100px;height: 40px;border: none;opacity: 0;}
+.myView ul li .giftTxt{height: 2.4rem;font-size: 1.9rem;width:100%;white-space: nowrap;overflow: hidden;text-overflow: ellipsis;}
+.myView ul li .getWay{font-size: 1.2rem;width:100%;white-space: nowrap;overflow: hidden;text-overflow: ellipsis;}
+.myView ul .noGive{font-size:1.3rem;text-indent: 3.2rem;text-decoration: underline; width: 100%;height: 3.2rem;line-height: 2.8rem;color: #4d98f5;background: url(../images/dian.png) no-repeat 1.9rem 1.2rem;background-size: 6px 6px;}
+.myView ul .foo{ border:none;text-decoration: underline;color: #4d98f5;margin-top: -4px;}
+.myView ul .couponNum{font-size:1.3rem;text-indent: 3.2rem;color: #9b9b9b; width: 100%;height: 3.2rem;line-height: 2.8rem;background: url(../images/dian.png) no-repeat 1.9rem 1.2rem;background-size: 6px 6px;}
+.giftShow{margin-bottom:1rem;}
+.myView:nth-child(2) ul li:nth-child(1){background:#fff url(../images/red.png) no-repeat;background-size: 100% 100%;}
+.myView:nth-child(3) ul li:nth-child(1){background:#fff url(../images/quan.png) no-repeat;background-size: 100% 100%;}
+.myView:nth-child(2) ul li .validity{color: #ffa898;}
+.myView:nth-child(3) ul li .validity{color: #fee998;}
+.divLeft .money{margin:2rem 0 0 1.9rem;width: 100%;height: 3.8rem;color:#fff;font-size: 1.8rem;}
+.divLeft .money span{font-size: 4.3rem;}
+.divLeft .validity{width:153px;}
+.limitDiv{width: 100%;height: 3.2rem;line-height: 2.8rem;font-size:1.3rem;color: #adadad;}
+.limitDiv p:nth-child(1){float:left;width: 38%;height: 3.2rem;text-indent: 2rem;background: url(../images/dian.png) no-repeat 1rem 1.2rem;background-size: 6px 6px;}
+.limitDiv p:nth-child(2){float:left;width: 62%;height: 3.2rem;text-indent: 1.1rem;background: url(../images/dian.png) no-repeat 0 1.2rem;background-size: 6px 6px;}
+
+@media only screen and (max-width:320px){
+	.limitDiv{font-size:9px;}
+}

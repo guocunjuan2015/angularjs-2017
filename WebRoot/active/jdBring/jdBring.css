@@ -1,0 +1,35 @@
+/*201700823 浜笢E鍗″ぇ鏀鹃�侊拷byguocunjuan*/
+header{padding:1.2rem 0 3.6rem 0;}
+header img{float:left;max-width:none;width:17rem;}
+header a{float:right;width:6rem;height:2.6rem;line-height:2.6rem;border:1px solid #FF6300;display:inline-block;text-align: center;border-radius: 4px;}
+#activeBanner{margin:1rem 0 1rem 0;}
+#activeBanner .swiper-button-prev{width:50px;height:50px;background: url("image/button-prev.png") left  center  no-repeat;background-size:2.4rem;}
+#activeBanner .swiper-button-next{right:0;width:40px;height:50px;background: url("image/button-next.png") left  center no-repeat;background-size:2.4rem;}
+.joinWay p,.advantage p,.tip p,footer p,.investToGift p,.activeRule p{text-align:center;}
+.title1,.title2{margin:2rem 0 2rem 0;max-width:none;width:25rem;}
+.freeImg{padding:2rem 0 1.5rem 0;}
+.investImg{margin:2rem 0 2rem 0;}
+.advantageLi li{margin:2rem 0 2rem 0;line-height:4rem;font-size:1.6rem;}
+.activeRule img[src$='activeRuleImg.png']{cursor: pointer;}
+.activeRule img[src$='activeRuleImg.png']{max-width:none;width:11rem;}
+.smallTitle1{max-width:none;width:14rem;}
+.tip{margin-bottom:11.2rem;}
+.tip p{line-height:4rem;font-size:1.4rem;color:#BBBBBB;}
+footer{position:fixed;width:100%;bottom:0;padding:2rem 0 2.2rem 0;z-index:9999999;background:#FB944B;font-size:1.6rem;color:#fff;}
+footer b{font-size:1.8rem;color:#FFE900;}
+footer div{margin-top:1.2rem;}
+footer #mobile{float:left;margin:0 1rem 0 2rem;padding-left:1rem;width:45%;height:3.2rem;line-height:3.2rem;color:#BABABA;border:none;}
+footer #registerBtn{float:left;width:38%;height:3.2rem;line-height:3rem;font-size:1.4rem;background:#EF4B05;border-radius:6px;border:1px solid #EF4B05;}
+.activeBox,.investToGift,header{margin:0 1.5rem 0 1.5rem;}
+.dialog{width:90%;height:26rem;left:5%;right:5%;border-radius:6px;}
+.dialog p{margin:0 1rem 0 1rem;line-height:3rem;font-size:1.4rem;color:#878787;}
+.dialog h4{margin-bottom:2rem;line-height:4rem;font-size:1.6rem;background:#FF6725;color:#fff;text-align:center; border-top-left-radius:6px;border-top-right-radius:6px;}
+.close_btn,.close_share {
+    position: absolute;
+    right: 6px;
+    top: -8px;
+    font-size: 40px;
+    color:#fff;
+    cursor:pointer;
+}
+#error_info{padding-top:1rem;display: none;color:#fff;clear:both}

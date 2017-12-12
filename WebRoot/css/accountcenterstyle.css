@@ -1,0 +1,300 @@
+.zc-block{display:block;}
+a{
+	text-decoration: none;
+}
+.accounthead{
+	width: 100%;
+    background: url(../images/user_bg.png) no-repeat;
+    background-size: 100% 100%;
+    overflow: hidden;
+    position: relative;
+    padding: 0 1rem;
+    padding-bottom: 1rem;
+    box-sizing: border-box;
+}
+.accounthead-newinfo{
+	width: 1.7rem;
+    height: 1.5rem;
+    background: url(../images/lingd.png) no-repeat right center;
+    background-size: contain;
+	right: 10px;
+    top: 10px;
+    position: absolute;
+    z-index: 98;
+}
+.accounthead-newinfo-red{
+	width: 2.1rem;
+    height: 1.9rem;
+    background: url(../images/lingdred.png) no-repeat right center;
+    background-size: contain;
+	right: 10px;
+    top: 10px;
+    position: absolute;
+    z-index: 98;
+    -webkit-animation: alarm-2 200ms infinite;
+    animation: alarm-2 200ms infinite;
+}
+@-webkit-keyframes alarm-2 {
+  0% {
+    -webkit-transform: rotate(0deg);
+  }
+  34% {
+    -webkit-transform: rotate(13deg);
+  }
+  67% {
+    -webkit-transform: rotate(-7deg);
+  }
+  100% {
+    -webkit-transform: rotate(0deg);
+  }
+}
+@keyframes alarm-2 {
+  0% {
+    transform: rotate(0deg);
+  }
+  34% {
+    transform: rotate(13deg);
+  }
+  67% {
+    transform: rotate(-7deg);
+  }
+  100% {
+    transform: rotate(0deg);
+  }
+}
+.signing{position:absolute;top:4%;right:15%;padding:1% 2%;border:1px solid #fff;border-radius:6px;-webkit-border-radius:6px;-moz-border-radius:6px;color:#fff;background:transparent;
+z-index: 99;font-size: 1.3rem;}
+.signing a{
+	color: #fff;
+	text-decoration: none;
+}
+.accounthead-ewm{background:url(../images/ewm.png) no-repeat 97% 58%;background-size:12%;width:50%;height:37px;position:absolute;right:1%;}
+/*用户*/
+.accounthead-userhead{
+	margin: 0 auto;
+    margin-top: 2.2rem;
+    width: 6.9rem;
+    position: relative;
+}
+.accounthead-userhead img{margin:0 auto; border-radius:50%;-webkit-border-radius:50%;width:100%;height:100%;}
+.accounthead-assets h3{
+	text-align:center;
+	font-size:2.6rem;
+	line-height:3.2rem;
+	color:#fff;
+	text-shadow: 0px 2px 3px rgba(0,0,0,.8);
+}
+.accounthead-assets p{
+	text-align:center;
+	font-size:1.2rem;
+	color:#fff;
+	line-height:1.4rem;
+	margin-bottom:1.8rem;
+}
+.accounthead-vip{
+	position:absolute;
+	background:url('../images/vip.png') no-repeat;
+	background-size: contain;
+	bottom:0.2rem;
+	right:0;
+	width:2.2rem;
+	height:2.3rem;
+	line-height: 1.9rem;
+	text-align:center;
+	font-size:1rem;
+	color:rgb(139,87,42);
+}
+.accounthead-detailed{
+	border-top:1px solid rgb(201,201,201);
+	width:100%;
+	display:-moz-box;
+    display:-webkit-box;
+    display:box;
+}
+.accounthead-detailed div{
+	-moz-box-flex:1;
+    -webkit-box-flex:1;
+    box-flex:1;
+    box-sizing:border-box;
+    margin-top:1rem;
+    color:#fff;
+    text-align:center;
+}
+.accounthead-detailed div h3{
+	font-size:2rem;
+	line-height:2.3rem;
+}
+.accounthead-detailed div p{
+	font-size:1rem;
+	line-height:1.2rem;
+}
+.accounthead-detailed div:first-child{
+	border-right:2px solid rgb(219,213,206);
+	
+}
+
+.userzcsection{
+	width:100%;
+	margin-bottom:0.6rem;
+	background-color:#fff;
+}
+.userzc{
+	overflow:hidden;
+	width:100%;
+	margin:0 auto;
+	padding:0 1.3rem;
+	box-sizing:border-box;
+}
+.zc{
+	float:left;
+	display:inline-block;
+	width:50%;
+	font-size:1rem;
+	color:rgb(155,155,155);
+    padding: 2rem 0;
+}
+#user_total{
+	font-size: 2.0rem;
+	line-height:2.8rem;
+	color: rgb(255,85,85);
+}
+.btn-size{
+	width:22%;
+	height:2.8rem;
+	font-size: 1.3rem;
+	border-radius:2.2rem;
+	display:inline-block;
+	margin:2.2rem 0;
+    padding: 0;
+    color:#fff;
+	background: rgb(255,85,85);
+}
+.btn-size:first-child{
+	margin-right:1rem;
+}
+.btn-primary{
+background:rgb(211,198,192);
+}
+.zc strong{font-size:2rem !important;color:#f64840 !important;font-weight:normal;}
+.zc-zjdetails{text-align:right;}
+
+
+.userzc-sy{border-top:1px solid #F4F3F3;width:94%;overflow:hidden;margin:0 auto;padding:2% 1%;}
+.userzc-sy ul li{float:left;width:50%;border-right:1px solid #F4F3F3;color:#666666;}
+.userzc-sy ul li strong{font-size:1.5rem;color:#f64840 !important;font-weight:normal;}
+.zc-padding{padding-left:5% !important;}
+.btn-handler{margin:4% 10% 3.1%;overflow:hidden;width:100%;}
+
+/*账户分支 */
+.userBranch{
+	width:100%;
+	background:#fff;
+}
+.userBranch ul{
+	width:100%;
+	overflow:hidden;
+	margin: 0;
+}
+.userBranch ul li{
+	width:33.3%;
+	float:left;
+}
+.userBranch ul li a{
+	display:block;
+	text-decoration: none;
+}
+.userBranch ul li a dl{
+	width:100%;
+	padding:3rem 0;
+	border-right:1px solid #f5f4f4;
+	border-bottom:1px solid #f5f4f4;
+	margin: 0;
+}
+.userBranch ul li a dl dt{
+    width: 3.1rem;
+	height: 3.1rem;
+    margin: 0 auto;
+    padding-bottom:1rem;
+}
+.userBranch ul li a dl dt img{
+	display:block;
+	width:100%;
+}
+.userBranch ul li a dl dd{
+	text-align:center;
+	font-size:1.4rem;
+	color:rgb(74,74,74);
+	
+}
+.errorTxt{
+	position: fixed;
+    z-index: 99;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    background: #fff;
+    text-align: center;
+    font-size: 1.4rem;
+    color: rgb(74,74,74);
+    line-height: 10rem;
+}
+.fixedDirlog{
+    position: fixed;
+    width: 100%;
+    min-width: 1100px;
+    height: 100%;
+    background: rgba(0,0,0,0.6);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#99000000,endColorstr=#99000000);
+    z-index: 999;
+    top: 0;
+    display: none;
+}
+.realName,.tieOnCard,.realNameOrCard,.indexPrompt,.balanceBox,.withdrawCashBox,.feeIntro{
+    position: absolute;
+    left: 50%;
+    z-index: 1111;
+    top: 20%;
+    margin-left: -36%;
+    width: 72%;
+    background: rgba(255,255,255,0.8);
+    border-radius: 1.2rem;
+    display: none;
+}
+.realName h3,.tieOnCard h3,.feeIntro h3,.withdrawCashBox h3{
+	line-height: 3rem;
+    color: #000;
+    font-size: 1.6rem;
+    text-align: center;
+    padding-top:1rem;
+}
+.realName p:nth-child(2),.tieOnCard p:nth-child(2){
+	line-height: 3rem;
+    color: #000;
+    font-size: 1.4rem;
+    text-align: center;
+    padding-bottom:0.5rem;
+    border-bottom: 1px solid rgba(77,77,77,0.78);
+}
+.realName p:last-child,.tieOnCard p:last-child,.feeIntro{
+	line-height: 4rem;
+}
+.realName p a,.tieOnCard p a{
+	float:left;
+	width:50%;
+	text-align: center;
+	font-size: 1.4rem;
+	color: rgb(0,118,255);
+	box-sizing:border-box;
+	    
+}
+.realName p a:first-child{
+	border-right: 1px solid rgba(77,77,77,0.78);
+}
+.realNameOrCard,.balanceBox{background:#fff;}
+.realNameOrCard .custodyTie,.balanceBox .custodyTie{margin:1.6rem 0 1.6rem 0;padding:0 2rem 0 2rem;font-size:1.2rem;text-align:center;line-height:2.6rem;}
+.custodyImg,.goOpened{text-align:center;}
+.custodyImg img{width:15rem;}
+.goOpened{margin:1.4rem 0 1.4rem 0;}
+.goOpened a{width:14rem;height:4rem;line-height:3rem;background:#FF5655;}
+.closeNameOrCard,.closeFeeOrCash{position:absolute;right:12px;top:0;font-size:50px;color:#fff;opacity:.6;font-family:"宋体"}
+

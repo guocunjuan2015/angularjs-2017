@@ -1,0 +1,16 @@
+/*分公司专题页面START*/
+.branchBox{background: #CD132A;}
+.companyWord font{display:inline-block;width:99px;line-height:33px;background:#AD0B20;color:#fff;font-size:1.6rem;}
+.companyWord p{text-align:center;}
+.companyWord{margin-top:8%;}
+.IntroInformation{margin-left:6%;padding:6% 8% 6% 8%;color:#fff;font-size:1.4rem;line-height:26px;}
+.IntroInformation p:nth-child(1),.IntroInformation p:nth-child(6){text-indent:30px;}
+.IntroInformation p{line-height:40px;}
+.companyAddress{margin:auto;padding:10% 0 10% 0;width:50%;color:#fff;font-size:1.4rem;line-height:32px;}
+.meetingProcess{/* Firefox */display:-moz-box;-moz-box-pack:center;-moz-box-align:center;
+/* Safari, Chrome, and Opera */display:-webkit-box;-webkit-box-pack:center;-webkit-box-align:center;
+/* W3C */display:box;box-pack:center;box-align:center;}
+.transBg{background:url('../images/festival/transBg.png') bottom center no-repeat;}
+
+/*分公司专题页面end*/
+

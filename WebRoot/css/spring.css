@@ -1,0 +1,34 @@
+/*春来播种*/
+.spring{background:url('../images/festival//spring_bg.png') repeat;}
+.spring-table table{width:80%;margin:0 auto;}
+.rewards{overflow:hidden;background:url('../images/festival//bg2.png') repeat-y;background-size:100%;}
+.reward{margin:0 auto;width:90%;font-size:1.6rem;color:#548b02;}
+.reward img{width:100%;margin-top:20%;}
+.reward h3{width:150px;font-size:1.2rem;text-align:center;padding:5px 10px;border:1px solid #548b02;border-radius:100px;}
+.reward p{width:100%;font-size:1.2rem;margin-left:10%;line-height:25px;}
+.reward .left_box{float:left;width:45%;}
+.reward .content_box{margin-top:10%;}
+.reward .right_box{float:right;width:55%;}
+.reward a{padding:5px 10px;color:#fff !important;border-radius:3px;-webkit-border-radius:3px;background:#e50666;}
+.reward .sy{color:#0c607f;text-decoration:underline;}
+.price{font-size:28px;color:#f64840}
+.active_rule{overflow:hidden;padding:20px 0;background:url('../images/festival//bg2.png') repeat-y;background-size:100%;}
+.active_rule span{margin-top:6%;width:30%;height:1px;border-bottom:2px solid #638c30;}
+.active_rule .line_left{float:left;}
+.active_rule .line_right{float:right;}
+.active_rule h3 img{float:left;margin-left:6%;width:30%;}
+.active_details{width:92%;margin:20px auto 0;line-height:25px;font-size:1.2rem;color:#548b02;}
+.active_rule table{margin:0 auto;width:90%;color:#345700;}
+.active_rule table th{padding-left:5px;width:25%;text-align:center;font-size:1.4rem;border-bottom:2px solid #638c30;border-top:2px solid #638c30;line-height:40px;}
+.active_rule table td{padding-left:5px;width:25%;font-size:1.2rem;border-bottom:2px dashed #638c30;}
+.active_rule table th:first-child{background:url('../images/festival//td_bg1.png')  no-repeat;background-size:100%;}
+.active_rule table th:last-child{background:url('../images/festival//td_bg2.png') 100% 0  no-repeat;background-size:100%;}
+.active_rule table td:last-child{text-align:center;}
+.tips{font-size:1.2rem;color:#345700;text-align:center;}
+.content_margin{padding-left:5%;}
+@media screen and (max-width:320px){
+    .tips{font-size:0.8rem;}
+    .reward .left_box{float:left;width:48%;}
+    .reward .right_box{float:right;width:52%;}
+    .content_margin{padding-left:0;}
+}

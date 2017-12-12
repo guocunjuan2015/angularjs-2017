@@ -1,0 +1,50 @@
+img{border:0;display: block;}
+.wxBox {
+    position: absolute;
+    width: 100%;
+}
+/*投资成功*/
+.successimg{
+	width:14rem;
+	margin:2rem auto;
+}
+.successh3{
+	padding-bottom:2rem;
+	font-size: 2.2rem;
+	color: #4a4a4a;
+	text-align: center;
+}
+.successdiv{
+	margin-top:1.8rem;
+}
+.successdiv p{
+	padding:0 15px 0 15px;
+	border-bottom:2px solid #F5F4F4;
+	font-size: 1.4rem;
+	color:#9B9B9B;
+	line-height:4rem;
+}
+.successdiv p span{float:right;}
+.successdiv p a{
+	display:inline-block;
+	margin-top: 
+	width:100%;
+	margin-top: 15px;
+	height: 45px;
+	line-height: 45px;
+	text-align: center;
+	color: #fff;
+	border-radius: 5px;
+	text-decoration: none;
+}
+.successdiv p a.successShare{
+	margin-top: 80px;
+	background:#f64840;
+}
+.successdiv p a.successCheck{
+	width:23rem;
+	height:4rem;
+	line-height:4.2rem;
+	background:#ff5555;
+	border-radius:20px;
+}

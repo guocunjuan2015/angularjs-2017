@@ -1,0 +1,181 @@
+#div_no_projects {
+	display: none;
+	background: #fff;
+	height: 60px;
+	line-height: 60px;
+	text-align: center;
+	font-size: larger;
+	margin-top: 8px;
+}
+
+#div_invest_per10000 {
+	text-align: center;
+}
+
+#div_invest_per10000 span {
+	font-size: larger;
+	font-weight: bold;
+	color: #f00;
+}
+
+.qb_checkbox {
+	float: right;
+	background: #ff0;
+	text-align: center;
+}
+
+.sp_qb_value {
+	font-weight: bold;
+	color: #f00;
+	margin-left: 20px;
+	font-size: larger;
+}
+
+.cop_div {
+	background: #ccc;
+	border-bottom: 1px solid #ccc;
+}
+
+#cop_table {
+	width: 70%;
+	background: #ff0;
+	margin-left: 20px;
+}
+
+#cop_table tr {
+	height: 50px;
+	line-height: 50px;
+}
+
+.sp_qb_box {
+	float: right;
+	background: #ff0;
+	display: block;
+	height: 80px;
+	line-height: 80px;
+	margin-right: 20px;
+}
+
+#qb_div {
+	background: url("../images/4_bg.jpg") no-repeat center left;
+}
+
+#qb_div table tr {
+	height: 40px;
+	line-height: 40px;
+}
+
+#sp_confirm_usecop {
+	display: block;
+	background: #ff0;
+	position: absolute;
+	float: right;
+}
+
+#coupon {
+	margin-right: 10px;
+	font-weight: bold;
+}
+
+#show_choose_div {
+	height: 30px;
+	line-height: 30px;
+	text-align: center;
+	background: #ededed;
+}
+
+#show_choose_div span {
+	font-size: larger;
+	color: #f00;
+	font-weight: bold;
+}
+
+#div_no_cop_record {
+	text-align: center;
+	display: none;
+	height: 50px;
+	line-height: 45px;
+	font-size: 15px;
+	color: #333;
+}
+
+#phone_code_div {
+	height: 30px;
+	line-height: 30px;
+	text-align: right;
+}
+
+.font_weight {
+	font-weight: bold;
+}
+
+.larger_font {
+	font-size: larger;
+}
+
+#transfer_intro_div {
+	color: red;
+	text-align: center;
+	margin: 0 20px 10px 20px;
+}
+
+#transfer_intro_div span {
+	color: #73CAFF;
+}
+
+#transfer_rool_sp {
+	text-decoration: underline;
+}
+
+.transfer_img {
+	text-align: center;
+	margin-left: 2px;
+}
+
+.transfer_div {
+	margin: 0 0 0 -2%;
+	background: #f2f2f2;
+	border-left: 0.5px solid #ddd;
+	border-bottom: 1px solid #ddd;
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	border-radius: 4px;
+}
+.transfer_div_desc{
+	background: #f2f2f2;
+	border-left: 0.5px solid #ddd;
+	border-bottom: 1px solid #ddd;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+}
+
+#project_container{
+	text-align: left;
+}
+.to-share-details-div{
+    height: 50px;
+    line-height:50px;
+    background: #ff0;
+    color: #333;
+    background: #fbf5d1;
+    font-size: 16px;
+    text-decoration: underline;
+}
+.to-share-left-bg{
+    background: url(../images/laba.png) 8% center no-repeat;
+    background-size:6%;
+    padding-left: 13%;
+    height: 50px;
+}
+
+.details_top{
+	background: url(../images/bg_desc.png) no-repeat center center;
+}
+.details_top li{
+	list-style: none;
+	display: inline-block;
+}
+.ul_li1{
+	
+}

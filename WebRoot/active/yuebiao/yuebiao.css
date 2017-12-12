@@ -1,0 +1,15 @@
+/*���º��*/
+#yuebiaoBody{background:#FFED7D;}
+.title1{margin:2rem 0 1rem 0;text-align:center;}
+.yuebiaoTable{position:relative;margin:0 1rem 3rem 0.8rem;display:table;width:94%;border-collapse:collapse;border:1px solid #FD4F3D;}
+.yuebiaoTable .table-row-group{display:table-row-group;}
+.yuebiaoTable .table-row{display:table-row;}
+.table-cell{display:table-cell;padding:1rem 0 1rem 0;font-size:1.6rem;color:#333333;text-align:center;border:1px solid #FD4F3D;}
+.title2{margin:2rem 1rem 0 1rem;font-size:1.3rem;line-height:28px;color:#333333;}
+.title3{padding:0 1rem 0 1rem ;color:#333333;}
+.title4{margin:2rem 0 5.4rem 0;background:#FFD26B;}
+.title4 p{padding:1.6rem 0 1.4rem 0;text-align:center;}
+.yuebiaoFooter{position:fixed;bottom:0;width:100%;height:4rem;line-height:4rem;background:#EF4747;font-size:1.8rem;color:#fff;}
+.yuebiaoFooter p{text-align:center;}
+.yuebiaoFooter p span{padding:12px 0 0 24px;background: url('image/tel.png') left bottom  no-repeat;}
+.title6{position:relative;float:right;bottom:50px;z-index:99;}

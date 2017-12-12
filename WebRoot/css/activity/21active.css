@@ -1,0 +1,143 @@
+/*5.21投资见面会活动 by guocunjuan*/
+.topic1{ background:url(../../images/activity/21active/titleBg.png)  no-repeat; background-size:100% 100%;}
+.topic1 p{line-height:20px;text-align:center;color:#FFEF01;font-size:1.4rem;}
+#gifts{border:2px solid #B1271D;display:inline-block; border-radius:4px; background:#FFD201;color:#E14141;}
+#gifts td:nth-child(odd),#gifts th{text-align:center;}
+#gifts td{padding:14px;font-size:18px;line-height:30px;}
+#gifts th{ width:180px;font-size:30px;color:#E14141;padding:14px;}
+#investTop{margin-left:110px;width:880px;border:2px solid #B1271D;background:#E14040;z-index:999;border-radius:4px;clear:both;}
+#investTop li{padding-left:16px;margin:0 30px 0  30px;line-height:60px;color:#FFEF01;font-size:24px;border-bottom:1px solid #B1271D;}
+#investTop li span{margin-left:380px;}
+#investTop li:last-child{border-bottom:none;}
+.tips p{margin:20px;line-height:30px;color:#7D0208;font-size:18px;}
+/* .active3{position:relative;background:#fcb200;}
+.active3 h3{margin:0 auto;padding:8% 0;width:527px;height:58px;background:url(image/header_02.png) center no-repeat;background-size:100%;}
+.active3 table{background:#ed8d1a;}
+.active4{position:relative;overflow:hidden;}
+.lottery{position:relative;float:left;margin:30px auto;padding:22px;width:478px;height:478px;
+border-radius:3px;-webkit-border-radius:3px;box-sizing:border-box;-webkit-box-sizing:border-box;
+background:url(image/table_bg.png) no-repeat;}
+#lotterys{position:relative;}
+#lotterys table td.active{border:3px solid #fe4c44;}
+#lotterys>h3{text-align:center;margin:0 auto 50px;width:843px;height:227px;background:url('image/header_03.png') no-repeat;}
+.lottery1{margin:auto;padding:10px;border-radius:3px;-webkit-border-radius:3px;}
+.lottery1 table{margin-top:-28px;border-collapse:separate;border-spacing:15px 25px;}
+.lottery1 td{padding:0;text-align:center;border-radius:6px;-webkit-border-radius:6px;box-shadow:6px 6px 0 0 #faca00;-webkit-box-shadow:6px 6px 0 0 #faca00;box-sizing:border-box;-webkit-box-sizing:border-box; background:#ffee66;}
+.lottery1 td p{font-size:20px;color:#eb1313}
+.lottery1 td strong{font-size:30px;color:#eb1313;}
+.lottery1 td strong span{display:block;font-size:20px;}
+.lottery1 td img{margin:auto;}
+.lottery1 td{width:126px;height:120px;}
+.changes {margin-left:-15px;margin-top:10px;width:478px;font-size:24px;color:#309bbf;}
+.changes strong{font-size:45px;font-weight:normal;color:#ff3e55;}
+.changes .btn_getchange{margin-left:15px;display:inline-block;width:232px;height:60px;line-height:60px;text-align:center;color:#fff !important;border-radius:6px;-webkit-border-radius:6px;box-shadow:0 6px 0 0 #cf192e;-webkit-box-shadow:0 6px 0 0 #cf192e;box-sizing:border-box;-webkit-box-sizing:border-box; background:#ff3e55;}
+.changes .lottery_change{margin-bottom:20px;color:#fff;font-size:22px;}
+.lottery_img{display:block;width:123px;height:126px;line-height:45px;padding-top:15px;font-weight:700;font-size:38px;color:#e60e0e;background:url('image/btn_lottery1.png') no-repeat;}
+.lottery_img:hover{color:#d80015;}
+.lottery_img:active{color:#fff;background:url('image/btn_lottery.png') no-repeat;}
+.lottery_img:visited{color:#d80015;}
+.lotteryinfos{position:relative;float:left;margin-left:80px;margin-top: 30px;width:515px;height:564px;border-radius:3px;-webkit-border-radius:3px;background:#f22942;}
+.lotteryinfos h3{text-align:center;color:#fff;font-size:24px;}
+.lotteryinfos .hr{margin:40px auto 0;width:90%;height:10px;background:#b34e59;}
+.lotterylists{margin:-3px auto 0;padding:30px 0 100px;width:85%;background:#fcf6d6;}
+.lotterylists p{margin:0 auto;line-height:45px;font-size:20px;color:#f22942;width:90%;}
+.lotteryrules{padding-bottom:100px;}
+.lotteryrules h3{margin:100px auto 60px;height:38px;background:url('image/header_02.png') no-repeat;}
+.lotteryrules p{font-size:14px;color:#666;line-height:25px;}
+.active4 .box{display:block;overflow: hidden;position: absolute;width: 515px;height: 550px;top: 16%;left: 30%;background: transparent;}
+.active4 .bg{width:604px;background:rgba(0,0,0,0.9)}
+.active4 .box .closes a{top:20px;right:12px;width:45px;height:45px;}
+.active4 .box h2 a{position:absolute; background:url(../../image/virtual_close.png) no-repeat; }
+.active4 .box h2 a{right:0;top:147px;width:73px;height:50px;}
+.lotteryconfirms{float:left;margin-left:18px;margin-top:150px;padding:30px 0;width:178px;height:302px;border:1px solid #ffda3f;}
+ */
+.lotteryconfirms p{margin:0 auto;width:80%;color:#fff;font-size:16px;line-height:25px;}
+.invest{display:none;}
+.rewards{margin:0 auto;height:100%;text-align:center;background:url('../../images/activity/21active/show_bg.png') no-repeat;}
+.rewards img{margin:80px auto 30px;}
+.rewards h3{position:absolute;top:50px;left:100px;width:396px;height:66px;background:url('../../images/activity/21active/header_03.png') no-repeat;}
+.rewards p{text-align:center;font-size:16px;color:#4b0806;}
+.rewardss{display:none;}
+.rewards_vistual{padding-top:100px;}
+.rewards_vistual p{font-size:24px;}
+.rewards_vistual strong{font-size:42px;}
+.btninvites,.btninvest{display:inline-block;margin:0 auto;width:151px;height:45px;line-height:45px;text-align:center;font-size:18px;border-radius:5px;-webkit-border-radius:5px;}
+.btninvites{background:#ffda3f;margin-right:20px;color:#761420 !important;}
+.btninvest{background:#eb0010;color:#fff !important;}
+.lotteryconfirms .lottery_btn{text-align:center;}
+.invest_list{height:510px;min-height:510px;border:0;overflow:hidden;width:100%;}
+
+.reward-item {
+    height: 58px;
+    line-height: 58px;
+    width: 1100px;
+    margin:50px auto 0;
+    overflow: hidden;
+    color: #ffd33c;
+    position: relative;
+    padding-left: 40px;
+    font-size: 14px;
+    background:#fcf6d6;
+    border-radius:6px;
+    -webkit-border-radius:6px;
+    border:1px solid #fe4c44;
+}
+.reward-item-title {
+    float: left;
+    width: 190px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: inline-block;
+    font-size: 24px;
+    color:#fcf6d6;
+    background:#fe4c44 url(../../images/activity/21active/icon_04.png) 3% center no-repeat;
+    padding-left:5%;
+}
+.div2 {
+    width: auto;
+    height: 20px;
+    font-size: 12px;
+}
+.d1 {
+    width: 940px;
+    height: 50px;
+    overflow: hidden;
+    white-space: nowrap;
+    margin-left: 100px;
+}
+.other_rule{overflow:hidden;padding:50px 0;background:#538bde;}
+.other_rules{padding-top:120px;height:380px;background:url(../../images/activity/21active/rule_bg.png) no-repeat;}
+.other_rules p{margin:0 auto;width:90%;line-height:45px;color:#fff;font-size:24px;}
+
+
+/* 大转盘样式 */
+.turntable-bg {z-index:99;width:100%;height:90%;margin: 0 auto;position: relative;/* background: url("../../images/activity/21active/turntableBg.png") no-repeat; background-size:60% 60% */}
+.turntable-bg .mask {width: 454px;height: 451px;position: absolute;
+  left:6px;
+  top: 60px;
+  /*z-index:9;*/
+}
+.turntable-bg .pointer,.turntable-bg .pointer1{width:40%;height:40%;position: absolute;left:37%;top:27%;
+  z-index:13;
+  background:url(../../images/activity/21active/pointer.png) no-repeat; background-size:76% 70%;
+   cursor: pointer;
+}
+.turntable-bg .pointer b,.turntable-bg .pointer1 b a{position:absolute;left:13%;top:36%;font-size:1.6rem;color:#fff;text-shadow:1px 1px 2px #EB4343;}
+.turntable-bg .pointer b:hover,.turntable-bg .pointer1 b a:hover{color:#efefef;}
+.turntable-bg .rotate {
+  width: 100%;
+  height:100%;
+  position: absolute;
+  left:0;
+  top:5%;
+  z-index:12;
+  
+}
+.bgImage{position:absolute;top:4%;left:2%;}
+#bottomBg{position:absolute;bottom:15%;left:0; z-index:10;}
+.firework{position:absolute;top:120px;left:-90px;}
+.noInfor{margin-top:50px;text-align:center;color:#FFEF01;font-size:38px;}
+#sure{width:370px;height:45px;line-height:36px;color:#fff;font-size:16px;background:#F64840;}
+#priceValue{color:#F64840;}
+#divshows{width:100%; height:100%; background-color:rgba(0,0,0,0.5); position:fixed; left:0px; top:0px; z-index:30000; display:none;" }

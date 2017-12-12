@@ -1,0 +1,18 @@
+/*Լ��*/
+.yb{color:#333;}
+.yb h3{display:block;margin:10% auto 5%;width:80%;height:80px;}
+.yb .yb_h3{background:url('../../images/festival/active_tro.png') no-repeat;background-size:100%;}
+.yb .yb_h31{background:url('../../images/festival/yb_header.png') no-repeat;background-size:100%;}
+.yb p{width:98%;font-size:1.4rem;}
+.yb1{position:relative;margin:0 auto;width:90%;}
+.yb1 .icon_01{position:absolute;left:-15%;top:-32%;width:25%;height:100%;background:url('../../images/festival/money_02.png') no-repeat;background-size:80%;}
+.yb1 .icon_02{position:absolute;right:-35%;bottom:-93%;width:60%;height:100%;background:url('../../images/festival/money_01.png') no-repeat;background-size:80%;}
+.yb table{margin:15px auto;width:100%;border:2px solid #fe4f3e;}
+.yb table td{position:relative;font-size:1.6rem;padding:6px;border:1px solid #fe4f3e;}
+.yb_bottom{position:fixed;bottom:0;width:100%;height:40px;line-height:40px;font-size:2rem;color:#fff;text-align:center;border-radius:3px;-webkit-border-radius:3px;background:#f04848;}
+.yb_bottom i{display:inline-block;vertical-align:middle;width:25px;height:30px;background:url('../../images/festival/tel.png') no-repeat;background-size:100%;}
+
+@media screen and (max-width: 320px) {
+.yb table td{font-size:1.2rem;padding:5px;}
+    .yb1 .icon_01{width:20px;}
+}

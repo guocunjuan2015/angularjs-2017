@@ -1,0 +1,63 @@
+.messages{
+	background:#fff;
+	margin-bottom:1px;
+    padding: 2rem 1.2rem 1.5rem;
+}
+.messages h3{
+	width:55%;
+	font-size:1.5rem;
+	color:rgb(74,74,74);
+	height:2.1rem;
+	line-height:2.1rem;
+}
+.messages h3 b{
+	max-width:80%;
+	float: left;
+	overflow: hidden;  /*溢出隐藏*/
+    text-overflow: ellipsis; /*以省略号...显示*/
+    white-space: nowrap;  /*强制不换行*/
+    font-weight: normal;
+	margin-right: 0.3rem;
+}
+.messages h3 i{
+    display: inline-block;
+    width: 0.5rem;
+    float: left;
+    border-radius: 50%;
+    height: 0.5rem;
+	margin-top: 0.8rem;
+    background: #ff5555;
+}
+.messages span{
+	font-size:1.1rem;
+	line-height: 2.1rem;
+	color:rgb(155,155,155);
+}
+.messages p{
+	font-size:1.4rem;
+	color:rgb(155,155,155);
+	height:2rem;
+	line-height:2rem;
+	width:100%;
+	overflow: hidden;  /*溢出隐藏*/
+    text-overflow: ellipsis; /*以省略号...显示*/
+    white-space: nowrap;  /*强制不换行*/
+}
+.read h3{
+	color: rgb(155,155,155);
+}
+.read h3 i{
+	display:none;
+}
+
+/*错误提示*/
+.errorTxt{
+	position: absolute;
+	width:100%;
+	height:100%;
+	background:#fff;
+	text-align:center;
+	font-size:1.5rem;
+	padding-top:20%;
+	box-sizing:border-box;
+}

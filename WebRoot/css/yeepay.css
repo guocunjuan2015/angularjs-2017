@@ -1,0 +1,87 @@
+#ep_reg_suc_div{
+	margin-top: 30px;
+}
+#ep_reg_suc_div img{
+	width: 40%;
+	height: 40%;
+}
+
+#ep_reg_suc_txt_div{
+	margin-top: 10%;
+}
+#ep_reg_suc_txt_div span{
+	color:#f64840;
+	font-size: 1.6rem;
+	padding-top: 10%;
+}
+#ep_reg_suc_bt{
+	margin-top: 40px;
+}
+
+#ep_reg_fail_div{
+	margin-top:30px;
+}
+#ep_reg_fail_div img{
+	width: 40%;
+	height: 40%;
+}
+
+#ep_reg_fail_txt_div{
+	margin-top:15px;
+}
+
+#ep_reg_fail_txt_div span{
+	color: #6d7376;;
+	font-size: 25px;
+}
+#ep_reg_fail_bt{
+	margin-top:40px;
+}
+#account_balance{
+	margin-right: 10px;
+}
+#money_cash_tb{
+	border-collapse:collapse;
+}
+#money_cash_tr1{
+	border-bottom:1px solid #ccc;
+}
+#epay_account_balance{
+	margin-right:10px;
+}
+#ep_bind_card_div table{
+	width: 100%;
+}
+#ep_bind_card_div table tr td{
+	width:50%;
+	text-align: center;
+}
+#check_epay_result table{
+	width:100%;
+}
+
+#check_epay_result table tr td{
+	width: 50%;
+	text-align: center;
+}
+#to_ep_reg_tb{
+	width: 100%;
+}
+#msg_btn_45 table{
+	width: 100%;
+}
+#msg_btn_45 table tr{
+	text-align: center;
+}
+#msg_btn_45 table tr td{
+	width: 50%;
+}
+
+
+/*3.1日*/
+#bank_logo{
+	width:4.2rem;
+	height:4.2rem;
+	border-radius:50%;
+	background:#fff;
+}

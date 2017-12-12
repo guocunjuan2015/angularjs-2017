@@ -1,0 +1,218 @@
+html{
+	font-size:62.5%;
+}
+.alpha {
+     height: 100%;
+     overflow: hidden;
+     position: relative;
+}
+.alpha body {
+     height: 100%;
+     overflow: hidden;
+}
+input{
+	border:none;
+	-webkit-appearance:none; 
+}
+input[type="text"],input[type="reset"],input[type="button"],input{-webkit-appearance:none;}
+input::-webkit-input-placeholder {
+　　color: #fff !important; /* WebKit browsers */
+　　}
+input:-moz-placeholder {
+　　color: #fff !important; /* Mozilla Firefox 4 to 18 */
+}
+input::-moz-placeholder {
+　　color: #fff !important; /* Mozilla Firefox 19+ */
+}
+input:-ms-input-placeholder {
+　　color: #fff !important; /* Internet Explorer 10+ */
+}
+header{
+	width:100%;
+}
+header img{
+	display:block;
+	width:100%;
+}
+.hhgu3_main{
+	width:100%;
+}
+.hhgu3_main form{
+	background:#7f1616;
+    padding-left: 10%;
+    padding-right: 10%;
+    position: absolute;
+    z-index: 99;
+    width: 100%;
+    box-sizing: border-box;
+}
+.hhgu3_main form p{
+	width:100%;
+	height:4rem;
+	
+}
+.hhgu3_main form p#prompt_txt{
+	    height: 2rem;
+    margin-top: 0.5rem;
+    font-size: 1.2rem;
+    color: #ef1612;
+}
+.hhgu3_main form p:first-child input{
+	height: 2rem;
+    line-height: 2rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    width: 92%;
+    border-bottom: 1px solid #fff;
+    color: #fff;
+    font-size: 1.5rem;
+    border-radius: 0;
+    background: url(images/hhgu34.png) no-repeat left center;
+    background-size: 1.2rem 1.6rem;
+    padding-left: 2rem;
+    box-sizing: content-box;
+}
+.hhgu3_main form p:nth-child(2) input:first-child{
+    height: 2rem;
+    line-height: 2rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    box-sizing: content-box;
+    width: 50%;
+    border-bottom: 1px solid #fff;
+    color: #fff;
+    font-size: 1.5rem;
+    border-radius: 0;
+    background: url(images/hhgu37.png) no-repeat left center;
+    background-size: 1.2rem 1.6rem;
+    padding-left: 2rem;
+}
+.hhgu3_main form p:nth-child(2) input:last-child{
+	width:8rem;
+	height:3rem;
+	border:1px solid #ef1612;
+	background:none;
+	color:#ef1612;
+	float:right;
+	font-size:1.5rem;
+	text-align:center;
+	margin-top: 1.5rem;
+}
+.hhgu3_main form p:last-child{
+    margin-bottom: 1.5rem;
+}
+.hhgu3_main form p input.checkbtn,.hhgu3_main form p input.disbtn{
+	width:100%;
+	height:3.5rem;
+	border:1px solid #ffebd7;
+	background:#ffebd7;
+	color:#7f1616;
+	font-size:1.5rem;
+	text-align:center;
+}
+.hhgu3_main form p input.disbtn{
+	background:#bebebe;
+	border:1px solid #bebebe;
+	display:none;
+}
+.hhgu3_txt{
+	padding-bottom: 28%;
+	background:url(images/hhgu38.png) no-repeat center top,url(images/hhgu33.png) no-repeat center bottom;
+    background-size:100%;
+}
+.hhgu3_txt h3{
+text-align: center;
+    margin-bottom: 1rem;
+    padding-top: 1rem;
+    font-size: 1.8rem;
+    color: #fff;
+    height: 3rem;
+    line-height: 3rem;
+}
+.hhgu3_txt p{
+	padding-left:15px;
+	padding-right:15px;
+	color:#fff;
+	font-size:1.4rem;
+	line-height:2rem;
+}
+.hhgu3_txt p b{
+	color:#fff;
+	width:2rem;
+	float:left;
+	text-align: center;
+}
+.downLoad {
+	width: 100%;
+    height: 4rem;
+    line-height: 4rem;
+    background: rgba(0,0,0,0.8);
+    text-align: center;
+    color: #fff;
+    font-size: 1.6rem;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    display: none;
+}
+.downLoad a {
+    color: #fff;
+}
+
+/*优惠券*/
+.ggl_box{
+	padding-top: 2rem;
+	padding-bottom: 2rem;
+    opacity: 0;
+    background: #7f1616;
+}
+.ggl_box p{
+	text-align:center;
+	line-height:3rem;
+	font-size:1.5rem;
+	color:#5d5d5d;
+}
+.ggl_box p a{
+	color:#ff8111;
+}
+.ggl {
+    width: 75%;
+    height: 5rem;
+    line-height: 5rem;
+    text-align:center;
+    margin: 0 auto;
+    background:#ffffff url(images/hhgu36.png) no-repeat center center;
+    background-size: 100% 100%;
+    margin-bottom: 2rem;
+}
+.ggl:last-child{
+	margin-bottom: 0;
+}
+.ggl span {
+    display: block;
+    font-size: 1.8rem;
+}
+.ggl span a{
+	color:#ef1612;
+}
+.loading{
+	position:fixed;
+	left:0;
+	top:0;
+	width:100%;
+	height:100%;
+	z-index:999;
+	background:rgba(0,0,0,0.2);
+	display:none;
+}
+.loading img{
+	position:absolute;
+	left:50%;
+	top:30%;
+	width:1.6rem;
+	margin-left:-0.8rem;
+	
+}
+svg{
+	display: none;
+}

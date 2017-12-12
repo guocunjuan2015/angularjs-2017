@@ -1,0 +1,47 @@
+/*瑞友汇*/
+.friendBg{background:url('../../images/activity/partner/bg.png') center top no-repeat;}
+#title1,.title2{padding:9% 10px 5%;text-align:center;}
+.calcStyle{text-align:center;font-size:1.6rem;color:#393939;border-bottom:1px solid #E9D289;}
+.calc1{padding:3% 0 3% 0;margin-top:8%;background:#FEF4CD;border:1px solid #FEF3CB;border-radius:12px;}
+.cash1{padding:3% 0 0 0;color:#393939;text-align:center;font-size:1.2rem;}
+.calcStyle{height:50px;}
+#calcTable{background:#fff;width:98%;color:#393939;border-radius:10px;}
+#calcTable th{padding:14px 0 14px 0;line-height:22px;font-size:1.2rem;text-align:center;color:#393939;}
+#calcTable caption{margin:2% 0 1% 0;padding-left:3%;text-align:left;font-size:1.4rem;color:#F7911E;background:url('image/captionBg.png') left no-repeat;}
+#calcTable tr{border-top:1px solid #FFF0BD;text-align:center;color:#633A08;font-weight: bold;}
+#calcTable tr:nth-child(even){background:#FFFCF0;}
+#calcTable td{padding:10px 0 10px 0;}
+#calcTable th font{color:#C1C1C1;font-size:1.2rem;}
+.infors_li{margin:2% 2% 0 2%;line-height:22px;color:#393939;font-size:1.4rem;}
+.tipsLi{padding-left:2%;margin:2% 0 0 2%;width:290px;height:30px;line-height:30px;background:#FFE79A;border-radius:10px;color:#DEA903;}
+.dishows img{float:left;width:45%;}
+.dishows{padding-top:5%;padding-left:10px;}
+.dishows  div{float:left;margin-left:3%;width:50%;color:#393939;}
+.dishows  div b{height:30px;font-size:1.4rem;border-bottom:1px solid #FFF0BD;display: inline-block;}
+.dishows  div font{color:#E55C00;}
+.dishows  div p{margin-top:3%;line-height:22px;font-size:1.4rem;}
+.descRule{margin-top:5%;padding:2% 2% 3% 2%;background:#FFF0BC;line-height:28px;border-radius:16px;font-size:1.4rem;color:#633A08;}
+#table{height:208px;overflow:hidden;background:#FCEFEE;width:100%;font-size:1.6rem;color:#393939;}
+.userNames{margin-top:3%;background:#FAE1E0;width:100%;font-size:1.6rem;color:#393939;}
+#table td,.userNames th{width:50%;height:40px;line-height:40px;font-size:1.6rem;border-bottom:1px solid #F4B9B6;text-align:center;}
+#table tr:nth-child(even){background:#FAE1E0;}
+.copyrightsBg{background:#F78300;/* background:url('../../images/activity/partner/bottomBgs.png') center top no-repeat; */}
+.copyrightsBg p{font-size:1.6rem;color:#fff;text-align:center;}
+.copyrightsBg p:nth-child(1){padding:5% 0 1% 0%;}
+.copyrightsBg p:nth-child(2){padding:0 0 5% 0;}
+.partner{position:relative;background:#ff613c;}
+.partner1{position:absolute;top:200px;right:200px;}
+
+.input_copy{position:absolute;top:3px;left:5px;width:380px;height:35px;border:0;background:transparent;}
+.img_ewm{position:absolute;top:120px;left:35px;}
+.partner .weixins{position:absolute;top:105px;left:20px;}
+.weixins .weixins_login{position:absolute;top:32%;text-align:center;color:#fff;font-size:14px;display:inline-block;width:140px;height:40px;line-height:40px;border:1px solid #000;border-radius:6px;-webkit-border-radius:6px;background:#fdd400;}
+.partner3{position:relative;width:100%;margin:0 auto;background:#ff613c;}
+.partner3 h3{margin:0 auto;width:35%;height:80px;text-align:center;background:url('../../images/activity/partner/header2.png') no-repeat;background-size:100%;}
+.partner3 table{width:80%;margin:0 auto;}
+.partner3 table th{padding-bottom:8px;border-bottom:2px dashed #c98541;}
+.partner3 table th,.partner3 table td{color:#734221;font-size:1.6rem;text-align:center;}
+.icon_cup {position:absolute;top:-83px;left:-40px;display:inline-block;width:25px;height:45px;background:url('../../images/activity/partner/cup.png') no-repeat;background-size:100%;}
+.partner .circle{position:absolute;top:-2%;left:28%;display:inline-block;width:12px;height:12px;border-radius:50%;-webkit-border-radius:50%;background:#fde4b1;}
+.partner .circle1{position:absolute;top:12%;left:-2%;display:inline-block;width:12px;height:12px;border-radius:50%;-webkit-border-radius:50%;background:#fde4b1;}
+.partner_share{position:fixed;bottom:3%;margin:0 auto;display: block;width:50%;height:40px;line-height:40px;border:1px solid #573838;font-size:1.7rem;color:#582d0b;background:#fce567;border-radius:6px;-webkit-border-radius: 6px;box-shadow:1px 2px 0 #580306;}

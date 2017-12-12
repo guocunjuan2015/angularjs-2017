@@ -1,0 +1,165 @@
+@charset "utf-8";
+/*中秋活动  powered by GUO CUN JUAN 20170925*/
+.nationalDayBody{background:#d7222d}
+.activeTitle{font-size:1.4rem;text-align:center;color:#fff;background: url("../image/title1.png") center  center  no-repeat;background-size:100%;}
+.activeTitle span{padding:2px 6px 2px 6px;margin:0 2px 0 2px;display: inline-block;background:#c60f22;}
+.activeBg{margin-bottom:10rem;padding:1.5rem;color:#fff;line-height:3rem;font-size:1.4rem;font-weight:bold;}
+.activeBg h4{margin:2.5rem 0 2rem 0;font-size:1.6rem;text-align:center;color:#fff;}
+.activeBg img{max-width:none;width:1.6rem;}
+.activeRule{width:95%;    z-index: 999;padding:2% 1% 2% 1%;margin:0 2% 0 2.8%;height:25rem;overflow-y: auto;background:#fcebd8;border-radius:10px;border:1px solid #f7c87b;}
+.activeRule p{margin:0 1.5rem 0 1.5rem;line-height:2.6rem;color:#794422;}
+.lotteryRecord{padding:1.5rem 0 1.5rem 0;margin:2rem 1rem 0 1rem;border:1px solid #f7c87b;box-shadow:0 0 10px #f7c87b; background:#fbf0e4;}
+.title2{text-align:center;}
+.title2 img{width:16rem;max-width:none;}
+.recordList{padding-top:1rem;}
+.lotteryRecordL{float:left;margin:3rem 0 0 4%;width:50%;text-align:center;}
+.lotteryRecordR{float:left;margin:7rem 0 0 6%;width:35%;}
+.recordList li img{margin-bottom:1rem;max-width:none;width:8rem;}
+.lotteryRecordL p{line-height:2rem;font-size:1.3rem;color:#915013;text-align:left;}
+.lotteryRecordR p{text-align:center;color:#915013;}
+.receiveBtn{width:10rem;height:4rem;font-size:1.2rem;color:#fff;background: url("../image/receiveBtn.png") center  center  no-repeat;background-size:10rem;border:none;}
+.receiveGray{background: url("../image/receiveGray.png") center  center  no-repeat;background-size:10rem;}
+.reset{padding:0.3rem 2rem 0.3rem 2rem;font-size:1.4rem;background:#f5a74a;border-radius:20px;border:none;color:#891538;border:1px solid #891538;}
+.reset:hover{background:#fdd262;}
+.lotteryList{padding-bottom:1rem;background: url("../image/lotteryImg.png") center  center  no-repeat;background-size:42rem;text-align:center;}
+.lotteryNum{line-height:3rem;color:#fff;}
+.showLottery{display: none;width:15rem;height:20rem;background: url("../image/defaultLottery.png") center  center  no-repeat;background-size:15rem;}
+.lotteryShow{    width: 15rem;
+    height: 20rem;background: url("../image/defaultLottery.png") center  center  no-repeat;background-size:15rem;}
+.selected div.lotteryShow{background-size:15rem !important;background: url("../image/defaultLight.png") center  center  no-repeat;}
+.selected div.showLottery{background-size:15rem !important;background: url("../image/trunUpbg.png") center  center  no-repeat;}
+.showLottery{color:#FB1D3D;}
+.showLottery img{margin-top:5.5rem;margin-bottom:0 !important;max-width:none;width:6rem !important;}
+.showLottery p{font-size:1.1rem;}
+/* -------------------------------- 
+
+ 抽奖部分
+
+-------------------------------- */
+.cd-gallery::after {
+  clear: both;
+  content: "";
+  display: table;
+}
+.cd-gallery > li {
+  overflow: hidden;
+  position: relative;
+}
+.cd-gallery > li > a {
+  display: block;
+}
+
+
+.cd-item-wrapper {
+  position: relative;
+  margin: 2em 0;
+  
+}
+.cd-item-wrapper li {
+  position: absolute;
+  top: 0;
+  margin: 0 auto;
+  height: 20rem;
+    width: 15rem;
+  opacity: 0;
+  /* Force Hardware Acceleration */
+  -webkit-transform: translateZ(0);
+  -moz-transform: translateZ(0);
+  -ms-transform: translateZ(0);
+  -o-transform: translateZ(0);
+  transform: translateZ(0);
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  will-change: transform, opacity;
+  -webkit-transform: translateX(200%) scale(0.7);
+  -moz-transform: translateX(200%) scale(0.7);
+  -ms-transform: translateX(200%) scale(0.7);
+  -o-transform: translateX(200%) scale(0.7);
+  transform: translateX(200%) scale(0.7);
+  -webkit-transition: -webkit-transform 0.4s, opacity 0.4s;
+  -moz-transition: -moz-transform 0.4s, opacity 0.4s;
+  transition: transform 0.4s, opacity 0.4s;
+}
+.cd-item-wrapper li.selected {
+  position: relative;
+  opacity: 1;
+  -webkit-transform: translateX(0) scale(1.3);
+  -moz-transform: translateX(0) scale(1.3);
+  -ms-transform: translateX(0) scale(1.3);
+  -o-transform: translateX(0) scale(1.3);
+  transform: translateX(0) scale(1.3);
+    z-index: 99;
+}
+
+.cd-item-wrapper li.move-left {
+  -webkit-transform: translateX(-100%) scale(0.7);
+  -moz-transform: translateX(-100%) scale(0.7);
+  -ms-transform: translateX(-100%) scale(0.7);
+  -o-transform: translateX(-100%) scale(0.7);
+  transform: translateX(-100%) scale(0.7);
+  opacity: 0.3;
+    left: 45%;
+}
+.cd-item-wrapper li.move-right {
+  /* item on right - preview visible */
+  -webkit-transform: translateX(100%) scale(0.7);
+  -moz-transform: translateX(100%) scale(0.7);
+  -ms-transform: translateX(100%) scale(0.7);
+  -o-transform: translateX(100%) scale(0.7);
+  transform: translateX(100%) scale(0.7);
+  opacity: 0.3;
+    right: 45%;
+}
+.cd-item-wrapper li.hide-left {
+  /* items hidden on the left */
+  -webkit-transform: translateX(-200%) scale(0.7);
+  -moz-transform: translateX(-200%) scale(0.7);
+  -ms-transform: translateX(-200%) scale(0.7);
+  -o-transform: translateX(-200%) scale(0.7);
+  transform: translateX(-200%) scale(0.7);
+}
+
+/*点击圆点*/
+ .cd-dots {
+  display: none;
+}
+
+
+.no-js .move-right,
+.no-js .move-left {
+  display: none;
+}
+.credits {
+  width: 90%;
+  margin: 2em auto;
+  text-align: center;
+}
+
+.no-touch .credits a:hover {
+  text-decoration: underline;
+}
+
+/*登陆之前弹框*/
+.loginBox .close_btn{top:14px;right:10px;color:#D2D2D2;border:1px solid #D2D2D2;}
+.close_btn{    position: absolute;
+    right: 6px;
+    top: 0;
+    width: 30px;
+    height: 30px;
+    line-height: 28px;
+    text-align: center;
+    font-size: 1.8rem;
+    z-index: 1111111;border-radius:50%;border:1px solid #fcebd8;}
+.loginBox,.lotteryNumError{width:95%;padding:2% 1% 2% 1%;margin:0 2% 0 2.8%;border:1px solid #F7C87B;border-radius:10px;}
+.shareBox{padding:1rem 0;position:fixed;z-index: 111;bottom:0;width:100%;line-height:3rem;text-align:center;color:#fff;background:#6b0b16;}
+.shareBox button{width:60%;color:#fff;height: 4rem;background: url("../image/buttonBg.png") center  center  no-repeat;background-size:100%;border:none;}
+.loginForm p {text-align:center;}
+.loginForm input{padding-left:1rem;width:80%;height:3rem;border:1px solid #C1C1C1;}
+#registerBtn{margin-top:1.6rem;max-width:none;width:80%;}
+.goLogin{color:#C1C1C1;font-size:1.4rem;    line-height: 4rem;}
+.goLogin span{color:#00CCFF;cursor: pointer;}
+.loginForm{margin-top:3rem;}
+#error_info{font-size:1.2rem;color:#FC5164;}
+#errorInfo{line-height:8rem;text-align:center;color:#FC5164;}
+
+

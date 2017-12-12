@@ -1,0 +1,15 @@
+.toRedEnvelope{background:#200051;}
+.tTitle{padding:2rem 0 2rem 0;background:#200154;}
+.fTitle,.sTitle,.tTitle{padding-top:2rem;text-align:center;}
+.redEnvelopeL li{margin:2rem 0 1rem 0;padding-left:10px;text-align:center;}
+.redEnvelopeL li div{margin:0 auto;width:10.5rem;height:12.6rem;color:#FFF56D;text-align:center;background:url(../images/redEnvelopeBg.png) no-repeat center center;}
+.redEnvelopeL p{font-size:1.2rem;line-height:2.4rem;text-align:center;color:#B590FF;}
+.redEnvelopeL b{padding-top:58%;font-size:2.8rem;display: block;}
+.activeRuless p{line-height:3rem;font-size:1.4rem;color:#B58FFF;}
+.activeRuless p:first-child{margin-top:2rem;}
+.activeRuless p{margin:0 1rem 0 1rem;}
+.activeImage1{margin-top:2rem;text-align:center;}
+.code{margin-top:3rem;padding-bottom:2rem;text-align:center;}
+.copyRights{padding:2rem 0 2rem 0;background:#000;}
+.copyRights a{color:#B58FFF;}
+.copyRights p{padding:0 1rem 0 1rem;font-size:1.4rem;text-align:center;color:#B58FFF;}

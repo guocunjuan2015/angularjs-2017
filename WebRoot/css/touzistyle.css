@@ -1,0 +1,57 @@
+.touzihead{background-color:#FF6633;overflow:hidden;}
+.touzi-head{background:url('../image/leftwritearrow.png') no-repeat 3% 50%;background-size:3%;}
+.touzihead h1{
+    background:url('../image/topmore.png') no-repeat 97% 50%;
+    background-size:1.5%;
+    padding: 3%;
+    text-align: center;
+    font-size: 1.6rem !important;
+    color: #fff;
+    vertical-align: middle;
+}
+.touzi-details {
+	width: 100%;
+	background-color: #fff;
+	overflow: hidden;
+	margin: 1px auto 0;
+	padding: 4% 4% 4%;
+	border-bottom: 2.2px solid #f1f1f1;
+	
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	border-radius: 5px;
+	
+	-moz-box-shadow:-0.5px -0.5px 0.5px #999 inset;            
+-webkit-box-shadow:-0.5px -0.5px 0.5px #999 inset;         
+box-shadow:-0.7px -0.7px 0.7px #999 inset;
+	
+}
+
+.purple-icon,.orange-icon,.blue-icon,.bg-icon,.xs-icon,.zc-icon,.db-icon,.grey-icon{color:#fff;display:inline-block;overflow:hidden;font-size:1.3rem;
+    text-align:center;width:17px;height:17px;line-height:17px;border-radius: 2px;-webkit-border-radius: 2px;}
+.purple-icon{background-color:#dc59e8;}
+.blue-icon{background-color:#7ECDFE;}
+.zc-icon{background-color:#4dd1d3}
+.db-icon{background-color:#75c387}
+.bg-icon{background-color:#40f6af}
+.xs-icon{background-color:#f64840}
+.grey-icon{background-color:#d0d0d0;}
+.orange-icon{background-color:#FBC83E;margin-left:0.5%;}
+.touzi-title-one{font-size:1.7rem;color:#333333;display:inline-block;height:17px;
+    line-height: 18px;overflow:hidden;margin-left: 2%;}
+.touzi-title-two{display:inline-block;float:right;font-size:1.5rem;color:#f64840;}
+.nlvdiv,.nlvsy{margin-top: 5px;}
+.nlvdiv{float:left;color:#f64840;}
+.nlvsy{float:right;}
+.nlvdiv span,.nlvsy span{color:#999;display:block;font-size:1.4rem;line-height:24px;margin-top: 8px;}
+.cancel_btn{
+	margin-top: 20px;
+}
+.input1{
+	border: none;
+	padding-left: 5%;
+}
+@media screen and (max-width:320px) {
+    .touzi-title-one{font-size:1.3rem;color:#333333;display:inline-block;height:17px;
+    line-height: 18px;overflow:hidden;margin-left: 2%;}
+}

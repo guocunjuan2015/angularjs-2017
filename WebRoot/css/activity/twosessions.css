@@ -1,0 +1,52 @@
+/*两会专题start*/
+.sessionsWord{padding:1.5em 0px 1.6em 0;background:#F0F0F5;}
+.sessionsWord font{color:#FF1200;font-weight:bold;}
+.sessionsWord p{margin:0em auto 0;width:80%;font-size:16px;color:#333333;line-height:2.2em;font-family:;}
+.focusing{padding:1.5em 0px 1.2em 0;background:#BD2D2D;}
+@media (max-width: 640px) {
+.sessionsWord p {width: 96%;line-height: 1.8em;margin: 8px auto 0;font-size: 15px;overflow: hidden;
+ }
+.hallLeft{width:50%;}
+.hallLeft img{height:100%;}
+.hallRight{width:50%;padding-left:1em;font-size:1em;line-height:1.2em;padding-right:1em;}
+}
+.directionImage{margin-top:1em;}
+.news-left{float:left;width:50%;margin-top:2em;}
+.news-right{float:left;width:50%;margin-top:1.21em;}
+.policy{margin-top:1em;padding:2em 0 2em 0;clear:both;background:#EFEFF5;}
+.internetImage{padding-top:2em;width:100%;text-align:center}
+.yearsFive{text-align:center;}
+.timeLineNew{height:85px;background:#BE2E2E;position:relative;}
+.timeLineNew div{position:absolute;height:7px;width:100%;bottom:10px;background: url('../../images/activity/twosessions/timeBgs.png') center center repeat-x;}
+.timeLineNew li{float:left;height:85px;line-height:85px;border-right:1px solid #BE2E2E;font-size:1.6em;text-align:center;width:33.3%;color:#E2A3A3;}
+.timeLineNew li:hover{color:#FFCB00;background:#A20000;border-right:1px solid #BD2D2D;display:inline-block;}
+.timeLineNew .activeNew{color:#FFCB00;background:#A20000;border-right:1px solid #BD2D2D;display:inline-block;}
+.moreNews li{float:left;margin-top:0.2em;padding:0 1em 0 0;line-height:1.6em;width:33.3%;color:#333;font-size:1.2em;}
+.moreNews{margin-bottom:2em;}
+.moreNews li a{margin-top:14px;width:178px;height:41px;line-height:30px;font-size:16px;color:#fff;background:#BD2D2D;display:block;}
+.leaderList{margin-top:2em;}
+.leaderLeft{padding-top:0.5em;width:100%;text-align:center}
+.hallLeft{float:left;width:50%;}
+.hallRight{float:right;width:50%;font-size:1em;line-height:2em;padding-right:1em;}
+.hallRight a{font-size:16px;padding:6px 0 6px 0;width:247px;height:49px;line-height:36px;background:#BD2D2D;border-radius:0;}
+.hallRight p:nth-child(2){padding-top:14px;text-align:center;}
+.leaderRight{margin-top:1em;}
+.leaderRight .timeas{background: url('../../images/activity/twosessions/timeBgs.jpg') top repeat-y;height:350px;}
+.leaderRight li p{line-height:26px;font-size:15px;}
+.leaderRight li{margin-bottom:10px;height:100%;background:#BD2D2D;text-align:center;color:#fff;}
+.leaderRight span{top:0;left:-26px;width:60px;height:26px;background:#BD2D2D;line-height:26px;text-align:center;color:#fff;display:inline-block;position:relative;} 
+/* .leaderRight{padding-left:10px;} */
+.leaderRight p a{width:122px;height:24px;line-height:24px;font-size:16px;background:#FDC900;display:inline-block;color:#9F2301;}
+.leaderImage{padding-top:30px;}
+.landRights{float:right;width:300px;} 
+.landRights li{float:left;margin-left:20px;margin-top:20px;width:86px;text-align:center;color:#fff;}
+.landRights li img{margin-bottom:16px;width:86px;height:86px;}
+.news-right{width:40%;}
+.financial{padding-top:1em;}
+
+.news-right li div{padding:1em;font-size:1.2EM;line-height:1.2em;color:#fff;background:#CB3333;}
+.news-right li div a{margin:6px 0 0 40px;font-weight:bold;width:113px;height:33px;line-height:20px;background:#FDC900;color:#9F2301;font-size:16px;font-weight: bold;display:inline-block;}
+.news-right li{margin-top:10px;}
+.news-right p{text-align:center;font-size:1.1em;font-weight: bold;}
+.news-right img{float:left;}
+/*两会专题end*/

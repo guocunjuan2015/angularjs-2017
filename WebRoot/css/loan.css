@@ -1,0 +1,397 @@
+.loan h1{
+	font-size:1.7rem;
+	color:rgb(74,74,74);
+	text-align:center;
+	padding-top:0.94rem;
+	padding-bottom:0.94rem;
+    background: #fff;
+    margin-bottom:1px;
+}
+ul.loanUl,.loanUl2{
+	display: -moz-box;
+    display: -webkit-box;
+    display: box;
+    padding-top:1.4rem;
+    padding-bottom:1.4rem;
+    background:#fff;
+}
+ul.loanUl li,.loanUl2 li{
+	-moz-box-flex: 1;
+    -webkit-box-flex: 1;
+    box-flex: 1;
+    text-align: center;
+}
+ul.loanUl li img{
+	padding-bottom:1.3rem;
+}
+ul.loanUl li p{
+	font-size:1.3rem;
+	line-height:1.8rem;
+	color: rgb(74,74,74);
+}
+ul.loanUl li p:last-child{
+	font-size:1.1rem;
+	line-height:1.6rem;
+	color: rgb(155,155,155);
+}
+.loanBox{
+	padding:1.4rem;
+	box-sizing:border-box;
+}
+.loanOperation{
+	width:100%;
+	background:-moz-linear-gradient(top,rgb(249,141,141), rgb(255,85,85));/*火狐*/ 
+	background:-webkit-gradient(linear, 0% 0%, 0% 100%,from(rgb(249,141,141)), to(rgb(255,85,85)));/*谷歌*/ 
+	background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(rgb(249,141,141)), to(rgb(255,85,85)));      /* Safari 4-5, Chrome 1-9*/
+	background: -webkit-linear-gradient(top, rgb(249,141,141), rgb(255,85,85));   /*Safari5.1 Chrome 10+*/
+	background: -o-linear-gradient(top, rgb(249,141,141), rgb(255,85,85));  /*Opera 11.10+*/
+	padding: 0 20px;
+    box-sizing: border-box;
+}
+.loanOperation h3{
+	font-size:4.7rem;
+	color:#fff;
+	line-height:6.6rem;
+	padding-top:2.8rem;
+	text-align:center;
+}
+.loanOperation p{
+	font-size:1.8rem;
+	color:#fff;
+	line-height:2.5rem;
+	text-align:center;
+	width: 90%;
+    margin: 0 auto;
+}
+.slider.slider-horizontal{
+	width:95%;
+	margin:5.8rem 2.5% 0;
+	height:0.3rem;	
+}
+.slider.slider-horizontal .slider-track{
+	height:0.3rem;
+	background: rgb(199,87,87);
+	border-radius: 1rem;
+}
+#ex1Slider .slider-selection{
+	height:0.3rem;
+	background:#fff;
+	border-radius:1rem;	
+}
+.slider.slider-horizontal .slider-handle{
+	position:absolute;
+	margin-top:-0.9rem;
+	margin-left: -1rem;
+	width:1.9rem;
+	height:1.9rem;
+	background:#fff;
+	border-radius:50%;
+	box-shadow: 0 0.4rem 0.4rem rgba(123,16,16,0.5);
+}
+.moneyP span{
+	color:#fff;
+	font-size:1.2rem;
+	line-height:2rem;
+}
+.loanUl2{
+	background:transparent;
+}
+.loanUl2 li:first-child{
+	border-right:1px solid #fff;
+}
+.loanUl2 li p:first-child{
+	font-size:2.8rem;
+	line-height:4rem;
+}
+.loanHref{
+	padding:5.4rem 4.4rem 3.8rem;
+}
+.loanHref #loanBtn{
+	width:100%;
+	height:4rem;
+	background: transparent;
+	border:1px solid #fff;
+	border-radius:2.4rem;
+	color:#fff;
+	font-size:1.4rem;
+	text-align:center;
+	line-height:4rem;
+}
+.loanDirlog{
+	position: fixed;
+    width: 100%;
+    min-width: 1100px;
+    height: 100%;
+    background: rgba(0,0,0,0.6);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#99000000,endColorstr=#99000000);
+    z-index: 999;
+    top: 0;
+    display:none;
+}
+.msgTxt,.msgTxt2,.msgTxt3,.success,.fail,.promptMoney{
+	position:fixed;
+	left:50%;
+	z-index: 1111;
+    top: 10%;
+	margin-left:-36%;
+	width:72%;
+	background: rgba(255,255,255,0.8);
+	border-radius:1.2rem;
+	display:none;
+}
+.msgTxt3{
+	box-sizing: border-box;
+	line-height: 2rem;
+    height: auto;
+    padding: 2rem 2rem;
+	color:#000;
+	font-size:1.7rem;
+	text-align:center;
+}
+.msgTxt p:first-child,.msgTxt2 p:first-child{
+	height:6rem;
+	line-height:6rem;
+	color:#000;
+	font-size:1.7rem;
+	text-align:center;
+	border-bottom:1px solid rgba(77,77,77,0.78);
+}
+.promptMoney p{
+	line-height: 2rem;
+    font-size: 1.4rem;
+    text-align: center;
+}
+.promptMoney p:first-child{
+	padding-top:2rem;
+}
+.promptMoney p.due{
+	border-bottom:1px solid rgba(77,77,77,0.78);
+	padding-bottom:2rem;
+}
+.success p.sucP,.fail p.failP{
+	line-height: 2rem;
+    height: auto;
+    padding: 2rem 2rem;
+	color:#000;
+	font-size:1.4rem;
+	text-align:center;
+	border-bottom:1px solid rgba(77,77,77,0.78);
+}
+.msgTxt2 p:first-child{
+    line-height: 2rem;
+    height: auto;
+    padding: 2rem 2rem;
+}
+.msgTxt p:last-child,.msgTxt2 p:last-child,.success p:last-child,.fail p:last-child,.promptMoney p:last-child{
+	height:4.3rem;
+	line-height:4.3rem;
+	color:rgb(0,118,255);
+	font-size:1.7rem;
+	text-align:center;
+	
+}
+.msgTxt p a,.fail p a,.promptMoney p a{
+	color:rgb(0,118,255);
+}
+.msgTxt2 p a,.success p a,.promptMoney p a{
+	float:left;
+	width:50%;
+	text-align: center;
+	font-size: 1.4rem;
+	color: rgb(0,118,255);
+	box-sizing:border-box;
+	    
+}
+.msgTxt2 p a:first-child,.success p a:first-child,.promptMoney p a:first-child{
+	border-right: 1px solid rgba(77,77,77,0.78);
+}
+.success img,.fail img{
+	width:4.2rem;
+	display:block;
+	margin:0 auto;
+	padding-top:2rem;
+}
+.loading {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 999;
+    background: rgba(0,0,0,0.2);
+    display: none;
+}
+.loading img {
+    position: absolute;
+    left: 50%;
+    top: 30%;
+    width: 1.6rem;
+    margin-left: -0.8rem;
+}
+
+/*认证中心*/
+.authentication h1{
+	padding:1.3rem 1.4rem;
+	font-size:1.7rem;
+	line-height:2.4rem;
+	color: rgb(74,74,74);
+}
+.authentication h1 span{
+	font-size:1.2rem;
+}
+.authentication li {
+    background: #fff;
+    width: 100%;
+    box-sizing: border-box;
+    height: 4.6rem;
+    line-height: 4.6rem;
+    margin-bottom: 1px;
+    font-size: 1.4rem;
+    color: rgb(74,74,74);
+    padding-left: 1.4rem;
+}
+.authentication li span.clickImg {
+    background: url(../images/detaile.png) right center no-repeat;
+    background-size: 1rem 1.6rem;
+    display: inline-block;
+    width: 1.2rem;
+    height: 4.6rem;
+    margin-right: 1.4rem;
+}
+.authentication li span {
+    color: rgb(155,155,155);
+    margin-right: 0.4rem;
+}
+.authentication li span.mr14{
+	margin-right:1.4rem;
+}
+
+
+/*个人中心借款*/
+.myLoan img{
+	display: block;
+	width:74%;
+	margin:3.5rem auto;
+}
+.myLoan p{
+	width:82%;
+	word-break: break-all;
+	line-height: 2.9rem;
+	margin:0 auto;
+    margin-bottom: 5.8rem;
+    font-size: 1.7rem;
+    color: rgb(74,74,74);
+}
+.myLoan input{
+	display: block;
+	width:64%;
+	margin:0 auto;
+	border:none;
+	height:4rem;
+	line-height:4rem;
+	text-align:center;
+	color:#fff;
+	border-radius:2.2rem;
+	font-size:1.6rem;
+	background:rgb(255,85,85);
+}
+
+/*身份证认证*/
+.idCard{
+	width:100%;
+	height:100%;
+	background:#fff;
+}
+.idCard h1 {
+    font-size: 1.7rem;
+    color: rgb(74,74,74);
+    text-align: center;
+    padding-top: 0.94rem;
+    padding-bottom: 0.94rem;
+    border-bottom:1px solid #f5f4f4;
+}
+.idCardPhoto{
+	background:#fff;
+	padding:1.4rem;
+	padding-bottom:10rem;
+}
+.idCardPhoto p{
+	font-size: 1.7rem;
+    color: rgb(74,74,74);
+    line-height:2rem;
+    height:8.2rem;
+}
+.idCardPhoto p span{
+	font-size:1.2rem;
+}
+.idCardPhoto .w49{
+	width:49%;
+	background:rgb(224,224,224);
+	height: 10rem;
+	position: relative;
+	margin-bottom:2.9rem;
+}
+.idCardPhoto img{
+	width:100%;
+	display: none;
+	max-height: 10rem;
+}
+#fileElem,#fileElem2,#fileElem3{
+	width:100%;
+	height:100%;
+	opacity:0;
+	position:absolute;
+	left:0;
+	top:0;
+}
+#fileList{
+	background:url(../images/loan12.png) no-repeat;
+	background-size:100% 100%;
+}
+#fileList2{
+	background:url(../images/loan11.png) no-repeat;
+	background-size:100% 100%;
+}
+#fileList3{
+	background:url(../images/loan10.png) no-repeat;
+	background-size:100% 100%;
+}
+.bottomBtn{
+	position:fixed;
+	bottom:0;
+	left:0;
+	width:100%;
+	height:5.4rem;
+	background:#fff;
+	-webkit-box-shadow:0 0 2px rgba(155,154,155,0.43);  
+  	-moz-box-shadow:0 0 2px rgba(155,154,155,0.43);  
+  	box-shadow:0 0 2px rgba(155,154,155,0.43); 
+}
+.idCardBtn{
+	display:block;
+	width:64%;
+	height:4rem;
+    margin: 0.6rem auto;
+	line-height:4rem;
+	font-size:1.4rem;
+	text-align:center;
+	color:#fff;
+	background:rgb(255,85,85);
+	border-radius: 2.4rem;
+    border: none;
+	
+}
+.prompt{
+	display:none;
+	position:fixed;
+	bottom:7rem;
+	left:50%;
+	width:50%;
+	margin-left:-25%;
+	line-height:3rem;
+	border-radius:10rem;
+	color:#fff;
+	text-align:center;
+	font-size:1.4rem;
+	background:rgba(0,0,0,0.4);
+}

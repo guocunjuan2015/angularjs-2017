@@ -1,0 +1,12 @@
+.share_tb tr{
+    text-align: center;
+    height: 40px;
+}
+.share_tb tr th{
+    background: #e5e5e5;
+    text-align: center;
+}
+.share_tb tr td{
+    border-right: 1px solid #e5e5e5;
+    border-bottom: 1px solid #e5e5e5;
+}

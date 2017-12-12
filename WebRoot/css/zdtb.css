@@ -1,0 +1,39 @@
+.zdtbs{}
+.zdtb{position:relative;overflow:hidden;margin:3% auto;font-size:1.7rem;color:#666;background:#fff;}
+.add-icon{position:absolute;top:36%;left:2%;display:inline-block;width:24px;height:32px;text-align:center;color:#fff;}
+.add-icon{background:url('../images/add_icon.png') no-repeat;background-size:100%;}
+.sort-icon,.sort-icon1{position:absolute;top:0;left:2%;display:inline-block;width:24px;height:32px;text-align:center;color:#fff;}
+.sort-icon{background:url('../images/zdtb_01.png') no-repeat;background-size:100%;}
+.sort-icon1{background:url('../images/zdtb_02.png') no-repeat;background-size:100%;}
+.zdtb-left{float:left;width:65%;padding:4% 0 4% 12%;}
+.zdtb-left span{margin:0 2%;}
+.font-red{color:#f64840;}
+.font-grey{color:#999;}
+.zdtb-center{float:left;padding:8% 0;}
+.zdtb-center1{float:right;padding-right:3%;}
+.add-rule-text{padding-left:15%;}
+.zdtb-right{float:right;background:#f64840;padding:8% 3%;}
+.zdtb-right a{color:#fff !important;}
+.edit_item{
+	height: 50px;
+	text-align: center;
+	line-height: 50px;
+	border-bottom: 7px solid #f1f1f1;
+}
+.auto_item{
+	height: 50px;
+	background: #fff;
+	border-bottom: 1px solid #f1f1f1;
+}
+.auto_item span{
+	height: 50px;
+	line-height: 50px;
+	color: #666;
+	font-size: 16px;
+	margin-left: 3%;
+}
+.input-number{
+	display:inline-block;
+	width: 20%;
+	height: 35px;
+}

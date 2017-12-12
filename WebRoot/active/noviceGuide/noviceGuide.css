@@ -1,0 +1,27 @@
+/*20161101新手指引*/
+.topNoviceGuide{padding-bottom:2rem;background:#8BCDF9 url('image/banner.png') bottom center no-repeat;}
+.bannerBg{background:url('image/bannerBg1.png') left bottom no-repeat;clear:both;}
+.nTitle1{padding:1rem 10rem 0 10rem;text-align:center;}
+.nTitle2{padding:2rem 0 0 0;margin-bottom:2rem;text-align:center;}
+.nIntroduction{position:relative;left:0;right:4rem;padding:2rem 0 2rem 0;margin:auto;width:90%;color:#fff;
+background: -webkit-linear-gradient(top,#55A2DF,rgba(85,162,223, 0.3)); /* Safari 5.1 - 6.0 */
+background: -o-linear-gradient(top,#55A2DF, rgba(85,162,223, 0.3)); /* Opera 11.1 - 12.0 */
+background: -moz-linear-gradient(top,#55A2DF, rgba(85,162,223, 0.3)); /* Firefox 3.6 - 15 */
+background: linear-gradient(top,#55A2DF,rgba(85,162,223, 0.3)); /* 标准的语法 */}
+.nIntroduction img{position:absolute;top:-23px;left:45%;}
+.nIntroduction h4{padding-top:20px;font-size:2rem;text-align:center;}
+.nIntroduction p{margin:1rem 1.5rem 0 1rem;font-size:1.4rem;line-height:26px;}
+.top1NoviceGuide{padding:2rem 0 2rem 0;background:#C2DCF5;}
+.top1NoviceGuide img{padding:2rem 0 0 1rem;}
+.nTitle3{padding:2rem 0 2rem 0;}
+.nTitle3 p{font-size:2rem;text-align:center;color:#535353;}
+.nTitle3 span{padding-left:30px;background:url('image/title3.png') left no-repeat;}
+.nGuidelist strong{margin:1rem 0 1rem 0;font-size:1.6rem;display:inline-block;color:#0073C9;}
+.nGuidelist p{line-height:26px;font-size:1.2rem;color:#999999;}
+.top2NoviceGuide{padding-bottom:2rem;margin-top:2rem;background:#EDEDED;}
+.nProblem{font-size:1.6rem;line-height:40px;color:#999999;}
+.blueStyle{color:#0073C9 !important;}
+.blueStyle span{margin-right:16px;width:24px;height:24px;line-height:22px;text-align:center;font-size:1.4rem;color:#fff;border-radius:50%;background:#0073C9;display: inline-block;}
+.grayStyle span{margin-right:16px;width:24px;height:24px;line-height:22px;text-align:center;font-size:1.4rem;color:#0073C9;border:1px solid #0073C9;border-radius:50%;display: inline-block;}
+.nMore{margin:2rem 0 0 0;font-size:2rem;text-align:center;}
+.nMore a{width:246px;height:55px;line-height:55px;border:1px solid #0073C9;color:#0073C9;display: inline-block;}

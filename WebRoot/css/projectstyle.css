@@ -1,0 +1,160 @@
+body{background-color: #fff;}
+.projecthead{
+	width: 94%;
+	margin: 0 auto;
+}
+.projecthead h1 {
+	
+    background:#F64840;
+    background-size:1.5%;
+    padding: 2.5%;
+    text-align: center;
+    font-size: 1.8rem !important;
+    color: #fff;
+    vertical-align: middle;
+}
+
+.projectcontent h2{float:left;text-align:center;font-size:1.6rem;color:#f64840;padding:5.33% 0;width:41%}
+.projectcontent span{float:left;border-bottom:1px solid #F2F1F1;display:inline-block;width:25%;height:33px;}
+.projectcontent .firstspan{margin-left:5%;}
+.projectcontent .secondsdd{width:68%;text-align:right;word-break: break-all;border-right:0;border-left:1px solid #FBC6A4;color:#333333 !important;}
+.projectcontent .contenttable{clear:both; overflow:hidden;width:94%;margin:0 auto;background: #fef3ec}
+.projectcontent table{width:96%;margin:2% auto;}
+.projectcontent table th,.projectcontent table td{
+    width:27%;
+    font-size:1.4rem;
+    font-weight:normal;
+    padding:3% 1%;
+    color:#666666;
+    vertical-align:top;
+}
+
+.projectcontent tr{text-align:left; border-bottom:1px solid #FBC6A4;
+}
+.projectcontent .contenttable .lasttr{border-bottom:0;}
+.safediv{clear:both;font-size:1.4rem;padding:0 3%}
+.safediv .firstp{color:#f64840;}
+.safediv p{color:#333333;}
+.safediv-height{margin-bottom:20px;}
+.safediv-height p {
+	color: #333;
+	font-size: 15px;
+}
+.bgdiv{height:10px;background-color:#F2F1F1}
+.tzAdd{padding:3% 4%;background-color:#fff;}
+.tzAdd div:first-child{ font-size:1.1rem;}
+.tzAdd div:first-child span{color:#999999;margin-left:15px;}
+.tzAdd div:first-child span a{color:#67c3f0;}
+.Addinfo{overflow:hidden;margin:0 auto;position: relative;}
+.Addinput{margin-top:10px;border:1px solid #E3E2E2;border-radius:5px;-webkit-border-radius:5px;
+    display:inline-block;width:60.87%;padding:2.61%;
+    position: relative;}
+.moneyinput{font-size:0.875rem;color:#333333;display:inline-block;width:82.5%;text-align:center;}
+.jian,.jia{font-size:1.812rem;color:#999999;}
+.jia{display:inline-block;margin-left:2.2%;width:0.9375rem;}
+.shu{position:absolute;display:inline-block;background-color:#E3E2E2;width:1px;height:64.9%;top:15%;}
+.btnjoin {
+    background-color: #f64840;
+    border-radius: 5px;
+    color: #fff;
+    display: inline-block;
+    float: right;
+    font-size: 1.5rem;
+    padding: 3.48% 10%;
+    text-align: center;
+    width: 37.685%;
+}
+
+
+/*鏁ｆ爣璇︽儏椤甸潰*/ 
+.rdb-info{width:94%;margin:1% auto;line-height:25px;color:#333;font-size:1.5rem;} 
+.business-info ul{clear:both;overflow:hidden;width:96%;margin:0 auto;} 
+.business-info ul li{float:left;width:23%;border:1px solid #E3E2E2;margin-right:2.4%;padding:0.4%;margin-bottom:10px;} 
+.business-info .lastli{margin-right:0 !important;}
+
+@media screen and (max-width: 320px)  {
+    .moneyinput{width:81.5%;}
+    .btnjoin{font-size:1.125rem;}
+
+}
+
+#pj_intro_h1{
+	margin: 0;
+}
+.font_bold{
+	font-weight: bold;
+}
+
+/*鏂扮殑椤圭洰璇︽儏椤*/
+.invest-description{margin:5% auto;width:94%;}
+.invest-description p{font-size:1.5rem;text-indent:9%;color:#333;}
+
+.strategy-table{clear:both;overflow:hidden;width:94%;margin:0 auto;}
+.strategy-table table{width:100%;margin:2% auto;}
+.strategy-table table th{background-color:#FEF3EC;}
+.strategy-table table th,.strategy-table table td{
+    width:11%;
+    text-align:center;
+    font-size:1.4rem;
+    font-weight:normal;
+    padding:3% 1%;
+    color:#666666;
+    vertical-align:top;
+}
+.transfer-table{
+	clear:both;overflow:hidden;width:94%;margin:0 auto;
+}
+.transfer-table table{width:100%;margin:2% auto;}
+.transfer-table table th{background-color:#FEF3EC;}
+.transfer-table table th,.transfer-table table td{
+    width:30%;
+    text-align:center;
+    font-size:1.4rem;
+    font-weight:normal;
+    padding:3% 1%;
+    color:#666666;
+    vertical-align:top;
+}
+.strategy-table tr{border:0;}
+.invest-demo{margin:10% auto;width:96%;font-size:1.4rem;color:#666666;}
+.invest-demo dt{margin-bottom:2%;padding:3%;font-weight:normal;background-color:#FEF3EC;}
+.invest-demo dd{margin:0 auto;width:94%;}
+.strategy-details  table th,.strategy-details table td{width:67%;text-align:left;padding-left:3%;}
+.strategy-details  table th:last-child,.strategy-details table td:last-child{width:35%;padding-right:3%; text-align:left;}
+
+
+/*充值 提现*/
+.rechargeBox{margin-bottom:1rem;height:12rem;background:#FF5555;}
+.rechargeBox p{padding-top:1.6rem;font-size:1.2rem;text-align:center;color:#fff;}
+.rechargeList{padding:0 10px 0 10px;background:#fff;}
+.rechargeList li{/* margin-bottom:1.6rem; */height:4.6rem;line-height:4.6rem;font-size:1.4rem;border-bottom:1px solid #f5f4f4;}
+.rechargeList li span{color:#ff5555;}
+.rechargeList li input{float:left;padding-left:0;width:92%;height:4.5rem;font-size:1.4rem;border:1px solid #ccc;}
+.rechargeList li font{float:left;line-height:4.5rem;}
+
+.bankZone {padding:3rem 0 2rem 10px;font-size:1.4rem;color:#5F5F5F;}
+.bankZone img{float:left;}
+.paymentLi{padding:0 10px;height:4rem;line-height:4rem;font-size:1.4rem;color:#A0A0A0;}
+.paymentLi button{float:right;color:#4A90E2;background:none;    border: none;}
+.bankIcon{float:left;margin-top:-3rem;width:30%;}
+.bankIcon span{margin-top:0.6rem;font-size:1.4rem;display: block;}
+#bank_logo{padding:1rem;}
+.rechangeLi{padding:0 2rem;color:#fff;}
+.account_cash{float:right;padding-top:1.0rem !important;}
+.account_cash img{display: block;margin:0 0 0.8rem 0.8rem;}
+#recharge_btn,#cash_btn{width:20rem;height:3.5rem;line-height:2rem;display: inline-box;background:#ff5555;}
+.withdrawCash{float:right;}
+.withdrawCash a{color:#ff5555; }
+#fee{color:#333;}
+#feeShadow{padding-left:4px;width:20px;height:20px;line-height:20px;font-size:1rem;color:#fff;text-align:center;background:#ff5555;border-radius:50%;display: inline-block;}
+.feeIntro,.withdrawCashBox{background:#fff !important;}
+.feeIntro p.custodyTie{text-align:left;margin:0 1rem 0 1rem;font-size:1.2rem;line-height:2.6rem;}
+.feeIntro .cancleShawde{margin-top:1rem;border-top: 1px solid rgba(77,77,77,0.78);text-align: center;}
+.feeIntro .cancleShawde a{font-size:1.5rem;color:#0076FF;}
+.withdrawCashBox li,.disuse{padding:0 1rem 0 1rem;line-height:4rem;font-size:1.5rem;border-bottom: 1px solid rgba(77,77,77,0.78);}
+.withdrawCashBox li span{float:right;font-size:1.2rem;color:#888 !important;}
+.withdrawCashBox li:last-child{border-bottom:none;}
+.withdrawCashBox li input{opacity:0;}
+.feeIntro .closeFeeOrCash,.withdrawCashBox .closeFeeOrCash{font-size:3rem;color:#888 !important;}
+.withdrawInfo p{margin:0 1rem 0 1rem;line-height:2.8rem;font-size:1.2rem;color:#666;}
+#withdrawErr{margin-top:1rem;padding-bottom:1rem;text-align:center;color:#ff5555;}

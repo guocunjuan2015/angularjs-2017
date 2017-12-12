@@ -1,0 +1,12 @@
+/*½ðÈÚ·å»á*/
+.summit1,.summit2,.summit3{padding:5% 0;overflow:hidden;}
+.summit2{background:#f7f7f7;}
+.summit1 .summit1_left_border{}
+.summit1 .summit1_left h4,.summit2 h4,.summit3 h4{line-height:25px;text-align:center;font-size:1.4rem;color:#333;}
+.summit1 .summit1_left h4{margin:5% auto 3%;}
+.summit1 .summit1_left p{width:90%;margin:0 auto;line-height:25px;text-indent:32px;font-size:1.2rem;color:#666;}
+.summit1 .summit1_left{}
+.summit3{width:94%;margin:0 auto;}
+.summit4{margin-top:30px;}
+.summit4 li{margin-bottom:5%;}
+.carousel-inner{margin:5% auto;width:94%;}

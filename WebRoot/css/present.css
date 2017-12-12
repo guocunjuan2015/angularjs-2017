@@ -1,0 +1,19 @@
+/*180���������*/
+.present{margin:0 auto;width:94%;text-align:center;}
+.present img{margin:10% auto 0;}
+.investlist table{margin-top:10%;width:100%;border:1px solid #ff555d;}
+.investlist table th,.investlist table td{width:30%;line-height:25px;text-align:center;border-bottom:1px solid #ff555d;}
+.invest_list li span{display:inline-block;width:32.5%;text-align:center;line-height:35px;}
+.investlist table td,.invest_list li span{font-size:1.2rem;color:#fff;}
+.investlist table th{line-height:45px;font-size:1.4rem;text-align:center;color:#ff555d;}
+.investlist table th:first-child{background:url(../../images/activity/present/tdleft.png) left top no-repeat;background-size:25.5%;}
+.investlist table th:last-child{background:url(../../images/activity/present/tdright.png) right top no-repeat;background-size:26%;}
+.investlist table .tr1 td:first-child{background:url(../../images/activity/present/hg_01.png) 10% 15% no-repeat;background-size:15%;}
+.investlist table .tr2 td:first-child{background:url(../../images/activity/present/hg_02.png) 10% 25% no-repeat;background-size:13%;}
+.presenttip{ }
+.presenttip p{text-align:left;line-height:30px;font-size:1.4rem;color:#575757;padding: 0 2%}
+.present area{outline:none;}
+.presents{position:relative;}
+.btn_reward{position:absolute;left:30%;bottom:0;display:block;width:150px;height:40px;line-height:40px;text-align:center;color: #ff555d !important;border:1px solid #ff555d;border-radius:3px;-webkit-border-radius:3px;}
+.invest_list{height:200px;min-height:200px;border:0;overflow:hidden;width:100%;}
+.presenttip{padding-top:30px;text-align:center;}

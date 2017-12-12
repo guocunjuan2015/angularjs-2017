@@ -1,0 +1,103 @@
+/*��ĿͶ��*/
+.invert-details{background:#fff;}
+.invert-header{margin:0 auto;padding:5% 0;width:85%;font-size:1.4rem;font-weight:normal;text-align:center;}
+.invert-header i{float:left;display:inline-block;margin-right:1.5%;width:18px;height:18px;line-height:18px;color:#fff;
+    font-size:1.2rem;border-radius:3px;-moz-border-radius: 3px;-webkit-border-radius: 3px;}
+.invert-header span{float:left;}
+.icon-zhuan{background:#dc59e8;}
+.blue-icon{background-color:#7ECDFE;}
+.zc-icon{background-color:#4dd1d3}
+.db-icon{background-color:#75c387}
+.zr-icon{background-color:#db5aea}
+.grey-icon{background-color:#d0d0d0}
+.icon-A{background:#fbc83e;}
+#inverstrate{position:relative;display:inline-block;margin:2% auto 0;width:100%;text-align:center;}
+
+.rad-cntnt{
+    position: absolute;
+    display: table;
+    vertical-align: middle;
+    text-align: center;
+    top:36%;
+    width:100%;
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+    transform: translateY(-50%);
+    font-size:14px;
+    color:#333;
+    line-height: 20px;
+}
+.invert-favour{overflow:hidden;margin:0 auto;width:65%;
+padding-left: 5%;}
+.invert-favour span{display:inline-block;height:16px;line-height:16px;}
+ 
+.invert-favour span{
+	float:left; width: 33.3%;
+}
+/* .invert-favour span:last-child{float:right; } */
+.favour-bi,.favour-coupon,.favour-morerate{float:left;display:inline-block;margin-right:2%;}
+.favour-bi{width:16px;height:16px;background:url('../images/red_evp.png') center no-repeat;background-size:100%;}
+.favour-coupon{width:24px;height:16px;background:url('../images/quan_icon.png') center no-repeat;background-size:98%;}
+.invert-favour strong{float:left;display:inline-block;line-height:18px;color:#333;font-size:1.2rem;font-weight:normal;}
+.favour-morerate{
+	width:16px;height:16px;background:url('../images/more_rate.png') center no-repeat;background-size:100%;
+}
+.invert-money{clear:both;overflow:hidden;margin:0 auto;padding:5% 0;width:94%;}
+.invert-money li{float:left;width:33%;border-right:1px solid #e2e2e2;}
+.invert-money li:last-child{border:0;}
+.invert-money li span{display:block;text-align:center;font-size:1.2rem;}
+.invert-money li span:first-child{margin-bottom:4%;color:#999;}
+.invert-money li span:last-child{color:#333;}
+
+.invert-info{margin-top:5%;}
+.invert-info ul{width:100%;margin:0 auto;}
+.invert-info li{margin-bottom:1px;padding:5% 3% 10%;font-size:1.6rem;background:#fff;}
+.invert-info li span:first-child{float:left;color:#333;}
+.invert-info li span:last-child{float:right;color:#666;}
+.btn-look-invert{margin:5% auto;width:88%;border:0;color:#fff !important;font-size:1.8rem;text-align:center;}
+
+/*Ͷ�ʹ���*/
+.step{position:relative;margin:13% auto 0;overflow:hidden;width:94%;height:100%;/*background:url('../images/stepbg.png') no-repeat;background-size:100%;*/text-align:center;}
+.step h3{width:100%;position:absolute;top:3%;text-align:center;/*display:block;height:40px;line-height:40px;*/color:#473500;font-size:1.8rem;font-weight:normal;}
+.step h4{position:absolute;top:17%;left:10%;width:80%;display:block;height:60px;height:100%;line-height:24px;padding:0 4%;text-align:left;color:#333;font-size:1.6rem;font-weight:normal;background:url('../images/strategy/strategy-titlebg1.png') no-repeat;background-size:100%;}
+.step strong{color:#fc3343;font-weight:normal;}
+.step-img{position:absolute;top:36%;left:25%;}
+.btn-step-invest{margin:13% auto 5%;width:80%;height:105px;height:100%;line-height:85px;color:#fff;text-align:center;font-size:2.2rem;border:0;background:url('../images/strategy/buttonbg.png') no-repeat;background-size:100%;}
+ .self_circle{
+ position: relative;
+ }
+ #circle_content{
+ display:block;
+ width:100%;
+ height:21rem;
+ position:absolute;
+ top:0;
+ left:0;
+ text-align: center;
+ z-index: 999;
+ }
+ #circle_content p{
+ color: #333;
+ }
+ #circle_content p span{
+ background: #fff;
+ }
+ .circle_text{
+margin-top:7rem;
+ }
+ .circle_value{
+ color: #7ecdfe !important;
+ font-size: 3.2rem;
+ padding: 1 10px 10px 10px;
+ }
+
+
+@media screen and (max-width:320px) {
+    .step h4{line-height:20px;}
+    .btn-step-invest{line-height:75px;}
+    .circle_text{
+    margin-top:6.8rem;
+    }
+}

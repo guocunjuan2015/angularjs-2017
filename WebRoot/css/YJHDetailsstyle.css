@@ -1,0 +1,63 @@
+.yjhhead{background-color:#FF6633;overflow:hidden;}
+.yjh-head{background:url('../image/leftwritearrow.png') no-repeat 3% 50%;background-size:3%;}
+.yjhhead h1{
+    background:url('../image/topmore.png') no-repeat 97% 50%;
+    background-size:1.5%;
+    padding: 3%;
+    text-align: center;
+    font-size: 1.5rem !important;
+    color: #fff;
+    vertical-align: middle;
+}
+.yjh-details{background-color:#fff;overflow:hidden;margin:1% auto 0;padding:4% 4% 2%;}
+.blue-icon,.orange-icon,.bg-icon,.xs-icon,.orange-grey-icon,.zc-icon,.db-icon,.zr-icon,.grey-icon{float:left;color:#fff;display:inline-block;overflow:hidden;font-size:1.2rem;
+    text-align:center;width:17px;height:17px;line-height:16px;border-radius: 2px;-webkit-border-radius: 2px;}
+.blue-icon{background-color:#7ECDFE;}
+.zc-icon{background-color:#4dd1d3}
+.db-icon{background-color:#75c387}
+.zr-icon{background-color:#db5aea}
+.grey-icon{background-color:#d0d0d0}
+.bg-icon{background-color:#40f6af}
+.xs-icon{background-color:#f64840}
+.orange-icon{background-color:#FBC83E;margin-left:0.8%;}
+.yjh-title-one{float:left;height:17px;line-height:19px;margin-left:5px;font-size:1.6rem;color:#333333;display:inline-block;
+    overflow:hidden;}
+.yjh-title-two{display:inline-block;float:right;font-size:1.3rem;color:#999999;}
+.nlvdiv{float:left;color:#f64840;width:23%;margin-top:8%;}
+.nlv-qt-color{color:#999999;font-size:1.5rem;}
+.nlvdiv strong{font-size:2.5rem;font-weight:normal;}
+.nlvdiv span{display:block;font-size:1.25rem;line-height:20px;margin-top:5%;}
+/* .nlvdiv .qxmoney{font-size:3rem !important;} */
+.nlvsy{margin-top:5%;width:45% !important;}
+.lastnlv{width:25% !important;}
+.prespan{display:inline-block !important;font-size:2rem !important;}
+.qxspan{display:inline-block !important;font-size:1.6rem !important;color:#f64840 !important;}
+.qxspan_grey{display:inline-block !important;font-size:1.6rem !important;color:#666 !important;}
+.nlv-info{clear:both;overflow:hidden;margin-bottom:2%;/* padding-top:5%; */border-bottom:1px solid #F8F6F6;padding-bottom:3%;}
+.nlv-btn-Add{float:left;color:#f64840;font-size:2.3rem;overflow:hidden;width:50px;height:50px;line-height:50px;
+    margin:6% 0 0 5%;border-radius: 50%;-webkit-border-radius: 50%;text-align:center;
+    border:1px solid #f64840;}
+.nlv-active{position:absolute;top:-12px;right:0;width:41px;height:36px;line-height:13px;font-size:0.8rem;color:#fff;text-align:center;background:url('../images/finance_peizi.png') no-repeat;background-size:100%;}
+.nvl-active-grey{position:absolute;top:-12px;right:0;width:41px;height:36px;line-height:13px;font-size:0.8rem;color:#fff;text-align:center;background:url('../images/finance_peizi_grey.png') no-repeat;background-size:100%;}
+.qtmoney{font-size:1.4rem;color:#999999;}
+.qtmoney em{margin-left:1%;}
+.loan_period{
+    font-size: 2.2rem;
+}
+.font-size-3{font-size:1.4rem;}
+.font-size-4{font-size:1rem;}
+.em-color{color:#f64840 ;}
+.bg-grey{background-color:#cccccc}
+.font-grey{color:#666666}
+.border-grey{border:1px solid #666666;}
+.font-smaller{
+	font-size: 13px;
+}
+@media screen and (max-width: 320px) {
+    .nlvdiv strong{font-size:2.2rem !important;}
+    .moneyinput{width:81.5%;}
+    .btnjoin{font-size:1.125rem;padding:3.48% 5%;}
+    .font-smaller {
+        font-size: 8px !important;;
+    }
+}

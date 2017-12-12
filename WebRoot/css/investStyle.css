@@ -1,0 +1,257 @@
+.investList nav{
+	width:100%;
+	height:4.4rem;
+	line-height:4.4rem;
+    position: fixed;
+	background:#fff;
+	top: 6rem;
+    z-index: 9;
+}
+.investList nav ul{
+	display:-moz-box;
+    display:-webkit-box;
+    display:box;
+}
+.investList nav ul li{
+	-moz-box-flex:1;
+    -webkit-box-flex:1;
+    box-flex:1;
+    text-align: center;
+}
+.investList nav ul li a{
+	font-size:1.4rem;
+	display: inline-block;
+    line-height: 4.4rem;
+    padding-left:0.4rem;
+    padding-right:0.4rem;
+	color:#000;
+}
+.investList nav ul li a.act{
+	border-bottom:0.2rem solid rgb(255,85,85);
+	color:rgb(255,85,85);
+}
+
+/*鍒楄〃*/
+.space{
+	height:11rem;
+}
+.financialBox{
+	margin-bottom:0.6rem;
+	background:#fff;
+}
+.financialBox a{
+	display:block;
+}
+.entryName{
+	padding:1.6rem 1.3rem;
+	border-bottom:1px solid rgb(243,243,243);
+}
+.entryName h3{
+	width:35%;
+	font-size:1.4rem;
+	line-height:2rem;
+	color:rgb(74,74,74);
+	overflow: hidden;  /*婧㈠嚭闅愯棌*/
+    text-overflow: ellipsis; /*浠ョ渷鐣ュ彿...鏄剧ず*/
+    white-space: nowrap;  /*寮哄埗涓嶆崲琛�*/
+}
+.entryName p.scalep{
+	height:1.7rem;
+	line-height:1.5rem;
+	padding:0 3px;
+	color:rgb(245,153,40);
+	background:rgba(245,153,39,0.5);
+	border:1px solid rgb(245,153,40);
+	border-radius:2rem;
+}
+.entryName p{
+	font-size:1rem;
+	line-height:2rem;
+	color:rgb(74,74,74);
+}
+.entryName p font{
+	color:rgb(255,85,85);
+}
+.entry{
+	padding:1.6rem 1.3rem 2rem;
+}
+.interest{
+	width:40%;
+}
+.interest h4{
+	position: relative;
+	font-size:2.8rem;
+	width: 100%;
+    height: 4rem;
+	line-height:4rem;
+	color:rgb(255,85,85);
+    font-weight: normal;
+    display: inline-block;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.interest h4 b{
+	font-size:2rem;
+    font-weight: normal;
+}
+.interest h4 p.icon{
+    position: absolute;
+    top: -0.5rem;
+    left: 100%;
+}
+.entry span{
+	font-size:1rem;
+	line-height:1.4rem;
+	color:rgb(155,155,155);
+}
+.month{
+	width:25%;
+}
+.month h4{
+	font-size:2.4rem;
+    line-height: 4.4rem;
+    height: 4rem;
+	color:rgb(102,102,102);
+	font-weight: normal;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.month h4 b{
+	font-size:1rem;
+    line-height: 4.3rem;
+    height: 4.3rem;
+	color:rgb(155,155,155);
+	font-weight: normal;
+}
+.operation{
+	background: url(../images/border-b.png) repeat-x left top;
+}
+.operation ul{
+	display:-moz-box;
+    display:-webkit-box;
+    display:box;
+    padding:0.9rem 1.3rem;
+}
+.operation ul li{
+	-moz-box-flex:1;
+    -webkit-box-flex:1;
+    box-flex:1;
+    text-align: center;
+    font-size:1.2rem;
+    line-height:1.6rem;
+    color:rgb(74,74,74);
+}
+.operation ul li:first-child{
+	text-align:left;
+}
+.operation ul li:first-child span,.couponTip span{
+	display:inline-block;
+	height:1.6rem;
+	line-height:1.4rem;
+	font-size:1rem;
+	padding:0 0.3rem;
+	color:rgb(65,210,255);
+	border:1px solid rgb(65,210,255);
+	border-radius:0.8rem;
+}
+.redEnvelopeTip span{color:#ff6666;border:1px solid #ff6666;}
+
+.errorTxt {
+	bottom: 0;
+    top: 11rem;
+}
+/*鍥炴璁″垝鏄庣粏*/
+.paymentPlanList .table>thead>tr>th{
+	border-bottom:1px solid rgb(243,243,243);
+	padding: 0;
+    height: 4rem;
+    line-height: 4rem;
+    text-align: center;
+    font-size: 1.2rem;
+    font-weight: normal;
+    color:rgb(74,74,74);
+}
+.paymentPlanList .table>tbody>tr>td{
+	border-bottom:1px solid rgb(235,235,235);
+	padding: 0;
+    height: 5.7rem;
+    line-height: 5.7rem;
+    text-align: center;
+    font-size: 1.4rem;
+    font-weight: normal;
+    color:rgb(74,74,74);
+}
+.paymentPlanList .table>tbody>tr.active>td{
+	background:rgb(248,247,247);
+	color:rgb(155,155,155);
+}
+.paymentPlanList .table>tbody>tr>td span{
+	position:relative;
+}
+.paymentPlanList .table>tbody>tr>td span img{
+	position:absolute;
+	right: 0.3rem;
+    top: -1.2rem;
+    width: 1.9rem;
+    height: 1.4rem;
+}
+/*璧勯噾鏄庣粏*/
+.capitalList h1{
+	border-bottom:1px solid rgb(243,243,243);
+	width:100%;
+    height: 4rem;
+    line-height: 4rem;
+    background:#fff;
+    text-align: center;
+    font-size: 1.7rem;
+    font-weight: normal;
+    color:rgb(74,74,74);
+    position: fixed;
+    top: 6rem;
+    z-index: 9;
+}
+.capitalList .space{
+	height: 10.1rem;
+}
+.capital{
+	position:relative;
+	border-bottom:1px solid rgb(243,243,243);
+}
+.capital h3{
+	padding-top:2.6rem;
+	padding-left:1.6rem;
+	font-size:1.5rem;
+	color:rgb(74,74,74);
+	line-height:2.1rem;
+	width:60%;
+	overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.capital h3 span{
+	font-size:1.3rem;
+}
+.capital p{
+	padding-top:0.8rem;
+	padding-bottom:2.3rem;
+	padding-left:1.6rem;
+	font-size:1.2rem;
+	color:rgb(155,155,155);
+	line-height:1.7rem;	
+}
+.capital h4{
+	position:absolute;
+	right: 1.6rem;
+    top: 3.4rem;
+    font-size:1.7rem;
+	color:rgb(74,74,74);
+	line-height:2.4rem;
+}
+.capital h4.green{
+	color:rgb(18,196,30);
+}
+.capital h4.red{
+	color:rgb(255,85,85);
+}
